@@ -33,6 +33,12 @@ To participate in our project collection, please email the Arm Education team wi
 
 To submit your project and be eligible for credit from Arm, you will need to share a link to your project, with GitHub-based repositories being preferred. Options for judging the entries and visits to universities will be discussed on a case-by-case basis. We look forward to your participation and collaboration!
 
+## How to Suggest Projects
+
+If you've been working on an Arm-based project or have a suggestion for a project or hackathon. Click on the discussion section of this repository.
+
+![ribbon_bar](/images/discussion_ribbon.jpg)
+
 ## Technical Support and Supervision
 
 For community driven support we have the [Arm developer program](https://www.arm.com/resources/developer-program), including discord channels where you have access to Arm experts and fellow arm developers. 
