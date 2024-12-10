@@ -3,7 +3,7 @@
 
 Welcome to our collection of projects designed for students and academics in computer science, electronics, and related disciplines. This repository offers a diverse range of innovative projects aimed at enhancing learning and research. We encourage academic institutions to explore and contribute to this growing repository, fostering collaboration and knowledge sharing. Whether you're looking to develop new skills, conduct research, or collaborate on cutting-edge technology, our collection provides valuable resources and opportunities for growth. Join us in advancing education and innovation in these dynamic fields.
 
-Our collection of projects is designed to cater to a wide range of academic levels, from undergraduates to postdoctoral researchers. The repository includes a variety of university projects, spanning from simple computer vision applications to the tape-out of custom silicon in collaboration with industry partners. This diversity ensures that students and academics at different stages of their educational journey can find relevant and challenging projects to work on. By participating in these projects, you will have the opportunity to develop practical skills, engage in cutting-edge research, and collaborate with both academic and industry experts.
+Our project collection caters to all academic levels, from undergraduates to postdoctoral researchers. It includes diverse university projects, from simple computer vision applications to custom silicon tape-outs with industry partners. This variety ensures relevant and challenging projects for everyone, helping you develop practical skills, engage in cutting-edge research, and collaborate with academic and industry experts.
 
 
 # Academic Projects
@@ -12,6 +12,7 @@ The following infographic details the directory structure and where to find exam
 
 ```bash
 Project-Ideas
+├── Hackathons              # Undergradudate Hackathon tasks
 ├── Masters-Level           # Masters Projects (e.g., MEng, MSc)
 ├── PhD-Level               # PhD Projects (e.g., UK CDT PhD)
 ├── Post-Doctorate-Level    # PostDoc Projects (e.g., )
@@ -27,7 +28,7 @@ Project-Ideas
 To participate in our project collection, please email the Arm Education team with the following information: 
 
 - Your name and University affiliation
-- Your chosen project
+- Your chosen project(s)
 - Number of participants
 - Start and end dates of your project. 
 
@@ -38,6 +39,18 @@ To submit your project and be eligible for credit from Arm, you will need to sha
 If you've been working on an Arm-based project or have a suggestion for a project or hackathon. Click on the discussion section of this repository.
 
 ![ribbon_bar](/images/discussion_ribbon.jpg)
+
+Click on the Ideas tab
+
+![ideas-tab](/images/Ideas-tab.jpg).
+
+Someone from the Arm education team will be in touch to discuss how Arm can assist.
+
+Fill in the `template.md` file and start a discussion.
+
+![idea-template](/images/template-idea.jpg)
+
+![gif](/images/how-to-suggest-project.gif)
 
 ## Technical Support and Supervision
 
