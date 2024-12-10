@@ -5,6 +5,9 @@ Welcome to our collection of projects designed for students and academics in com
 
 Our project collection caters to all academic levels, from undergraduates to postdoctoral researchers. It includes diverse university projects, from simple computer vision applications to custom silicon tape-outs with industry partners. This variety ensures relevant and challenging projects for everyone, helping you develop practical skills, engage in cutting-edge research, and collaborate with academic and industry experts.
 
+## Why Participate?
+
+It's a great way to demonstrate your initiative and commitment to your field. Standout projects could even be internally referred for relevant positions at Arm (to discuss with TA). Participating in an academic project is a fantastic way to gain recognition and make your CV stand out. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm. You'll enjoy tackling challenging tasks and potentially receive support and supervision from Arm experts.  Give it a try and see how it can boost your academic and professional journey!
 
 # Academic Projects
 
@@ -34,23 +37,22 @@ To participate in our project collection, please email the Arm Education team wi
 
 To submit your project and be eligible for credit from Arm, you will need to share a link to your project, with GitHub-based repositories being preferred. Options for judging the entries and visits to universities will be discussed on a case-by-case basis. We look forward to your participation and collaboration!
 
+## How to submit your project
+
+To receive recognition for your efforts. <a href="mailto:example@example.com?subject=Academic%20Project">Send An email</a> to education@arm.com with the title 'Academic Project XXX' where XXX is replaced with your project name. Please include the following in the email body:
+
+- Name of the participant(s)
+- University / Academic affiliation
+- Links to your project outputs for review (e.g., GitHub repo's, academic posters, reports etc.)
+
+
 ## How to Suggest Projects
 
-If you've been working on an Arm-based project or have a suggestion for a project or hackathon. Click on the discussion section of this repository.
-
-![ribbon_bar](/images/discussion_ribbon.jpg)
-
-Click on the Ideas tab
-
-![ideas-tab](/images/Ideas-tab.jpg).
-
-Someone from the Arm education team will be in touch to discuss how Arm can assist.
-
-Fill in the `template.md` file and start a discussion.
-
-![idea-template](/images/template-idea.jpg)
+If you've been working on an Arm-based project or have a suggestion for a project or hackathon. Click on the discussion section of this repository, fill out the `template.md` file and open a discussion (see GIF below for instructions).
 
 ![gif](/images/how-to-suggest-project.gif)
+
+Someone from Arm education will be in contact to discuss how we can support. 
 
 ## Technical Support and Supervision
 
@@ -58,6 +60,8 @@ For community driven support we have the [Arm developer program](https://www.arm
 
 For projects on system-on-chip design, please reach out to [SoC labs](https://soclabs.org/) for community driven SoC design support
 
-## Licensing and IP rights?
+## Licensing
 
-Education License?
+We are committed to fostering collaboration with universities on intellectual property (IP) rights for the content produced through our academic projects. Each project may have different licensing terms, tailored to suit the specific needs and goals of the collaboration. For instance, our current learning path tutorial is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+We aim to work closely with the University to ensure that the IP rights are managed in a way that benefits both parties and promotes the dissemination of knowledge. Please refer to the specific licensing terms outlined in each project's documentation for detailed information.
