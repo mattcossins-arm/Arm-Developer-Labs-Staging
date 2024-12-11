@@ -7,7 +7,19 @@ Our project collection caters to all academic levels, from undergraduates to pos
 
 ## Why Participate?
 
-It's a great way to demonstrate your initiative and commitment to your field. Standout projects could even be internally referred for relevant positions at Arm (to discuss with TA). Participating in an academic project is a fantastic way to gain recognition and make your CV stand out. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm. You'll enjoy tackling challenging tasks and potentially receive support and supervision from Arm experts.  Give it a try and see how it can boost your academic and professional journey!
+1. Standout projects could be internally referred for relevant positions at Arm (to discuss with TA)! :page_with_curl:
+
+2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
+
+![academic_badge](/images/ACA_badge.jpg)
+
+3. It's a great way to demonstrate your initiative and commitment to your field. 
+
+4. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm!  :tada:
+
+5. You'll enjoy tackling challenging tasks and potentially receive support and supervision from Arm experts.  
+ 
+Give it a try and see how it can boost your academic and professional journey.
 
 # Academic Projects
 
@@ -28,14 +40,12 @@ Project-Ideas
 
 ## How to Participate
 
-To participate in our project collection, please email the Arm Education team with the following information: 
+To participate. 
 
-- Your name and University affiliation
-- Your chosen project(s)
-- Number of participants
-- Start and end dates of your project. 
-
-To submit your project and be eligible for credit from Arm, you will need to share a link to your project, with GitHub-based repositories being preferred. Options for judging the entries and visits to universities will be discussed on a case-by-case basis. We look forward to your participation and collaboration!
+1. Read the project details clearly
+2. (Optional) If you are unfamiliar with some of the tools used, take some of our foundational education courses.
+3. Let us know you've started by opening a discussion (see gif below). Someone may reach out if the project is complex. 
+![how-to-participate](/images/how-to-participate.gif)
 
 ## How to submit your project
 
