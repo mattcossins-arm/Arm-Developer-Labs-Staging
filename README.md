@@ -21,7 +21,7 @@ Our project collection caters to all academic levels, from undergraduates to pos
  
 Give it a try and see how it can boost your academic and professional journey.
 
-# Academic Projects
+# Explore Arm-based Projects!
 
 The following infographic details the directory structure and where to find example projects!
 
@@ -40,11 +40,11 @@ Project-Ideas
 
 ## How to Participate
 
-To participate. 
 
 1. Read the project details clearly
 2. (Optional) If you are unfamiliar with some of the tools used, take some of our foundational education courses.
 3. Let us know you've started by opening a discussion (see gif below). Someone may reach out if the project is complex. 
+
 ![how-to-participate](/images/how-to-participate.gif)
 
 ## How to submit your project
