@@ -1,6 +1,7 @@
 ![arm_education_logo](/images/arm-education.png)
 
 
+
 Welcome to our collection of projects designed for students and academics in computer science, electronics, and related disciplines. This repository offers a diverse range of innovative projects aimed at enhancing learning and research. We encourage academic institutions to explore and contribute to this growing repository, fostering collaboration and knowledge sharing. Whether you're looking to develop new skills, conduct research, or collaborate on cutting-edge technology, our collection provides valuable resources and opportunities for growth. Join us in advancing education and innovation in these dynamic fields.
 
 Our project collection caters to all academic levels, from undergraduates to postdoctoral researchers. It includes diverse university projects, from simple computer vision applications to custom silicon tape-outs with industry partners. This variety ensures relevant and challenging projects for everyone, helping you develop practical skills, engage in cutting-edge research, and collaborate with academic and industry experts.
@@ -21,7 +22,7 @@ Our project collection caters to all academic levels, from undergraduates to pos
  
 Give it a try and see how it can boost your academic and professional journey.
 
-# Explore Arm-based Projects!
+## Explore Arm-based Projects!
 
 The following infographic details the directory structure and where to find example projects!
 
@@ -36,6 +37,11 @@ Project-Ideas
 ├── images                  # Images
 └── template.md             # Template to suggest a project
 ```
+## Previous Examples
+
+1. Carnegie Mellon Cloudlet Collaboration
+
+[![Arm-CMU collaboration](https://img.youtube.com/vi/zaRozkrcix0/0.jpg)](https://www.youtube.com/watch?v=zaRozkrcix0)
 
 
 ## How to Participate
@@ -54,7 +60,6 @@ To receive recognition for your efforts. <a href="mailto:example@example.com?sub
 - Name of the participant(s)
 - University / Academic affiliation
 - Links to your project outputs for review (e.g., GitHub repo's, academic posters, reports etc.)
-
 
 ## How to Suggest Projects
 
