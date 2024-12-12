@@ -1,6 +1,4 @@
-![arm_education_logo](/images/arm-education.png)
-
-
+![banner](/images/banner.jpg)
 
 Welcome to our collection of projects designed for students and academics in computer science, electronics, and related disciplines. This repository offers a diverse range of innovative projects aimed at enhancing learning and research. We encourage academic institutions to explore and contribute to this growing repository, fostering collaboration and knowledge sharing. Whether you're looking to develop new skills, conduct research, or collaborate on cutting-edge technology, our collection provides valuable resources and opportunities for growth. Join us in advancing education and innovation in these dynamic fields.
 
@@ -12,14 +10,10 @@ Our project collection caters to all academic levels, from undergraduates to pos
 
 2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-![academic_badge](/images/ACA_badge.jpg)
-
 3. It's a great way to demonstrate your initiative and commitment to your field. 
 
 4. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm!  :tada:
 
-5. You'll enjoy tackling challenging tasks and potentially receive support and supervision from Arm experts.  
- 
 Give it a try and see how it can boost your academic and professional journey.
 
 ## Explore Arm-based Projects!
