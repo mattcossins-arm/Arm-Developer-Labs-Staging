@@ -25,8 +25,7 @@ To scrape specific journal websites, you may need to obtain explicit permission 
 
 ## Resources to get started
 
-You are free to choose your own implementation details. 
-
+You are free to choose your own implementation details. The resouces below are examples to get started. 
 
 - Software Libraries: Example libraries for web scraping are [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), Selenium. Flask/Django for the dashboard and Pandas for the data aggregation. 
 - Databases: Relational Databases (e.g. [MariaDB](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mariadb/))
