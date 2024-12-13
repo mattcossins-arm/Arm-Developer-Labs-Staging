@@ -17,11 +17,12 @@ This data will then be processed through a sentiment analysis LLM (Large Languag
 The project is estimated to take 6-8 weeks to complete, involving a small team of 1-3 participants. 
 
 ## Hardware / Software Requirements
-- Languages: Python
-- Tooling: BeautifulSoup, Selenium, TensorFlow, Flask/Django for the dashboard
+- Languages: Intermediate understanding of Python
 - Hardware: Access to a computer with internet connectivity and access to cloud instances
 
 ## Resources
+
+You are free to choose your own implementation details. The resouces below are examples to get started. 
 
 - Learning paths: Online tutorials on web scraping, sentiment analysis, and [LLMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/)
 - Software Libraries: Example libraries for web scraping are [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), Selenium. Flask/Django for the dashboard and Pandas for the data aggregation. 
