@@ -71,6 +71,6 @@ For projects on system-on-chip design, please reach out to [SoC labs](https://so
 
 ## Licensing
 
-We are committed to fostering collaboration with universities on intellectual property (IP) rights for the content produced through our academic projects. Each project may have different licensing terms, tailored to suit the specific needs and goals of the collaboration. For instance, our current learning path tutorial is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
-
 We aim to work closely with the University to ensure that the IP rights are managed in a way that benefits both parties and promotes the dissemination of knowledge. Please refer to the specific licensing terms outlined in each project's documentation for detailed information.
+
+We are committed to fostering collaboration with universities on intellectual property (IP) rights for the content produced through our academic projects. Each project may have different licensing terms, tailored to suit the specific needs and goals of the collaboration. For instance, our current learning path tutorial is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
