@@ -1,7 +1,7 @@
 # Smart Voice Assistant Using TinyML on Cortex-M55 (RI)
 
 ### Project Difficulty
-Accessible
+Very difficult
 
 ## Description
 This undergraduate project aims to develop a simple voice assistant that can recognize spoken commands such as “turn on the light,” “play music,” and other similar tasks. The voice assistant will be able to control peripheral devices accordingly. The main objective is to implement your design on a low-power microcontroller Cortex-M55/U55 to create low-level machine learning applications. You should look to access metrics such as the accuracy, power and computation time. Please refer our [Machine Learning keyword spotting example](https://github.com/Arm-Examples/mlek-cmsis-pack-examples) as a reference. 
