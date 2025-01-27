@@ -3,7 +3,7 @@
 
 ### Project Difficulty
 Challenging
-**Audience:** Electrical Engineering (EE)
+**Audience:** Electronic Engineering (EE)
 
 ## Description
 This project aims to create an FPGA prototyping platform for a multi-core system with a Network-On-Chip (NoC) bus fabric. The main deliverables include designing and implementing a multi-core heterogeneous SoC, integrating the NoC bus fabric, and prototyping the system on an FPGA. This project will provide practical experience in SoC design, FPGA prototyping, and NoC architecture. The final output will be a functional FPGA prototyping platform that demonstrates the feasibility and performance of the multi-core system with NoC.

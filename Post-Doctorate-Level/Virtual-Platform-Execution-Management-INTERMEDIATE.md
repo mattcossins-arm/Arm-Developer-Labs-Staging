@@ -3,7 +3,7 @@
 
 ### Project Difficulty
 Challenging
-**Audience:** Computer Science (CS) / Electrical Engineering (EE)
+**Audience:** Computer Science (CS) / Electronic Engineering (EE)
 
 ## Description
 This project aims to create a dashboard to manage the configuration and execution of multiple ARM Fixed Virtual Platform (VP) instances. The focus is on scaling development efforts, optimizing new development processes, and methodologies. Students will enhance their skills in system management, automation, and data visualization, contributing to more efficient and scalable development workflows. The main deliverable is a functional dashboard that provides an intuitive interface for managing multiple VP instances, optimizing their configuration, and monitoring their execution.
