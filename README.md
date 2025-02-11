@@ -1,4 +1,4 @@
-![banner](/images/banner.jpg)
+![banner](/images/Learn%20on%20Arm_banner.png)
 
 Welcome to our collection of projects designed for students and academics in computer science, electronics, and related disciplines. This repository offers a diverse range of innovative projects aimed at enhancing learning and research. We encourage academic institutions to explore and contribute to this growing repository, fostering collaboration and knowledge sharing. Whether you're looking to develop new skills, conduct research, or collaborate on cutting-edge technology, our collection provides valuable resources and opportunities for growth. Join us in advancing education and innovation in these dynamic fields.
 
@@ -6,9 +6,9 @@ Our project collection caters to all academic levels, from undergraduates to pos
 
 ## Why Participate?
 
-1. Standout projects could be internally referred for relevant positions at Arm (to discuss with TA)! :page_with_curl:
+1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
+2. If your submission is approved, you may receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
 3. It's a great way to demonstrate your initiative and commitment to your field. 
 
@@ -22,7 +22,7 @@ The following infographic details the directory structure and where to find exam
 
 ```bash
 Project-Ideas
-├── Hackathons              # Undergradudate Hackathon tasks
+├── Design Contests         # Design Contests and Hackathons
 ├── Masters-Level           # Masters Projects (e.g., MEng, MSc)
 ├── PhD-Level               # PhD Projects (e.g., UK CDT PhD)
 ├── Post-Doctorate-Level    # PostDoc Projects (e.g., )
