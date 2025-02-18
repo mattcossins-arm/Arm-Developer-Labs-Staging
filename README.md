@@ -25,7 +25,7 @@ Project-Ideas
 ├── Design Contests         # Design Contests and Hackathons
 ├── Masters-Level           # Masters Projects (e.g., MEng, MSc)
 ├── PhD-Level               # PhD Projects (e.g., UK CDT PhD)
-├── Post-Doctorate-Level    # PostDoc Projects (e.g., )
+├── Post-Doctorate-Level    # PostDoc Projects
 ├── README.md
 ├── Undergraduate-Level     # From 1st to final year undergraduate
 ├── images                  # Images
