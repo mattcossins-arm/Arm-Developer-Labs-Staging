@@ -1,4 +1,4 @@
-# Running Real-Time Image Classification on Arm Cortex-M with CMSIS-NN [AC]
+## Running Real-Time Image Classification on Arm Cortex-M with CMSIS-NN 
 
 ![computer_vision](./images/computer_vision.jpg)
 

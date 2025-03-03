@@ -1,4 +1,6 @@
-# Smart Voice Assistant Using TinyML on Cortex-M55 (RI)
+## Smart Voice Assistant Using TinyML on Cortex-M55
+
+![educate_on_arm](../images/Educate%20on%20Arm_banner.png)
 
 ### Project Difficulty
 Very difficult
