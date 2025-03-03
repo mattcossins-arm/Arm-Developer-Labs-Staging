@@ -25,3 +25,8 @@ for example:
 - previous project submissions (GitHub link)
 
 ## Benefits / Prizes
+
+- Standout projects could be internally referred for relevant positions at Arm! 📃
+- If your submission is approved, you could receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! 🎓
+- It's a great way to demonstrate your initiative and commitment to your field.
+- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉
