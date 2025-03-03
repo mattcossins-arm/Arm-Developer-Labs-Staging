@@ -40,10 +40,12 @@ Workloads: SPEC CPU2017 (academic license required), custom workloads
 
 ### Benefits / Prizes
 
-Stand out applicants could be internally referred for a prize
+1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
 
-Gain understanding of benchmarking and micro architectural features affecting performance
+2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-Hands-on experience with cloud-based Arm instances and performance profiling tools
+![academic_badge](/images/ACA_badge.jpg)
 
-Develop skills relevant for careers in high-performance computing, cloud infrastructure, and embedded systems
+3. It's a great way to demonstrate your initiative and commitment to your field. 
+
+4. Develop skills relevant for careers in high-performance computing, cloud infrastructure, and embedded systems!  :tada:
