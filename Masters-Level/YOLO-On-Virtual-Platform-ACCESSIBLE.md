@@ -1,5 +1,6 @@
-# Document How to Run Yolo v8 on an ARM FVP [RB]
-![supporting image]()
+# Document How to Run Yolo v8 on an ARM FVP as a Learning Path
+
+![educate_on_arm](../images/Educate%20on%20Arm_banner.png)
 
 ### Project Difficulty
 Intermediate
@@ -23,4 +24,13 @@ The project is estimated to take 1 week to complete, involving a small team of 1
 - Previous project submissions: GitHub link to past projects
 
 ## Benefits / Prizes
-Participants will gain practical experience in working with Arm FVPs and running machine learning models. Acknowledged authorship on the Arm platform can be quoted on CVs, providing recognition and credibility.
+
+1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+
+2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
+
+![academic_badge](/images/ACA_badge.jpg)
+
+3. It's a great way to demonstrate your initiative and commitment to your field. 
+
+4. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm!  :tada:
