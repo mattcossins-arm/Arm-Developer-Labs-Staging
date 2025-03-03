@@ -1,5 +1,6 @@
 ## Benchmarking Bioconda Packages for Arm64 in Bioinformatics Pipelines
 
+![research_on_arm](../images/Research_on_arm_banner.png)
 
 ### Project Difficulty
 
@@ -52,12 +53,16 @@ AWS Graviton documentation
 
 ### Benefits
 
-Internal Job referral: Stand out applicant may be eligible for internal referral. 
+1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
 
-Industry Relevance: Hands-on experience with Arm-based architectures, applicable to genomics research and cloud computing.
+2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-Problem-Solving Experience: Opportunity to debug and optimize bioinformatics software for emerging computing architectures.
+![academic_badge](/images/ACA_badge.jpg)
 
-Collaboration Opportunities: Possible integration with nf-core and Bioconda development communities.
+3. Problem-Solving Experience: Opportunity to debug and optimize bioinformatics software for emerging computing architectures.
 
-Career Advancement: Valuable expertise in bioinformatics workflow optimization and software performance engineering on Arm-based systems.
+4. Industry Relevance: Hands-on experience with Arm-based architectures, applicable to genomics research and cloud computing.  :tada:
+
+
+
+
