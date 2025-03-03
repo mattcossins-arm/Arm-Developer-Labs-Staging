@@ -4,6 +4,10 @@
 ### Project Diffuculty
 [Accessible, Intermediate, Challenging]
 
+### Target Audience
+
+Computer Science, Electronic Engineering or Computer Engineering. 
+
 ## Description
 [min 100 words including aim and delierables]
 
