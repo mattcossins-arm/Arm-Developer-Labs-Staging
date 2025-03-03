@@ -1,5 +1,6 @@
-# Optimise Performance of an Algorithm Used in High-Performance Compute Using Scalable Vector Extensions (SVE) [KH]
-![supporting image]()
+## Optimise Performance of an Algorithm Used in High-Performance Compute Using Scalable Vector Extensions (SVE / SVE2) 
+
+![research_on_arm](../images/Research_on_arm_banner.png)
 
 ### Project Difficulty
 Challenging
@@ -24,4 +25,13 @@ The project is estimated to take 8-12 weeks to complete, involving a team of 3-4
 - Previous project submissions: GitHub link to past projects
 
 ## Benefits / Prizes
-Participants will gain practical experience in HPC, vectorization, and performance optimization. Outstanding projects may receive kudos and recognition on academic platforms.
+
+1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+
+2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
+
+![academic_badge](/images/ACA_badge.jpg)
+
+3. Problem-Solving Experience: Opportunity to debug and optimize scientific vector application software on Arm.
+
+4. Industry Relevance: Hands-on experience with Arm-based architectures, applicable to scientific computing.  :tada:
