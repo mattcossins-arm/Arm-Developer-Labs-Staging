@@ -1,6 +1,8 @@
 
 ![research_banner](../images/Research_on_arm_banner.png)
 
+## Arm-based Design Contests!
+
 Welcome to the ultimate hub for design contests and hackathons centered around Arm technologies! Our platform is dedicated to showcasing the most innovative and exciting competitions that push the boundaries of what's possible with Arm's cutting-edge solutions. Whether you're a seasoned developer or a newcomer eager to dive into the world of Arm, you'll find a wealth of opportunities to challenge yourself and showcase your skills.
 
 Explore our extensive archive of past design contests, where participants have tackled real-world problems and created groundbreaking solutions. From IoT innovations to AI-driven applications, these contests highlight the versatility and power of Arm technologies. Each contest page provides detailed information on the projects, winners, and the impact they've made.
@@ -10,27 +12,6 @@ Explore our extensive archive of past design contests, where participants have t
 <head>
   <meta charset="UTF-8">
   <title>Design Contests</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      border: 2px solid #ccc;
-      margin: 20px 0;
-      font-family: Arial, sans-serif;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-    /* Lighter green background for active projects */
-    .active {
-      background-color: lightgreen;
-    }
-  </style>
 </head>
 <body>
   <table>
@@ -69,12 +50,6 @@ Explore our extensive archive of past design contests, where participants have t
         <td>
           <a href="https://community.arm.com/arm-ambassadors/b/blog/posts/arm-at-tamuhack-2025" target="_blank">Link</a>
         </td>
-      </tr>
-            <tr class="active">
-        <td>AI Agents on Arm Design contest with ITRI</td>
-        <td>Active</td>
-        <td></td>
-      </tr>
       <tr>
         <td>Teratec HPC Hackathon 2025</td>
         <td>Not Active</td>
