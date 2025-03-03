@@ -70,18 +70,6 @@ Explore our extensive archive of past design contests, where participants have t
           <a href="https://community.arm.com/arm-ambassadors/b/blog/posts/arm-at-tamuhack-2025" target="_blank">Link</a>
         </td>
       </tr>
-      <tr class="active">
-        <td>AI Agents on Arm Design contest with ITRI</td>
-        <td>Active</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Teratec HPC Hackathon 2025</td>
-        <td>Not Active</td>
-        <td>
-          <a href="https://teratec.eu/activites/Hackathon.html" target="_blank">Link</a>
-        </td>
-      </tr>
             <tr class="active">
         <td>AI Agents on Arm Design contest with ITRI</td>
         <td>Active</td>
