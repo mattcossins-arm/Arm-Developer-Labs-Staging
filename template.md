@@ -1,5 +1,5 @@
 # Project Title
-![supporting image]()
+![learn_on_arm](./images/Learn on Arm_banner.png)
 
 ### Project Diffuculty
 [Accessible, Intermediate, Challenging]
