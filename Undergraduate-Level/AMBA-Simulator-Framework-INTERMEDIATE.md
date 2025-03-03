@@ -1,4 +1,4 @@
-# AMBA Infrastructure Design and Simulation Framework (AS)
+## AMBA Infrastructure Design and Simulation Framework
 
 ![amba](./images/AMBA.avif)
 
