@@ -1,81 +1,89 @@
-## Title: AI-Powered Intelligent Workflow Automation Agent in a Sandboxed Environment
+## AI-Powered Workflow Agent in a Sandboxed Environment
 
-## Project Difficulty
+![learn_on_arm](../images/Research_on_arm_banner.png)
+
+### Project Difficulty 🚀 
+
 Intermediate
 
-## Target Audience
+### Target Audience 🎯 
+
 Computer Science Students
 
-## Objective:
-Develop an AI agent that automates repetitive and complex workflow tasks in a specific domain, such as software development, project management, or cloud operations. The AI agent should operate in a sandboxed environment to ensure safety, prevent unintended consequences, and provide controlled automation with strict oversight.
+Electrical and Computer Engineering Students
 
-## Project Scope:
+### Description 📌 
 
-Task Identification & Domain Selection: Choose a specific domain (e.g., DevOps, software documentation, educational content moderation, or research assistance) where workflow automation can provide significant efficiency gains while avoiding sensitive applications such as finance.
+This project focuses on developing an AI-powered agent that automates repetitive and complex workflow tasks in a specific domain, such as software development, project management, or cloud operations. The AI agent will be deployed in a sandboxed environment to ensure safety, prevent unintended consequences, and provide controlled automation with strict oversight.
 
-Data Collection & Preprocessing: Gather workflow logs, user interactions, and process documentation in a controlled manner to ensure automation safety without exposing sensitive data.
+## Key Objectives 🔍 
 
-Sandboxed Execution: Deploy the AI agent in a secure, isolated environment to test and validate automated workflows before integration into live systems, ensuring safety and preventing unintended actions.
+Task Identification & Domain Selection: Choose a workflow domain (e.g., DevOps, educational content moderation, research assistance) that benefits from automation while avoiding sensitive applications like finance.
 
-Integration with Existing Tools: Connect the AI agent with APIs of popular tools like JIRA, Slack, Jenkins etc.
+Data Collection & Preprocessing: Gather workflow logs, user interactions, and process documentation in a controlled manner to ensure safety and privacy.
 
-User Interface & Interaction: Develop a chatbot or dashboard for user interaction, enabling manual overrides, status tracking, and recommendation validation while enforcing safety checks.
+Sandboxed Execution: Deploy the AI agent in a secure, isolated environment to test and validate automation before live system integration.
 
-Performance & Safety Evaluation: Compare AI-driven automation against human-executed workflows using key performance indicators (KPIs) such as time saved, accuracy, efficiency improvements, and adherence to safety policies.
+Integration with Existing Tools: Connect the AI agent with popular workflow tools like JIRA, Slack, Jenkins via APIs.
 
+User Interface & Interaction: Develop a chatbot or dashboard to enable manual overrides, status tracking, and recommendation validation while enforcing safety checks.
 
-## Expected Outcomes:
+Performance & Safety Evaluation: Measure automation effectiveness using KPIs such as time saved, accuracy, efficiency, and adherence to safety policies.
 
-An AI-driven agent capable of automating at least 70% of repetitive workflow tasks in the chosen domain while operating in a sandboxed and safe manner.
+## Expected Outcomes 🎯  
 
-A performance and safety evaluation report demonstrating improvements in efficiency, cost reduction, and risk mitigation.
+✅ An AI-driven agent automating  repetitive tasks in a sandboxed environment.
+✅ A performance & safety evaluation report showcasing efficiency improvements, cost reduction, and risk mitigation.
+✅ A deployable prototype demonstrating real-world application and scalability.
 
-A deployable prototype showcasing real-world application and scalability within controlled environments.
+### Estimated Project Duration ⏳ 
 
-## Example Technologies & Tools:
+3-5 months (Ideal for a Master's thesis or capstone project)
 
-Programming Languages: Python (preferred), JavaScript (for front-end if needed)
+Team size: 2-5 participants
 
-APIs & Automation: FastAPI, Flask, Selenium
+### Hardware / Software Requirements 🛠 
 
-Database: PostgreSQL, MongoDB
+The tools below are simply suggestions, you are free to use the tools of your choice. 
 
-Cloud Services: Arm-based servers on AWS, Google Cloud, or Azure
+🔹 Programming Languages
 
-Sandboxing & Security: Docker-based isolation, SELinux, Kubernetes namespaces
+Python
 
-Hardware & Software Requirements:
+JavaScript (for front-end, if needed)
 
-Cloud compute resources (Arm-based AWS, GCP, or Azure).
+🔹 APIs & Automation Tools
+
+FastAPI, Flask, Selenium
+
+🔹 Database
+
+PostgreSQL, MongoDB
+
+🔹 Cloud Services
+
+Arm-based servers on AWS, Google Cloud, or Azure
+
+🔹 Sandboxing & Security
+
+Docker-based isolation, SELinux, Kubernetes namespaces
+
+🔹 Hardware
+
+Cloud compute resources (Arm-based AWS, GCP, or Azure)
 
 API access to target workflow tools
 
-## Challenges & Research Directions:
+### Resources 📚 
 
-Ensuring accurate execution in dynamic and unpredictable workflows without exceeding safety constraints
+[Arm Learning paths](learn.arm.com)
 
-Reducing false positives in automation recommendations while maintaining sandboxed control
+### Benefits / Prizes 🏆 
 
-Handling multi-user and multi-tool integration seamlessly within a controlled and reversible environment
+🎓 Hands-on experience in AI-driven automation with a strong focus on sandboxed execution & safety.
 
-## Potential Applications:
+🚀 Exposure to API integration & cloud services, highly relevant for industry roles in AI, automation, and cloud computing.
 
-Automating CI/CD pipeline optimizations for software developers in a test-controlled environment
+📃 Standout projects may receive internal referrals for relevant positions at Arm!
 
-Intelligent task assignment and prioritization in project management with fail-safe execution
-
-AI-driven cloud resource management and cost optimization with built-in safety mechanisms
-
-## Duration:
-
-3-5 months (ideal for a master’s thesis or a capstone project) in teams of 2-5. 
-
-Career & Research Benefits:
-
-Hands-on experience in AI-driven automation within a sandboxed environment
-
-Exposure to API integration and cloud services with a strong focus on safety and risk management
-
-Potential for industry collaboration and publishing in AI/ML and cybersecurity conferences
-
-This project prioritizes safety and controlled automation, aligning with industry needs while ensuring secure and risk-free deployment.
+🏅 Recognized badge for approved submissions, perfect for listing on your CV or LinkedIn!
