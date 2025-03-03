@@ -1,4 +1,6 @@
-# Write an Educational Tutorial (Learning Path) of your Choice
+## Write an Educational Tutorial (Learning Path) of your Choice
+
+![teach_on_arm](../images/Educate%20on%20Arm_banner.png)
 
 ### Project Difficulty
 Accessible
