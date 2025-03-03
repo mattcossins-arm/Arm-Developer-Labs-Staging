@@ -1,5 +1,7 @@
 ## SpecINT2017 Benchmarking on Arm64: Evaluating Compiler and Workload Performance
 
+![research_on_arm](../images/Research_on_arm_banner.png)
+
 ### Project Difficulty
 
 Accessible
