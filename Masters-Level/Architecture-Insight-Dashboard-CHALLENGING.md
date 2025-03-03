@@ -1,4 +1,4 @@
-# Develop an Arm Architecture Insight Dashboard [KH]
+# Develop an Arm Architecture Insight Dashboard
 ![supporting image](/Masters-Level/images/can-i-use.jpg)
 
 ### Project Difficulty
@@ -6,7 +6,7 @@ Intermediate
 
 **Audience:** Computer Science (CS) and STEM students. 
 
-## Description
+### Description
 Developers struggle to decide which platform to target their software. There are many smartphones and cloud instances to choose from but the consumer popularity is difficult to gauge and software stack dependencies issues are time-consuming to identify.
 
 This project aims to develop a comprehensive dashboard that lets a developer know what proportion of devices support a specific Arm CPU extension, similar to [“Can I use”](https://caniuse.com/) for web development and any software compatibility issues. The functional requirements for the Architecture Insights dashboard:
