@@ -54,6 +54,15 @@ To receive recognition for your efforts. <a href="mailto:example@example.com?sub
 - University / Academic affiliation
 - Links to your project outputs for review (e.g., GitHub repo's, academic posters, reports etc.)
 
+Please do not include any confidential information in your contribution. This includes confidential software or unannounced product information. Please also clarify with your academic institution what content you are permitted to share. 
+
+Please tick and add the following information to your email submission. 
+
+[ ] I have checked my contribution for confidential information
+
+By sending this email, I confirm that you can use, modify, copy, and redistribute this contribution, under the Arm education license. 
+
+
 ## How to Suggest Projects
 
 If you've been working on an Arm-based project or have a suggestion for a project or hackathon. Click on the discussion section of this repository, fill out the `template.md` file and open a discussion (see GIF below for instructions).
