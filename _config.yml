@@ -1,8 +1,6 @@
 theme: jekyll-theme-cayman  # Choose any supported GitHub Pages theme
 title: Academic Projects
 description: A collection of academic projects categorized by level.
-baseurl: ""  # Leave blank unless deploying to a subdirectory
-url: "https://arm-university.github.io/Academic-Projects/"  # Replace with your actual GitHub Pages URL
 
 # Navigation links
 navbar-links:
