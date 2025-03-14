@@ -38,7 +38,7 @@ Performance & Safety Evaluation: Measure automation effectiveness using KPIs suc
 
 ### Estimated Project Duration ⏳ 
 
-3-5 months (Ideal for a Master's thesis or capstone project)
+0-2 months
 
 Team size: 2-5 participants
 
