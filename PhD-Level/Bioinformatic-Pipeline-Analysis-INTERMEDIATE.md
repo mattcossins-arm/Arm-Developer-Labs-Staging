@@ -24,7 +24,7 @@ Comprehensive report with results, analysis, and recommendations.
 
 ### Estimated Project Duration
 
-Time: 2-6 months (depending on scope and complexity)
+Time: 1-6 months (depending on scope and complexity)
 
 Participants: Individual PhD researcher (or small research team)
 
