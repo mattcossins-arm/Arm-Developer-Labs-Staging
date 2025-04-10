@@ -1,4 +1,4 @@
-# Improving R Support on Windows for Arm64 Architecture  
+# Improving R Support for the Windows on Arm Community 
 ![learn_on_arm](../images/Learn%20on%20Arm_banner.png)
 
 ### Project Difficulty  
