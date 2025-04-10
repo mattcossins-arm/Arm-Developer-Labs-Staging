@@ -19,33 +19,27 @@ header:
 undergraduate:
 - titles: Undergraduate
   children:
-  - title: Academic-Trends-Dashboard-INTERMEDIATE
-    url: /Undergraduate-Level/Academic-Trends-Dashboard-INTERMEDIATE.html
   - title: AMBA-Simulator-Framework-INTERMEDIATE
     url: /Undergraduate-Level/AMBA-Simulator-Framework-INTERMEDIATE.html
-  - title: Real-Time-Image-Classification-CHALLENGING
-    url: /Undergraduate-Level/Real-Time-Image-Classification-CHALLENGING.html
-  - title: Sentiment-Analysis-Dashboard-ACCESSIBLE
-    url: /Undergraduate-Level/Sentiment-Analysis-Dashboard-ACCESSIBLE.html
+  - title: Write-A-Learning-Path-ACCESSIBLE
+    url: /Undergraduate-Level/Write-A-Learning-Path-ACCESSIBLE.html
   - title: Smart-Voice-Assistant-DIFFICULT
     url: /Undergraduate-Level/Smart-Voice-Assistant-DIFFICULT.html
+  - title: Real-Time-Image-Classification-CHALLENGING
+    url: /Undergraduate-Level/Real-Time-Image-Classification-CHALLENGING.html
 masters:
 - titles: Master's
   children:
   - title: AI-Agents-INTERMEDIATE
     url: /Masters-Level/AI-Agents-INTERMEDIATE.html
-  - title: AI-Powered-Porting-Tool-CHALLENGING
-    url: /Masters-Level/AI-Powered-Porting-Tool-CHALLENGING.html
   - title: Architecture-Insight-Dashboard-CHALLENGING
     url: /Masters-Level/Architecture-Insight-Dashboard-CHALLENGING.html
-  - title: LLM-Benchmark-on-Arm-Server-ACCESSIBLE
-    url: /Masters-Level/LLM-Benchmark-on-Arm-Server-ACCESSIBLE.html
 phd:
 - titles: PhD
   children:
+  - title: R-Arm-Community-Support-INTERMEDIATE
+    url: /PhD-Level/R-Arm-Community-Support-INTERMEDIATE.html
   - title: Bioinformatic-Pipeline-Analysis-INTERMEDIATE
     url: /PhD-Level/Bioinformatic-Pipeline-Analysis-INTERMEDIATE.html
   - title: FPGA-Accellerator-with-DDR-CHALLENGING
     url: /PhD-Level/FPGA-Accellerator-with-DDR-CHALLENGING.html
-  - title: HPC-Algorithm-INTERMEDIATE
-    url: /PhD-Level/HPC-Algorithm-INTERMEDIATE.html
