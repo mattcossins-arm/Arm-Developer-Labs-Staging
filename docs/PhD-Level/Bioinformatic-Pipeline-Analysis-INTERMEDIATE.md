@@ -1,11 +1,12 @@
 ---
 layout: article
 title: Benchmarking Bioconda Packages for Arm64 in Bioinformatics Pipelines
+
 sidebar:
   nav: phd
 ---
 
-<img class="image image--xl" src="../images/Research_on_Arm_banner.png"/>
+<img class="image image--xl" src="../images/Research_on_arm_banner.png"/>
 
 ### Project Difficulty
 

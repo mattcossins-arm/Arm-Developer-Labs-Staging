@@ -1,6 +1,7 @@
 ---
 layout: article
-title: Running Real-Time Image Classification on Arm Cortex-M with CMSIS-NN
+title: Running Real-Time Image Classification on Arm Cortex-M with CMSIS-NN 
+
 sidebar:
   nav: undergraduate
 ---

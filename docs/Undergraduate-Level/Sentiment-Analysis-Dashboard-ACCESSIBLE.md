@@ -1,11 +1,12 @@
 ---
 layout: article
 title: Create a Sentiment Analysis Dashboard for Keywords Based on the Semiconductor Industry
+
 sidebar:
   nav: undergraduate
 ---
 
-<img class="image image--xl" src="../images/Research_on_Arm_banner.png"/>
+<img class="image image--xl" src="../images/Research_on_arm_banner.png"/>
 
 ### Project Difficulty
 Intermediate

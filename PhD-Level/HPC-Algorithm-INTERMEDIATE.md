@@ -1,4 +1,4 @@
-## Optimise Performance of an Algorithm Used in High-Performance Compute Using Scalable Vector Extensions (SVE / SVE2) 
+# Optimise Performance of an Algorithm Used in High-Performance Compute Using Scalable Vector Extensions (SVE / SVE2) 
 
 ![research_on_arm](../images/Research_on_arm_banner.png)
 
@@ -30,7 +30,7 @@ The project is estimated to take 8-12 weeks to complete, involving a team of 3-4
 
 2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-![academic_badge](/images/ACA_badge.jpg)
+![academic_badge](../images/ACA_badge.jpg)
 
 3. Problem-Solving Experience: Opportunity to debug and optimize scientific vector application software on Arm.
 

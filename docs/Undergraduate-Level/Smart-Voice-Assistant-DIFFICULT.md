@@ -1,11 +1,12 @@
 ---
 layout: article
 title: Smart Voice Assistant Using TinyML on Cortex-M55
+
 sidebar:
   nav: undergraduate
 ---
 
-<img class="image image--xl" src="../images/Research_on_Arm_banner.png"/>
+<img class="image image--xl" src="../images/Educate_on_Arm_banner.png"/>
 
 ### Project Difficulty
 Very difficult

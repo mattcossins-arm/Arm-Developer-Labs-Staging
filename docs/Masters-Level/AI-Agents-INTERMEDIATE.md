@@ -1,11 +1,12 @@
 ---
 layout: article
 title: AI-Powered Workflow Agent in a Sandboxed Environment
+
 sidebar:
   nav: masters
 ---
 
-<img class="image image--xl" src="../images/Research_on_Arm_banner.png"/>
+<img class="image image--xl" src="../images/Research_on_arm_banner.png"/>
 
 ### Project Difficulty 🚀 
 

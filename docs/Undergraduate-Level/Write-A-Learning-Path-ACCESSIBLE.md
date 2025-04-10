@@ -1,11 +1,12 @@
 ---
 layout: article
 title: Write an Educational Tutorial (Learning Path) of your Choice
+
 sidebar:
-  nav: masters
+  nav: undergraduate
 ---
 
-<img class="image image--xl" src="../images/Research_on_Arm_banner.png"/>
+<img class="image image--xl" src="../images/Educate_on_Arm_banner.png"/>
 
 ### Project Difficulty
 Accessible

@@ -1,10 +1,10 @@
 ---
 layout: article
 title: Develop an Arm Architecture Insight Dashboard
+
 sidebar:
   nav: masters
 ---
-
 <img class="image image--xl" src="./images/can-i-use.jpg"/>
 
 ### Project Difficulty

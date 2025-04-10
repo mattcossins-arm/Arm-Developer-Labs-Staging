@@ -2,7 +2,7 @@
 layout: article
 title: Page - Sidebar
 sidebar:
-  nav: undergraduate
+  nav: masters
 ---
 
 test

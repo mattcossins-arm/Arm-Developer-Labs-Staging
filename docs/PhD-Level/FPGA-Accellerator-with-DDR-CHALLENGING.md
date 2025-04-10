@@ -1,11 +1,11 @@
 ---
 layout: article
 title: Linux Capable SoC FPGA Prototyping Platform with DDR Memory 
+
 sidebar:
   nav: phd
 ---
-
-<img class="image image--xl" src="../images/Research_on_Arm_banner.png"/>
+![supporting image]()
 
 ### Project Difficulty
 Challenging

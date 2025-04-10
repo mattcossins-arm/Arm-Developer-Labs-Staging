@@ -1,11 +1,12 @@
 ---
 layout: article
 title: LLM Benchmark for Arm Server 
+
 sidebar:
   nav: masters
 ---
 
-<img class="image image--xl" src="../images/Research_on_Arm_banner.png"/>
+<img class="image image--xl" src="../images/Research_on_arm_banner.png"/>
 
 ### Project Difficulty
 Intermediate

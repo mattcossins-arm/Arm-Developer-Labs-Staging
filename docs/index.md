@@ -6,8 +6,9 @@ article_header:
   image:
     src: ./images/Research_on_arm_banner.png
 ---
-
 # Academic Projects Repository
+
+<img class="image image--xl" src="./images/Research_on_Arm_banner.png"/>
 
 Welcome to our collection of projects designed for students and academics in computer science, electronics, and related disciplines. This repository offers a diverse range of innovative projects aimed at enhancing learning and research. We encourage academic institutions to explore and contribute to this growing repository, fostering collaboration and knowledge sharing. Whether you're looking to develop new skills, conduct research, or collaborate on cutting-edge technology, our collection provides valuable resources and opportunities for growth. Join us in advancing education and innovation in these dynamic fields.
 
@@ -43,7 +44,7 @@ Project-Ideas
 
 1. Carnegie Mellon Cloudlet Collaboration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zaRozkrcix0?si=hapHmGSGxZZOlqiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[<img class="image image--xl" src="https://img.youtube.com/vi/zaRozkrcix0/0.jpg"/>](https://www.youtube.com/watch?v=zaRozkrcix0)
 
 
 ## How to Participate
@@ -91,5 +92,3 @@ For projects on system-on-chip design, please reach out to [SoC labs](https://so
 We aim to work closely with the University to ensure that the IP rights are managed in a way that benefits both parties and promotes the dissemination of knowledge. Please refer to the specific licensing terms outlined in each project's documentation for detailed information.
 
 We are committed to fostering collaboration with universities on intellectual property (IP) rights for the content produced through our academic projects. Each project may have different licensing terms, tailored to suit the specific needs and goals of the collaboration. For instance, our current learning path tutorial is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
-
-<!--more-->
