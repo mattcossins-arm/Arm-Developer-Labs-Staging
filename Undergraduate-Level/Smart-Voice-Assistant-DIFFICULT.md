@@ -1,6 +1,6 @@
-## Smart Voice Assistant Using TinyML on Cortex-M55
+# Smart Voice Assistant Using TinyML on Cortex-M55
 
-![educate_on_arm](../images/Educate%20on%20Arm_banner.png)
+![educate_on_arm](../images/Educate_on_Arm_banner.png)
 
 ### Project Difficulty
 Very difficult
@@ -32,7 +32,7 @@ The project is estimated to take 8 to 12 weeks to complete, making it perfect fo
 
 2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-![academic_badge](/images/ACA_badge.jpg)
+![academic_badge](../images/ACA_badge.jpg)
 
 3. It's a great way to demonstrate your initiative and commitment to your field. 
 

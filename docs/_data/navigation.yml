@@ -3,62 +3,49 @@ header:
       # @start locale config
       en      : &EN       Undergraduate
       # @end locale config
-    url: undergraduate/Undergraduate.html
+    url: Undergraduate-Level/undergraduate.html
 
   - titles:
       # @start locale config
       en      : &EN       Master's
       # @end locale config
-    url: masters/Masters.html
+    url: Masters-Level/masters.html
 
   - titles:
       # @start locale config
       en      : &EN       PhD
       # @end locale config
-    url: phd/Phd.html
-
+    url: PhD-Level/phd.html
 undergraduate:
-  - titles: Undergraduate
-    children:
-      - title: Academic Trends Dashboard (INTERMEDIATE)
-        url: /undergraduate/Academic-Trends-Dashboard-INTERMEDIATE.html
-      - title: AMBA Simulator Framework (INTERMEDIATE)
-        url: /undergraduate/AMBA-Simulator-Framework-INTERMEDIATE.html
-      - title: Real Time Image Classification (CHALLENGING)
-        url: /undergraduate/Real-Time-Image-Classification-CHALLENGING.html
-      - title: Sentiment Analysis Dashboard (ACCESSIBLE)
-        url: /undergraduate/Sentiment-Analysis-Dashboard-ACCESSIBLE.html
-      - title: Smart Voice Assistant (DIFFICULT)
-        url: /undergraduate/Smart-Voice-Assistant-DIFFICULT.html      
-
+- titles: Undergraduate
+  children:
+  - title: Academic-Trends-Dashboard-INTERMEDIATE
+    url: /Undergraduate-Level/Academic-Trends-Dashboard-INTERMEDIATE.html
+  - title: AMBA-Simulator-Framework-INTERMEDIATE
+    url: /Undergraduate-Level/AMBA-Simulator-Framework-INTERMEDIATE.html
+  - title: Real-Time-Image-Classification-CHALLENGING
+    url: /Undergraduate-Level/Real-Time-Image-Classification-CHALLENGING.html
+  - title: Sentiment-Analysis-Dashboard-ACCESSIBLE
+    url: /Undergraduate-Level/Sentiment-Analysis-Dashboard-ACCESSIBLE.html
+  - title: Smart-Voice-Assistant-DIFFICULT
+    url: /Undergraduate-Level/Smart-Voice-Assistant-DIFFICULT.html
 masters:
-  - titles: Master's
-    children:
-      - title: AI Agents (INTERMEDIATE)
-        url: /masters/AI-Agents-INTERMEDIATE.html
-      - title: Architecture Insight Dashboard (CHALLENGING)
-        url: /masters/Architecture-Insight-Dashboard-CHALLENGING.html
-      - title: HLS Flow (INTERMEDIATE)
-        url: /masters/HLS-Flow-INTERMEDIATE.html
-      - title: KSA Curriculum Mapper (ACCESSIBLE)
-        url: /masters/KSA-Curriculum-Mapper-ACCESSIBLE.html
-      - title: LLM Benchmark on Arm Server (ACCESSIBLE)
-        url: /masters/LLM-Benchmark-on-Arm-Server-ACCESSIBLE.html
-      - title: SpecINT2017 benchmarking on Arm64 (ACCESSIBLE)
-        url: /masters/SpecINT2017-benchmarking-on-Arm64-ACCESSIBLE.html
-      - title: Write A Learning Path (ACCESSIBLE)
-        url: /masters/Write-A-Learning-Path-ACCESSIBLE.html
-      - title: YOLO On Virtual Platform (ACCESSIBLE)
-        url: /masters/YOLO-On-Virtual-Platform-ACCESSIBLE.html
-
+- titles: Master's
+  children:
+  - title: AI-Agents-INTERMEDIATE
+    url: /Masters-Level/AI-Agents-INTERMEDIATE.html
+  - title: AI-Powered-Porting-Tool-CHALLENGING
+    url: /Masters-Level/AI-Powered-Porting-Tool-CHALLENGING.html
+  - title: Architecture-Insight-Dashboard-CHALLENGING
+    url: /Masters-Level/Architecture-Insight-Dashboard-CHALLENGING.html
+  - title: LLM-Benchmark-on-Arm-Server-ACCESSIBLE
+    url: /Masters-Level/LLM-Benchmark-on-Arm-Server-ACCESSIBLE.html
 phd:
-  - titles: PhD
-    children:
-      - title: Bioinformatic Pipeline Analysis (INTERMEDIATE)
-        url: /phd/Bioinformatic-Pipeline-Analysis-INTERMEDIATE.html
-      - title: Custom Accelerator (INTERMEDIATE)
-        url: /phd/Custom-Accelerator-INTERMEDIATE.html
-      - title: FPGA Accellerator with DDR (CHALLENGING)
-        url: /phd/FPGA-Accellerator-with-DDR-CHALLENGING.html
-      - title: HPC Algorithm (INTERMEDIATE)
-        url: /phd/HPC-Algorithm-INTERMEDIATE.html
+- titles: PhD
+  children:
+  - title: Bioinformatic-Pipeline-Analysis-INTERMEDIATE
+    url: /PhD-Level/Bioinformatic-Pipeline-Analysis-INTERMEDIATE.html
+  - title: FPGA-Accellerator-with-DDR-CHALLENGING
+    url: /PhD-Level/FPGA-Accellerator-with-DDR-CHALLENGING.html
+  - title: HPC-Algorithm-INTERMEDIATE
+    url: /PhD-Level/HPC-Algorithm-INTERMEDIATE.html

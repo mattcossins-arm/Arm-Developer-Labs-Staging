@@ -1,6 +1,6 @@
-# 🎓 Academic Projects Repository
+# Academic Projects Repository
 
-![banner](./images/Learn%20on%20Arm_banner.png)
+![banner](./images/Research_on_Arm_banner.png)
 
 Welcome to our collection of projects designed for students and academics in computer science, electronics, and related disciplines. This repository offers a diverse range of innovative projects aimed at enhancing learning and research. We encourage academic institutions to explore and contribute to this growing repository, fostering collaboration and knowledge sharing. Whether you're looking to develop new skills, conduct research, or collaborate on cutting-edge technology, our collection provides valuable resources and opportunities for growth. Join us in advancing education and innovation in these dynamic fields.
 
@@ -46,7 +46,7 @@ Project-Ideas
 2. (Optional) If you are unfamiliar with some of the tools used, take some of our foundational education courses.
 3. Let us know you've started by opening a discussion (see gif below). Someone may reach out if the project is complex. 
 
-![how-to-participate](/images/how-to-participate.gif)
+![how-to-participate](./images/how-to-participate.gif)
 
 ## How to submit your project
 
@@ -69,7 +69,7 @@ By sending this email, I confirm that you can use, modify, copy, and redistribut
 
 If you've been working on an Arm-based project or have a suggestion for a project or hackathon. Click on the discussion section of this repository, fill out the `template.md` file and open a discussion (see GIF below for instructions).
 
-![gif](/images/how-to-suggest-project.gif)
+![gif](./images/how-to-suggest-project.gif)
 
 Someone from Arm education will be in contact to discuss how we can support. 
 

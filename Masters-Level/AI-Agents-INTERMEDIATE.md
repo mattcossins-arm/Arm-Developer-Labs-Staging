@@ -1,4 +1,4 @@
-## AI-Powered Workflow Agent in a Sandboxed Environment
+# AI-Powered Workflow Agent in a Sandboxed Environment
 
 ![learn_on_arm](../images/Research_on_arm_banner.png)
 
