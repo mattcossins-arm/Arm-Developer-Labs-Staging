@@ -1,5 +1,5 @@
 # Improving R Support on Windows for Arm64 Architecture  
-![learn_on_arm](./images/Learn on Arm_banner.png)
+![learn_on_arm](../images/Learn%20on%20Arm_banner.png)
 
 ### Project Difficulty  
 Challenging
@@ -37,8 +37,7 @@ This project encourages the use of native tooling and Rtools under WoA, while ex
 
 - **Languages**: R  
 - **Tooling**: Rtools, Git, Bugzilla, Windows 11 on Arm device (Surface Pro X or similar), GitHub CI/CD, optional Docker for cross-compilation  
-- **Hardware**: Windows 11 Arm64 device (provided via Arm ecosystem or emulator like qemu if needed)  
-- **Access**: Students may use [Arm Academic Access](https://www.arm.com/resources/education/academic-access) if additional support or tooling is needed
+- Arm64 Windows device or Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments).
 
 ## Resources  
 
