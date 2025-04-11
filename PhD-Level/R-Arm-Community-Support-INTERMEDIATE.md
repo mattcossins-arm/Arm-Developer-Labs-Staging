@@ -9,15 +9,15 @@ Computer Science, Electronic Engineering, or Computer Engineering students with 
 
 ## Description  
 
-This project aims to significantly enhance the support for running **R and Rtools on Windows 11 for Arm64 (WoA)** by contributing to the **R Core**, **Rtools** or the **CRAN/Bioconductor ecosystems**. Building on the groundwork laid out in [this blog post on R for 64-bit Arm Windows](https://blog.r-project.org/2024/04/23/r-on-64-bit-arm-windows/), the project’s goals include:
+This project aims to significantly enhance the support for running **R and Rtools on Windows 11 for Arm64 (WoA)** by identifying and contributing bug fixes / improvements to the relevant parts of the R community (e.g., R Core, Rtools or the CRAN/Bioconductor packages etc.). The project’s goals include:
 
-- **Analyzing and fixing upstream compatibility issues** in base R and Rtools for the Windows/Arm64 environment.
+- **Identifying, Analyzing and fixing compatibility issues** in base R and Rtools for the Windows/Arm64 environment.
 - **Reviewing the R Bugzilla tracker** (https://bugs.r-project.org/) for unresolved WoA-related issues and either fixing or updating them.
 - **Identifying CRAN and Bioconductor packages** lacking Windows/Arm64 support.
 - **Proposing and testing patches upstream** for R packages that fail to build or run on WoA.
-- **Engaging with the R development community** via the [R Contributors Slack](https://contributor.r-project.org/slack) and following the [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file) to submit high-quality patches.
+- **Engaging with the R development community** via the Windows Special interest group, [R-SIG-windows](https://stat.ethz.ch/mailman/listinfo/r-sig-windows) or the informal [R Contributors Slack](https://contributor.r-project.org/slack) and following the [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file) to submit high-quality patches.
 - **Reporting new issues**, requesting comments on proposed patches, and documenting process via Bugzilla.
-- **Tracking CI availability** for Windows/Arm64 runners and potentially proposing GitHub Actions or GitLab CI templates to automate WoA builds.
+- **Tracking CI coverage** for Windows/Arm64 runners and potentially proposing GitHub Actions or GitLab CI templates to automate WoA builds.
 
 This project encourages the use of native tooling and Rtools under WoA, while exposing students to low-level platform support, compiler toolchains (LLVM/MinGW), and ecosystem-scale problem solving.
 
@@ -36,12 +36,11 @@ This project encourages the use of native tooling and Rtools under WoA, while ex
 ## Hardware / Software Requirements  
 
 - **Languages**: R  
-- **Tooling**: Rtools, Git, Bugzilla, Windows 11 on Arm device (Surface Pro X or similar), GitHub CI/CD, optional Docker for cross-compilation  
+- **Tooling**: Rtools, Git, Bugzilla, Windows 11 on Arm device, GitHub CI/CD, optional Docker for cross-compilation  
 - Arm64 Windows device or Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments).
 
 ## Resources  
-
-- [R on Windows-on-Arm blog post](https://blog.r-project.org/2024/04/23/r-on-64-bit-arm-windows/)  
+  
 - [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file)  
 - [R Bugzilla](https://bugs.r-project.org/)  
 - [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/)  
