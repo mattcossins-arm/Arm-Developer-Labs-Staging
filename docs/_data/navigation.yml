@@ -21,6 +21,8 @@ undergraduate:
   children:
   - title: AMBA-Simulator-Framework-INTERMEDIATE
     url: /Undergraduate-Level/AMBA-Simulator-Framework-INTERMEDIATE.html
+  - title: Radar-Signal-Processing-Cortex-A
+    url: /Undergraduate-Level/Radar-Signal-Processing-Cortex-A.html
   - title: Write-A-Learning-Path-ACCESSIBLE
     url: /Undergraduate-Level/Write-A-Learning-Path-ACCESSIBLE.html
   - title: Smart-Voice-Assistant-DIFFICULT
