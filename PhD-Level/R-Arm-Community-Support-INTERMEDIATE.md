@@ -11,7 +11,7 @@ Computer Science, Electronic Engineering, or Computer Engineering students with 
 
 This project aims to significantly enhance the support for running **R and Rtools on Windows 11 for Arm64 (WoA)** by identifying and contributing bug fixes / improvements to the relevant parts of the R community (e.g., R Core, Rtools or the CRAN/Bioconductor packages etc.). The project’s goals include:
 
-- **Identifying, Analyzing and fixing compatibility issues** in base R and Rtools for the Windows/Arm64 environment.
+
 - **Reviewing the R Bugzilla tracker** (https://bugs.r-project.org/) for unresolved WoA-related issues and either fixing or updating them.
 - **Identifying CRAN and Bioconductor packages** lacking Windows/Arm64 support.
 - **Proposing and testing patches upstream** for R packages that fail to build or run on WoA.
@@ -19,19 +19,20 @@ This project aims to significantly enhance the support for running **R and Rtool
 - **Reporting new issues**, requesting comments on proposed patches, and documenting process via Bugzilla.
 - **Tracking CI coverage** for Windows/Arm64 runners and potentially proposing GitHub Actions or GitLab CI templates to automate WoA builds.
 
-This project encourages the use of native tooling and Rtools under WoA, while exposing students to low-level platform support, compiler toolchains (LLVM/MinGW), and ecosystem-scale problem solving.
+Stretch Objectives:
+- **Identifying, Analyzing and fixing compatibility issues** in base R and Rtools for the Windows/Arm64 environment. This may involve waiting for improved upstream support from GCC for Windows-AArch64. A summary and progress is [available here](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28802842658/MinGW+GNU+Toolchain).
+
 
 **Deliverables**:
-- Patches, request for comments and bug reports the highest impact R base, tools and packages
+- Patches, request for comments and bug reports the highest impact packages
 - A curated list of packages with proposed WoA support status
 - A short technical write-up describing the contributions and challenges
-- (Optional) GitHub Actions workflows for building/testing R packages on Windows/Arm64
 
 ## Estimated Project Duration  
 
 - Estimated Time: Variable  
 - Ideal Team Size: 1–2 students  
-- Suitable for individual research projects, summer internships, or final-year theses
+- Suitable for individual projects, summer internships, or final-year theses
 
 ## Hardware / Software Requirements  
 
@@ -43,11 +44,10 @@ This project encourages the use of native tooling and Rtools under WoA, while ex
   
 - [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file)  
 - [R Bugzilla](https://bugs.r-project.org/)  
-- [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/)  
-- [CRAN Package Check Results](https://cran.r-project.org/web/checks/check_results.html)  
+- [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/)   
 - [Bioconductor Build Reports](https://bioconductor.org/checkResults/)  
-- [GitHub R Development Discussions](https://github.com/r-devel/r-source/discussions)  
-- [Example R CI Setup for Arm](https://github.com/actions/setup-r)  
+- Package installation results for [CRAN](https://www.r-project.org/nosvn/winutf8/ucrt3/CRAN_aarch64/install_out/) and [Bioconductor](https://www.r-project.org/nosvn/winutf8/ucrt3/BIOC_aarch64/install_out/) packages
+
 
 ## Benefits / Prizes  
 
