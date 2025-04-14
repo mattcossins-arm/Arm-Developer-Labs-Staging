@@ -15,6 +15,13 @@ The future of computing is shaped by research today. At Arm, we're committed to 
 - Improve their employability by working on technologies that are in high demand  
 - Get early access to collaboration opportunities and internal referrals  
 
+## Research Areas of High Interest to Arm
+
+// Input themes
+
+### Example Projects
+// filtre out projects that are PhD level
+
 ## Collaborate with Arm
 
 We’re inviting **short-term project proposals** from academic researchers and students where Arm can potentially offer technical insight, mentorship, or in-kind contributions to support your research. These projects could serve as proof-of-concepts or initial steps toward longer-term collaboration.
