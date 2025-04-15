@@ -4,5 +4,57 @@
     height: auto;
     width: 100px;
     margin-right: 20px;
+}
+
+.crop_image--cover {
+  width: 100%;
+  height: 74vh;
+  object-fit: cover;
+}
+
+.scroll-container {
+  position: relative;
+  height: 14vh;
+  overflow: hidden;
+  background-color: #D3D3D3;
+}
+
+.carousel-primary,
+.carousel-secondary {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.carousel-primary {
+  display: flex;
+  justify-content: space-around;
+  animation: scroll-horizontal 20s linear infinite;
+}
+
+.carousel-secondary {
+  animation: scroll-horizontal 20s linear infinite;
+  animation-delay: 10s;
+}
+
+.carousel-primary img,
+.carousel-secondary img {
+  height: 10vh;
+  width: auto;
+  margin-left: 5px;
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    left: 100%;
   }
+
+  100% {
+    left: -100%
+  }
+}
 /* end custom scss snippet */

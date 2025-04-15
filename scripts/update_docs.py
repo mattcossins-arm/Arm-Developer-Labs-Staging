@@ -55,14 +55,17 @@ def clean() :
 
 def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> str:
     pattern = r'!\[[^\]]*\]\(([^)]+)\)'
-    matches = re.findall(pattern, md_text)
-
     docs_dir_path = Path(docs_dir)
+    
+    def replace(match):
+        img_path = match.group(1)
+        
+        if doc_path.resolve() == Path("../README.md").resolve() and img_path == "./images/Research_on_arm_banner.png":
+            return ""
+        
+        source_path = (doc_path.parent / img_path).resolve()
 
-    for match in matches:
-        source_path = (doc_path.parent / match).resolve()
-
-        if match.startswith("../images"):
+        if img_path.startswith("../images"):
             target_folder = (docs_dir_path.parent / "images").resolve()
         else:
             target_folder = (docs_dir_path / "images").resolve()
@@ -73,17 +76,18 @@ def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> st
             shutil.copy2(source_path, target_folder)
         else:
             print(f"Warning: {source_path} does not exist in {doc_path}!")
+        
+        return f'<img class="image image--xl" src="{img_path}"/>'
 
-    replacement = r'<img class="image image--xl" src="\1"/>'
-    return re.sub(pattern, replacement, md_text)
+    return re.sub(pattern, replace, md_text)
 
 def convert_md_videos_to_html(md_text: str) -> str:
     pattern = re.compile(
-        r"\[!\[Arm-CMU collaboration\]\(https://img\.youtube\.com/vi/zaRozkrcix0/0\.jpg\)\]\(https://www\.youtube\.com/watch\?v=zaRozkrcix0\)"
+        r'\[\s*<img[^>]*src="https:\/\/img\.youtube\.com\/vi\/zaRozkrcix0\/0\.jpg"[^>]*>\s*\]\(https:\/\/www\.youtube\.com\/watch\?v=zaRozkrcix0\)'
     )
 
     replacement = (
-        '<iframe width="560" height="315" src="https://www.youtube.com/embed/zaRozkrcix0?si=hapHmGSGxZZOlqiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        '<iframe width="560" height="315" src="https://www.youtube.com/embed/zaRozkrcix0?si=eRZirXrv5300fnBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
     )
 
     return re.sub(pattern, replacement, md_text)
