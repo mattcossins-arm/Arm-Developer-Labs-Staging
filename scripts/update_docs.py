@@ -3,17 +3,21 @@ import re
 import shutil
 from pathlib import Path
 
-undergraudate_dir = "../Undergraduate-Level"
-masters_dir = "../Masters-Level"
-phd_dir = "../PhD-Level"
+projects_undergraduate_dir = "../Projects/Undergraduate"
+projects_masters_dir = "../Projects/Masters"
+research_phd_dir = "../Research/PhD"
 
-undergraduate_pathlist = Path(undergraudate_dir).rglob('*.md')
-masters_pathlist = Path(masters_dir).rglob('*.md')
-phd_pathlist = Path(phd_dir).rglob('*.md')
+projects_pathlist = [Path("../Projects/projects.md")]
+projects_undergraduate_pathlist = Path(projects_undergraduate_dir).rglob('*.md')
+projects_masters_pathlist = Path(projects_masters_dir).rglob('*.md')
+research_pathlist = [Path("../Research/research.md")]
+research_phd_pathlist = Path(research_phd_dir).rglob('*.md')
 
-docs_undergraudate_dir = "../docs/Undergraduate-Level"
-docs_masters_dir = "../docs/Masters-Level"
-docs_phd_dir = "../docs/PhD-Level"
+docs_projects_dir = "../docs/Projects"
+docs_undergraudate_dir = "../docs/Projects/Undergraduate"
+docs_masters_dir = "../docs/Projects/Masters"
+docs_research_dir = "../docs/Research"
+docs_phd_dir = "../docs/Research/PhD"
 docs_img_dir = "../docs/images"
 
 contents_frontmatter = """---
@@ -22,16 +26,6 @@ title: {title}
 sidebar:
   nav: {level}
 ---
-"""
-
-tabs_frontmatter = """---
-layout: article
-title: Page - Sidebar
-sidebar:
-  nav: {level}
----
-
-test
 """
 
 index_frontmatter = """---
@@ -45,7 +39,7 @@ article_header:
 """
 
 def clean() :
-    clean_lst = [docs_undergraudate_dir, docs_masters_dir, docs_phd_dir, docs_img_dir]
+    clean_lst = [docs_projects_dir,docs_undergraudate_dir, docs_masters_dir, docs_research_dir, docs_phd_dir]
     for dirpath in clean_lst:
         if os.path.exists(dirpath) and os.path.isdir(dirpath):
             shutil.rmtree(dirpath)
@@ -59,17 +53,13 @@ def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> st
     
     def replace(match):
         img_path = match.group(1)
-        
+
         if doc_path.resolve() == Path("../README.md").resolve() and img_path == "./images/Research_on_arm_banner.png":
             return ""
         
         source_path = (doc_path.parent / img_path).resolve()
 
-        if img_path.startswith("../images"):
-            target_folder = (docs_dir_path.parent / "images").resolve()
-        else:
-            target_folder = (docs_dir_path / "images").resolve()
-
+        target_folder = (docs_dir_path / "images").resolve()
         target_folder.mkdir(parents=True, exist_ok=True)
         
         if source_path.is_file():
@@ -77,20 +67,19 @@ def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> st
         else:
             print(f"Warning: {source_path} does not exist in {doc_path}!")
         
-        return f'<img class="image image--xl" src="{img_path}"/>'
+        new_img_path = f"./images/{Path(img_path).name}"
+        return f'<img class="image image--xl" src="{new_img_path}"/>'
 
     return re.sub(pattern, replace, md_text)
 
 def convert_md_videos_to_html(md_text: str) -> str:
-    pattern = re.compile(
-        r'\[\s*<img[^>]*src="https:\/\/img\.youtube\.com\/vi\/zaRozkrcix0\/0\.jpg"[^>]*>\s*\]\(https:\/\/www\.youtube\.com\/watch\?v=zaRozkrcix0\)'
-    )
+    pattern = "[![Arm-CMU collaboration](https://img.youtube.com/vi/zaRozkrcix0/0.jpg)](https://www.youtube.com/watch?v=zaRozkrcix0)"
+    replacement = '<iframe width="560" height="315" src="https://www.youtube.com/embed/zaRozkrcix0?si=eRZirXrv5300fnBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    
+    if pattern in md_text:
+        replaced_md = md_text.replace(pattern, replacement)
 
-    replacement = (
-        '<iframe width="560" height="315" src="https://www.youtube.com/embed/zaRozkrcix0?si=eRZirXrv5300fnBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
-    )
-
-    return re.sub(pattern, replacement, md_text)
+    return replaced_md
 
 def format_content(pathlist, academic_level, docs_path):
     for path in pathlist:
@@ -119,23 +108,16 @@ def format_content(pathlist, academic_level, docs_path):
             out_file = os.path.join(docs_path, path.name)
             with open(out_file, 'w', encoding='utf-8') as out_f:
                 out_f.write(converted_content)
-    
-    tab_file = os.path.join(docs_path, academic_level + ".md")
-    tabs_content = tabs_frontmatter.format(level=academic_level)
-    with open(tab_file, 'w', encoding='utf-8') as f:
-        f.write(tabs_content)
         
 def format_index():
     src = "../README.md"
     docs_path = "../docs"
     with open(src, 'r', encoding='utf-8') as f:
-        formatted_content = index_frontmatter + f.read()
-        converted_content = convert_md_videos_to_html(
-            convert_md_images_to_html(
-                formatted_content,
-                Path(src),
-                docs_path
-            )
+        formatted_content = convert_md_videos_to_html(index_frontmatter + f.read())
+        converted_content = convert_md_images_to_html(
+            formatted_content,
+            Path(src),
+            docs_path
         )
         out_file = os.path.join(docs_path, "index.md")
         with open(out_file, 'w', encoding='utf-8') as out_f:
@@ -144,9 +126,11 @@ def format_index():
 def main():
     clean()
     format_index()
-    format_content(undergraduate_pathlist, "undergraduate", docs_undergraudate_dir)
-    format_content(masters_pathlist, "masters", docs_masters_dir)
-    format_content(phd_pathlist, "phd", docs_phd_dir)
+    format_content(projects_pathlist, "projects", docs_projects_dir)
+    format_content(projects_undergraduate_pathlist, "projects", docs_undergraudate_dir)
+    format_content(projects_masters_pathlist, "projects", docs_masters_dir)
+    format_content(research_pathlist, "research", docs_research_dir)
+    format_content(research_phd_pathlist, "research", docs_phd_dir)
     
 if __name__ == "__main__":
     main()

@@ -6,7 +6,7 @@ article_header:
   image:
     src: ./images/Research_on_arm_banner.png
 ---
-# Academic Projects Repository
+# Arm Developer Labs
 
 
 
@@ -32,11 +32,12 @@ The following infographic details the directory structure and where to find exam
 
 ```bash
 Project-Ideas
-├── Design Contests         # Design Contests and Hackathons
-├── Masters-Level           # Masters Projects (e.g., MEng, MSc)
-├── PhD-Level               # PhD Projects (e.g., UK CDT PhD)
+├── Projects                # Design Contests and Hackathons
+│   └── Masters             # Masters Projects (e.g., MEng, MSc)
+│   └── Undergraduate       # From 1st to final year undergraduate
+├── Research                
+│   └── PhD                 # PhD Projects (e.g., UK CDT PhD)            
 ├── README.md
-├── Undergraduate-Level     # From 1st to final year undergraduate
 ├── images                  # Images
 └── template.md             # Template to suggest a project
 ```
