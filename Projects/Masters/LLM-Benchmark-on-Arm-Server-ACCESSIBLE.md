@@ -1,6 +1,6 @@
 # LLM Benchmark for Arm Server 
 
-![research_on_arm](../../../images/Research_on_arm_banner.png)
+![research_on_arm](../../images/Research_on_arm_banner.png)
 
 ### Project Difficulty
 Intermediate

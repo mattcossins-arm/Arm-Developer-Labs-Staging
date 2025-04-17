@@ -23,10 +23,9 @@ The future of computing is shaped by research today. At Arm, we're committed to 
 
 ## Research Areas of High Interest to Arm
 
-// Input themes
+Coming soon
 
-### Example Projects
-// filtre out projects that are PhD level
+Example research projects that both industrially relevant to the Arm ecosystem and exciting for academia are available on the left-hand side navigation bar. 
 
 ## Collaborate with Arm
 
