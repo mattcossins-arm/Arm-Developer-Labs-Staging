@@ -44,12 +44,12 @@ projects:
 research:
 - title: PhD
   children:
-  - title: R-Arm-Community-Support-INTERMEDIATE
-    url: /Research/PhD/R-Arm-Community-Support-INTERMEDIATE.html
   - title: Bioinformatic-Pipeline-Analysis-INTERMEDIATE
     url: /Research/PhD/Bioinformatic-Pipeline-Analysis-INTERMEDIATE.html
   - title: FPGA-Accellerator-with-DDR-CHALLENGING
     url: /Research/PhD/FPGA-Accellerator-with-DDR-CHALLENGING.html
+  - title: R-Arm-Community-Support-CHALLENGING
+    url: /Research/PhD/R-Arm-Community-Support-CHALLENGING.html
   - title: HPC-Algorithm-INTERMEDIATE
     url: /Research/PhD/HPC-Algorithm-INTERMEDIATE.html
   - title: Haskell-Compiler-Windows-on-Arm
