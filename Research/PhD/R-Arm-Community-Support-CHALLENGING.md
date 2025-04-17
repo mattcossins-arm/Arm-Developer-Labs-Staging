@@ -9,17 +9,17 @@ Computer Science, Electronic Engineering, or Computer Engineering students with 
 
 ## Description  
 
-This project aims to significantly enhance the support for running **R and Rtools on Windows 11 for Arm64 (WoA)** by identifying and contributing bug fixes / improvements to the relevant parts of the R community (e.g., R Core, Rtools or the CRAN/Bioconductor packages etc.). The project’s goals include:
+This project aims to significantly enhance the support for running **R packages on Windows 11 for Arm64 (WoA)** by identifying and contributing bug fixes / improvements to the relevant parts of the R community (e.g.,  CRAN/Bioconductor packages or even R Core / Rtools etc.). The project’s goals include:
 
 
-- **Reviewing the R Bugzilla tracker** (https://bugs.r-project.org/) for unresolved WoA-related issues and either fixing or updating them.
 - **Identifying CRAN and Bioconductor packages** lacking Windows/Arm64 support.
 - **Proposing and testing patches upstream** for R packages that fail to build or run on WoA.
-- **Engaging with the R development community** via the Windows Special interest group, [R-SIG-windows](https://stat.ethz.ch/mailman/listinfo/r-sig-windows) or the informal [R Contributors Slack](https://contributor.r-project.org/slack) and following the [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file) to submit high-quality patches.
-- **Reporting new issues**, requesting comments on proposed patches, and documenting process via Bugzilla.
-- **Tracking CI coverage** for Windows/Arm64 runners and potentially proposing GitHub Actions or GitLab CI templates to automate WoA builds.
+- **Engaging with the R development community** via the Windows Special interest group, [R-SIG-windows](https://stat.ethz.ch/mailman/listinfo/r-sig-windows), [R-Package-Devel](https://stat.ethz.ch/mailman/listinfo/r-package-devel) mailing list or the informal [R Contributors Slack](https://contributor.r-project.org/slack) and following the [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file) to submit high-quality patches.
+- **Reporting new issues**, requesting comments on proposed patches, documenting process via Bugzilla and reviewing existing issues through the [bug tracker](https://bugs.r-project.org/)
+- **Tracking CI coverage** for recently announced public preview of [Windows11-Arm64 GitHub-hosted runners](https://github.blog/changelog/2025-04-14-windows-arm64-hosted-runners-now-available-in-public-preview/) and potentially proposing GitHub Actions or GitLab CI templates to automate WoA builds.
 
 Stretch Objectives:
+
 - **Identifying, Analyzing and fixing compatibility issues** in base R and Rtools for the Windows/Arm64 environment. This may involve waiting for improved upstream support from GCC for Windows-AArch64. A summary and progress is [available here](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28802842658/MinGW+GNU+Toolchain).
 
 
