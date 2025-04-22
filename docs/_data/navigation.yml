@@ -15,8 +15,6 @@ projects:
   children:
   - title: AMBA-Simulator-Framework-INTERMEDIATE
     url: /Projects/Undergraduate/AMBA-Simulator-Framework-INTERMEDIATE.html
-  - title: Radar-Signal-Processing-Cortex-A
-    url: /Projects/Undergraduate/Radar-Signal-Processing-Cortex-A.html
   - title: Write-A-Learning-Path-ACCESSIBLE
     url: /Projects/Undergraduate/Write-A-Learning-Path-ACCESSIBLE.html
   - title: Smart-Voice-Assistant-DIFFICULT
@@ -27,6 +25,8 @@ projects:
     url: /Projects/Undergraduate/Academic-Trends-Dashboard-INTERMEDIATE.html
   - title: Sentiment-Analysis-Dashboard-ACCESSIBLE
     url: /Projects/Undergraduate/Sentiment-Analysis-Dashboard-ACCESSIBLE.html
+  - title: Processor-in-the-Loop-Automotive-INTERMEDIATE
+    url: /Projects/Undergraduate/Processor-in-the-Loop-Automotive-INTERMEDIATE.html
 - title: Master's
   children:
   - title: AI-Agents-INTERMEDIATE
