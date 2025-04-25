@@ -44,13 +44,7 @@ projects:
 research:
 - title: PhD
   children:
-  - title: HPC-Algorithm
-    url: /Research/PhD/HPC-Algorithm.html
-  - title: Bioinformatic-Pipeline-Analysis
-    url: /Research/PhD/Bioinformatic-Pipeline-Analysis.html
-  - title: R-Arm-Community-Support
-    url: /Research/PhD/R-Arm-Community-Support.html
-  - title: FPGA-Accellerator-with-DDR
-    url: /Research/PhD/FPGA-Accellerator-with-DDR.html
-  - title: Haskell-Compiler-Windows-on-Arm
-    url: /Research/PhD/Haskell-Compiler-Windows-on-Arm.html
+  - title: Compliance-Ready-Smart-Camera-System
+    url: /Research/Extended-Team-Projects/Compliance-Ready-Smart-Camera-System.html
+  - title: Human-Centric-Robotics
+    url: /Research/Extended-Team-Projects/Human-Centric-Robotics.html
