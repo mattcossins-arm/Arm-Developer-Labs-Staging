@@ -1,5 +1,6 @@
-## Project Title  
-End-to-End Computer Vision System for Functional Safety
+# End-to-End Computer Vision System for Functional Safety 
+
+![research_on_arm](../../images/Research_on_arm_banner.png)
 
 ### Project Difficulty  
 Challenging

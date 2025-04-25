@@ -6,18 +6,21 @@ from pathlib import Path
 projects_undergraduate_dir = "../Projects/Undergraduate"
 projects_masters_dir = "../Projects/Masters"
 research_phd_dir = "../Research/PhD"
+extended_projects_dir = "../Research/Extended-Team-Projects"
 
 projects_pathlist = [Path("../Projects/projects.md")]
 projects_undergraduate_pathlist = Path(projects_undergraduate_dir).rglob('*.md')
 projects_masters_pathlist = Path(projects_masters_dir).rglob('*.md')
 research_pathlist = [Path("../Research/research.md")]
 research_phd_pathlist = Path(research_phd_dir).rglob('*.md')
+research_extended_project_pathlist = Path(extended_projects_dir).rglob('*.md')
 
 docs_projects_dir = "../docs/Projects"
 docs_undergraudate_dir = "../docs/Projects/Undergraduate"
 docs_masters_dir = "../docs/Projects/Masters"
 docs_research_dir = "../docs/Research"
 docs_phd_dir = "../docs/Research/PhD"
+docs_extended_project_dir = "../docs/Research/Extended-Team-Projects"
 docs_img_dir = "../docs/images"
 
 contents_frontmatter = """---
@@ -131,6 +134,7 @@ def main():
     format_content(projects_masters_pathlist, "projects", docs_masters_dir)
     format_content(research_pathlist, "research", docs_research_dir)
     format_content(research_phd_pathlist, "research", docs_phd_dir)
+    format_content(research_extended_project_pathlist, "research", docs_extended_project_dir)
     
 if __name__ == "__main__":
     main()

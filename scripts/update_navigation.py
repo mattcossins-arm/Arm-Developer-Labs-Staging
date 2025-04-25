@@ -5,10 +5,12 @@ import yaml
 projects_undergraduate_dir = "../Projects/Undergraduate"
 projects_masters_dir = "../Projects/Masters"
 research_dir = "../Research/PhD"
+extended_projects_dir = "../Research/Extended-Team-Projects"
 
 projects_undergraduate_pathlist = Path(projects_undergraduate_dir).rglob('*.md')
 projects_masters_pathlist = Path(projects_masters_dir).rglob('*.md')
-research_pathlist = Path(research_dir).rglob('*.md')
+research_phd_pathlist = Path(research_dir).rglob('*.md')
+research_extended_project_pathlist = Path(extended_projects_dir).rglob('*.md')
 
 navigation = '../docs/_data/navigation.yml'
 
@@ -65,4 +67,5 @@ def process_yml(pathlist, level: str, tab: str):
 if __name__ == "__main__":
     process_yml(projects_undergraduate_pathlist, 'undergraduate', 'projects')
     process_yml(projects_masters_pathlist, 'masters', 'projects')
-    process_yml(research_pathlist, 'phd', 'research')
+    process_yml(research_phd_pathlist, 'phd', 'research')
+    process_yml(research_extended_project_pathlist, 'extended-team-project', 'research')
