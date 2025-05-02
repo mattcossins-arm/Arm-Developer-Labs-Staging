@@ -44,29 +44,26 @@ Project-Ideas
 
 ## How to Participate
 
-
 1. Read the project details clearly
-2. (Optional) If you are unfamiliar with some of the tools used, take some of our foundational education courses.
-3. Let us know you've started by opening a discussion (see gif below). Someone may reach out if the project is complex. 
+3. Let us know you've started by opening a discussion on GitHub. 
 
-![how-to-participate](./images/how-to-participate.gif)
+For Arm-specific technical support and mentorship, sign up for free to the [Arm Developer program](https://www.arm.com/resources/developer-program?#register). Access to technical support and mentorship is available through our discord channel!
 
 ## How to submit your project
 
-To receive recognition for your efforts. <a href="mailto:example@example.com?subject=Academic%20Project">Send An email</a> to education@arm.com with the title 'Academic Project XXX' where XXX is replaced with your project name. Please include the following in the email body:
+To receive recognition for your efforts.
+
+1. <a href="mailto:example@example.com?subject=Academic%20Project">**Send An email</a> to education@arm.com**. Use the title 'Project XXX' where XXX is replaced with your project name. Please include the following in the email body:
 
 - Name of the participant(s)
-- University / Academic affiliation
-- Links to your project outputs for review (e.g., GitHub repo's, academic posters, reports etc.)
+- University / Academic affiliation (if applicable)
+- Links to your project outputs for review (e.g., GitHub repo, academic posters, reports etc.)
 
-Please do not include any confidential information in your contribution. This includes confidential software or unannounced product information. Please also clarify with your academic institution what content you are permitted to share. 
+Please do not include any confidential information in your contribution. This includes confidential software or unannounced product information. Please also clarify with your academic institution what content you are permitted to share. Please tick and add the following information to your email submission. 
 
-Please tick and add the following information to your email submission. 
+By sending this email, I confirm that you can use, modify, copy, and redistribute this contribution, under the Arm education or MIT license.
 
-[ ] I have checked my contribution for confidential information
-
-By sending this email, I confirm that you can use, modify, copy, and redistribute this contribution, under the Arm education license. 
-
+2. **Post a link to your project on the `#developer-labs` discord channel** (sign up to the developer progam [here](https://www.arm.com/resources/developer-program?#register)). The post should include a short description and/or a screenshot with the `#developerchallenge` tag. 
 
 ## How to Suggest Projects
 
