@@ -1,10 +1,6 @@
 # Develop an Arm Architecture Insight Dashboard
 ![supporting image](./images/can-i-use.jpg)
 
-### Project Difficulty
-Intermediate
-
-**Audience:** Computer Science (CS) and STEM students. 
 
 ### Description
 Developers struggle to decide which platform to target their software. There are many smartphones and cloud instances to choose from but the consumer popularity is difficult to gauge and software stack dependencies issues are time-consuming to identify.
@@ -16,9 +12,6 @@ This project aims to develop a comprehensive dashboard that lets a developer kno
 
  
 Students will gain hands-on experience with data visualization, statistical analysis, web development, and market analysis, providing valuable insights into the Arm ecosystem. 
-
-## Estimated Project Duration
-The project is estimated to take 8-12 weeks to complete, involving a team of 3-4 participants. There is no hard deadline, but timely completion is encouraged to maximize learning outcomes.
 
 ## Hardware / Software Skills
 

@@ -2,14 +2,6 @@
 
 ![research_on_arm](../../images/Research_on_arm_banner.png)
 
-## Project Difficulty
-
-Challenging
-
-## Target Audience
-
-Computer Science, Computer Engineering or AI students
-
 ## Description
 
 This project challenges students to build an intelligent automation tool for porting software packages — for use in domains such as [bioinformatic pipelines with Nextflow](https://github.com/arm-university/Arm-Projects-Labs/blob/main/PhD-Level/Bioinformatic-Pipeline-Analysis-INTERMEDIATE.md) or [statistics with R](https://github.com/arm-university/Arm-Projects-Labs/blob/main/PhD-Level/R-Arm-Community-Support-INTERMEDIATE.md).

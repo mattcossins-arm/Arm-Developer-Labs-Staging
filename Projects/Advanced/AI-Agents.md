@@ -2,15 +2,6 @@
 
 ![learn_on_arm](../../images/Research_on_arm_banner.png)
 
-### Project Difficulty 🚀 
-
-Intermediate
-
-### Target Audience 🎯 
-
-Computer Science Students
-
-Electrical and Computer Engineering Students
 
 ### Description 📌 
 
@@ -40,12 +31,6 @@ Performance & Safety Evaluation: Measure automation effectiveness using KPIs suc
 ✅ An AI-driven agent automating  repetitive tasks in a sandboxed environment.
 ✅ A performance & safety evaluation report showcasing efficiency improvements, cost reduction, and risk mitigation.
 ✅ A deployable prototype demonstrating real-world application and scalability.
-
-### Estimated Project Duration ⏳ 
-
-0-2 months
-
-Team size: 2-5 participants
 
 ### Hardware / Software Requirements 🛠 
 

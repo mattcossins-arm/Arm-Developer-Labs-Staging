@@ -2,11 +2,6 @@
 
 ![learn_on_arm](../../images/Learn_on_Arm_banner.png)
 
-### Project Difficulty  
-Challenging
-
-### Target Audience  
-Computer Science, Electronic Engineering or Computer Engineering.
 
 ## Description
 
@@ -20,10 +15,6 @@ This project focuses on **porting the Arduino IDE**—an essential open-source p
 
 This project aligns strongly with Arm’s mission to expand native software compatibility on Arm-based Windows devices. It provides students with a **deep dive into cross-platform development, native module compilation, and Arm architecture optimization**, making it ideal for CV building, community contribution, and real-world system-level experience.
 
-## Estimated Project Duration
-
-- **Time**: 10–12 weeks  
-- **Team Size**: 1–5 students  
 
 ## Hardware / Software Requirements
 

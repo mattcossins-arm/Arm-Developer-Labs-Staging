@@ -1,11 +1,5 @@
 # Quantization-Aware Training for Mobile Deployment: Deploying Lightweight Models on Arm  
 
-### Project Difficulty  
-Challenging
-
-### Target Audience  
-Computer Science, Electronic Engineering, or Computer Engineering students focused on mobile AI, cloud inference, or edge-to-cloud optimization using Arm-based platforms. Participants are expected to have taken foundational courses in Machine learning or AI. 
-
 ## Description  
 
 This open-ended project invites students to explore **Quantization-Aware Training (QAT)** with PyTorch to optimize computer vision models for **Arm-based mobile devices** (e.g., Android smartphones).
@@ -18,11 +12,6 @@ Students will apply QAT to maintain accuracy while reducing model size and infer
 - Personal health and activity monitoring from camera feeds.
 
 The project encourages referencing work by contributing **optimized and quantized models for Arm platforms** on HuggingFace. The final quantized model will be **uploaded to HuggingFace** and may be submitted for listing in the [Arm on HuggingFace space](https://huggingface.co/Arm), encouraging open, community-supported contributions.
-
-## Estimated Project Duration  
-- **Time**: 10–12 weeks  
-- **Participants**: 1–3 students  
- 
 
 ## Hardware / Software Requirements  
 - **Languages**: Python, Java/Kotlin (if Android), Shell  

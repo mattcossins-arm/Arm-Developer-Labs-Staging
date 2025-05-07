@@ -1,14 +1,6 @@
 # Adding Windows on Arm Support to the Glasgow Haskell Compiler (GHC)
 ![learn_on_arm](../../images/Learn_on_Arm_banner.png)
 
-### Project Difficulty
-Challenging
-
-### Target Audience
-PhD / Postdoctoral students in Computer Science or Electronic Engineering, with specializations in:
-- Compiler construction
-- Functional programming languages (especially Haskell)
-- Low-level systems programming and architecture-specific optimization
 
 ## Description
 
@@ -23,18 +15,6 @@ Currently, GHC lacks robust support for WoA, hindering Haskell’s reach in ener
 The project requires in-depth familiarity with compiler backends, calling conventions, code generation pipelines, and the use of LLVM or native code generators. Students will also gain experience in cross-compilation, Windows PE/COFF linking, and performance benchmarking on Arm CPUs.
 
 The work has potential for real-world deployment and academic publishing, and would be of high value to the Haskell and Arm developer ecosystems.
-
----
-
-## Estimated Project Duration
-
-- 🕐 Estimated duration: **3–6 months**
-- 👥 Team size: **1–3 PhD students or a small postdoctoral team**
-- 📅 Suggested milestone breakdown:
-  - Month 1: Toolchain and environment setup, preliminary build system adaptation
-  - Month 2–3: Code generation and runtime system porting
-  - Month 4–5: Testing, debugging, and upstream integration
-  - Month 6: Performance tuning, documentation, and publication
 
 ---
 

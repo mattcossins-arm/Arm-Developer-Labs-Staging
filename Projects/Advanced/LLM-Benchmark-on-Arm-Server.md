@@ -2,15 +2,9 @@
 
 ![research_on_arm](../../images/Research_on_arm_banner.png)
 
-### Project Difficulty
-Intermediate
-**Audience:** Computer Science (CS) / Electrical Engineering (EE)
-
 ## Description
 This project aims to benchmark inference on Arm-based servers using the MLPerf Inference benchmark suite. The project spans performance analysis across different configurations of Arm-based servers. The main deliverable is a comprehensive benchmarking setup that can evaluate the performance of large language models (LLMs) on various Arm server configurations in addition to a report highlighting the performance difference and how to recreate the results. This project will provide practical experience in benchmarking, performance analysis, and working with Arm-based server architectures. The final output will be a detailed report and a functional benchmarking infrastructure that can be used for further research and development.
 
-## Estimated Project Duration
-The project is estimated to take 8-12 weeks to complete, involving a team of 3-5 participants. There is no hard deadline, but timely completion is encouraged to maximize learning outcomes.
 
 ## Hardware / Software Requirements
 - Languages: Python, C++
