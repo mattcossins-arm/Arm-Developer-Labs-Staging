@@ -2,9 +2,6 @@
 
 ![research_on_arm](../../images/Research_on_arm_banner.png)
 
-### Project Difficulty
-Intermediate
-
 ### Audience
 
 Electronic Engineering, Computer Engineering, Computer science or related fields
@@ -13,9 +10,6 @@ Electronic Engineering, Computer Engineering, Computer science or related fields
 This project aims to develop a sentiment analysis dashboard for keywords related to the semiconductor industry. The main deliverable is a web scraping script that gathers text data from various semiconductor news sites. Example sites are [SemiconductorEngineering.com](https://semiengineering.com/), [IEEE Spectrum](https://spectrum.ieee.org/), [EETimes](https://www.eetimes.com/tag/semiconductors/), [SemiconductorDigest](https://www.semiconductor-digest.com/), [SemiconductorToday](https://semiconductor-today.com/), [Financial Times - Semiconductors](https://www.ft.com/semiconductors), [Bezinga Semiconductors](https://www.benzinga.com/topic/semiconductors).
 
 This data will then be processed through a sentiment analysis LLM (Large Language Model) to determine the sentiment of the content and how it varies over time. The project will provide practical experience in web scraping, data processing, databases and using LLMs for sentiment analysis. The final output will be a functional dashboard that displays the sentiment analysis results in an easy-to-understand format.
-
-## Estimated Project Duration
-The project is estimated to take 6-8 weeks to complete, involving a small team of 1-3 participants. 
 
 ## Hardware / Software Requirements
 - Languages: Intermediate understanding of Python

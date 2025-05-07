@@ -2,9 +2,6 @@
 
 ![amba](./images/AMBA.avif)
 
-### Project Difficulty
-Intermediate
-
 ## Audience
 Electronic Engineering
 
@@ -12,9 +9,6 @@ Electronic Engineering
 This project aims to develop a reference design of AMBA (Advanced Microcontroller Bus Architecture) infrastructure. You are free to choose which AMBA protocol and version of the interconnect standard to implement with more simple specifications e.g., APB, being easier to create than coherent protocols such as AMBA CHI. 
 
 The main deliverables include the Verilog design of the AMBA infrastructure, a Verilog test bench for testing the design, an RTL (Register Transfer Level) simulation flow to verify the functionality, and an FPGA prototyping platform to demonstrate the design in a real-world environment. The project will provide a comprehensive understanding of AMBA protocols and their implementation, making it an excellent learning opportunity for students interested in digital design and hardware description languages.
-
-## Estimated Project Duration
-The project is estimated to take 12 to 16 weeks to complete, involving a team of 3-4 participants. There is no hard deadline, but timely completion is encouraged to maximize learning outcomes.
 
 ## Hardware / Software Requirements
 - Languages: Verilog, SystemVerilog

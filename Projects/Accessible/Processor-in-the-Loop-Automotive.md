@@ -2,8 +2,6 @@
 
 ![matlab](./images/mathworks.png)
 
-### Project Difficulty
-Intermediate
 
 ### Target Audience
 
@@ -22,12 +20,6 @@ Students can choose from of the following **automotive application topics**:
 
 Each project will go through system design, simulation in Simulink, code generation via Embedded Coder, and real-time testing using Arm Fast Models and Code Profile Analyzer. Deliverables include models, auto-generated code, verification reports, and benchmarking results.
 
-## Estimated Project Duration
-
-- 12–14 weeks
-- Ideal for 2–3 students per team
-- Aligns well with a semester-based timeline
-- Recommended weekly commitment: 8–10 hours per participant
 
 ## Hardware / Software Requirements
 
