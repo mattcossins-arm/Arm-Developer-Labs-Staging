@@ -7,9 +7,6 @@ sidebar:
 
 <img class="image image--xl" src="./images/Research_on_arm_banner.png"/>
 
-### Project Difficulty
-
-Challenging
 
 ### Description
 
@@ -27,11 +24,6 @@ Documentation of failed package builds and proposed fixes.
 
 Comprehensive report with results, analysis, and recommendations.
 
-### Estimated Project Duration
-
-Time: 1-6 months (depending on scope and complexity)
-
-Participants: Individual PhD researcher (or small research team)
 
 ### Hardware / Software Requirements
 

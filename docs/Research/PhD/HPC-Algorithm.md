@@ -7,15 +7,9 @@ sidebar:
 
 <img class="image image--xl" src="./images/Research_on_arm_banner.png"/>
 
-### Project Difficulty
-Challenging
-**Audience:** Computer Science (CS)
 
 ## Description
 This project aims to identify and optimize the performance of an algorithm used in high-performance computing (HPC) by leveraging Scalable Vector Extensions (SVE) instructions. The main deliverable is an optimized version of the chosen algorithm that demonstrates significant performance improvements using SVE. This project will provide practical experience in HPC, vectorization, and performance optimization. The final output will be a detailed report and a functional implementation of the optimized algorithm.
-
-## Estimated Project Duration
-The project is estimated to take 8-12 weeks to complete, involving a team of 3-4 participants. There is no hard deadline, but timely completion is encouraged to maximize learning outcomes.
 
 ## Hardware / Software Requirements
 - Languages: C, C++

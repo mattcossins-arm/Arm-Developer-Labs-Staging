@@ -6,8 +6,6 @@ sidebar:
 ---
 <img class="image image--xl" src="./images/Learn_on_Arm_banner.png"/>
 
-### Project Difficulty  
-Challenging
 
 ### Target Audience  
 Computer Science, Electronic Engineering, or Computer Engineering students with an interest in programming languages, operating systems, and community-driven open-source software.
@@ -32,12 +30,6 @@ Stretch Objectives:
 - Patches, request for comments and bug reports the highest impact packages
 - A curated list of packages with proposed WoA support status
 - A short technical write-up describing the contributions and challenges
-
-## Estimated Project Duration  
-
-- Estimated Time: Variable  
-- Ideal Team Size: 1–2 students  
-- Suitable for individual projects, summer internships, or final-year theses
 
 ## Hardware / Software Requirements  
 
