@@ -2,9 +2,10 @@
 
 ![banner](./images/Research_on_arm_banner.png)
 
-Welcome to our collection of projects designed for students and academics in computer science, electronics, and related disciplines. This repository offers a diverse range of innovative projects aimed at enhancing learning and research. We encourage academic institutions to explore and contribute to this growing repository, fostering collaboration and knowledge sharing. Whether you're looking to develop new skills, conduct research, or collaborate on cutting-edge technology, our collection provides valuable resources and opportunities for growth. Join us in advancing education and innovation in these dynamic fields.
+Welcome to our collection of industry-focused software challenges. This repository features a diverse set of problems designed for students and developers alike. If you're looking to work at Arm, explore financially-sponsored challenges or learn new skills - this is your opportunity! 
 
-Our project collection caters to all academic levels, from undergraduates to postdoctoral researchers. It includes diverse university projects, from simple computer vision applications to custom silicon tape-outs with industry partners. This variety ensures relevant and challenging projects for everyone, helping you develop practical skills, engage in cutting-edge research, and collaborate with academic and industry experts.
+Exceptional solutions will be internally referred for relevant jobs at Arm. Take part, showcase your skills, and help drive innovation across the Arm ecosystem!
+
 
 [Developer Labs Website](https://arm-university.github.io/Arm-Developer-Labs/)
 
