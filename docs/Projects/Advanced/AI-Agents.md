@@ -17,6 +17,8 @@ This project focuses on developing an AI-powered agent that automates repetitive
 
 2. [AI that interprets user requests, generates circuit descriptions, creates LTSpice ASC code, and iteratively refines circuit designs using a combination of GPT-based language models, a vision analysis module, and LTSpice simulation. (Gijeong Lee, Bill Leoutsakos)](https://github.com/BillLeoutsakosvl346/ElectroNinjaRefined)
 
+3. [AI agent to track real-time student engagement and exam performance (Jasper Wang, Sritej Tummuru, Talha Javed)](https://github.com/JasperWANG-911/AI_Agent)
+
 ## Key Objectives 🔍 
 
 Task Identification & Domain Selection: Choose a workflow domain (e.g., DevOps, educational content moderation, research assistance) that benefits from automation while avoiding sensitive applications like finance.
