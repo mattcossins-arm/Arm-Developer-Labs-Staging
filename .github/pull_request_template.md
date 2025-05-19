@@ -6,4 +6,4 @@ Please do not include any confidential information in your contribution. Additio
 
 - [ ] I have checked my contribution for confidential information
 
-My submitting this pull request, I confirm that you can promote and share the your referenced material.
+By submitting this pull request, I confirm that you can promote and share the your referenced material.
