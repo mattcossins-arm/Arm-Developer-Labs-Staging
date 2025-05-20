@@ -1,13 +1,11 @@
 ---
-title: "Arm-based Design Contests!"
+title: "Welcome"
 ---
 
-![research_banner](../images/Research_on_arm_banner.png)
 
+Welcome to the hub for industry relevant projects centered around Arm technologies! Whether you're a seasoned developer or a newcomer eager to dive into the world of Arm, you'll find a wealth of opportunities to challenge yourself and showcase your skills. Use the left-hand navigation bar to find a challenge that matches your skills and interests.
 
-Welcome to the ultimate hub for design contests and hackathons centered around Arm technologies! Our platform is dedicated to showcasing the most innovative and exciting competitions that push the boundaries of what's possible with Arm's cutting-edge solutions. Whether you're a seasoned developer or a newcomer eager to dive into the world of Arm, you'll find a wealth of opportunities to challenge yourself and showcase your skills.
-
-Explore our extensive archive of past design contests, where participants have tackled real-world problems and created groundbreaking solutions. From IoT innovations to AI-driven applications, these contests highlight the versatility and power of Arm technologies. Each contest page provides detailed information on the projects, winners, and the impact they've made.
+If you're interested in quick, intensive challenges in the style of hackathons. Take a look at our collection below:
 
 <table>
   <thead>
