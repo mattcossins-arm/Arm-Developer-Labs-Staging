@@ -37,5 +37,5 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           preview-branch: gh-pages
-          source-dir: ./docs/_site/
+          source-dir: ./docs/
           pages-base-path: ./docs/
