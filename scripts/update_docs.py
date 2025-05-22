@@ -5,7 +5,7 @@ from pathlib import Path
 import frontmatter
 
 projects_dir = "../Projects/Projects"
-research_phd_dir = "../Research/PhD"
+research_phd_dir = "../Research/Short-term-Research-Projects"
 extended_projects_dir = "../Research/Extended-Team-Projects"
 
 projects_pathlist = [Path("../Projects/projects.md")]
@@ -17,7 +17,7 @@ research_extended_project_pathlist = Path(extended_projects_dir).rglob('*.md')
 docs_projects_dir = "../docs/Projects"
 docs_projects_projects_dir = "../docs/Projects/Projects"
 docs_research_dir = "../docs/Research"
-docs_phd_dir = "../docs/Research/PhD"
+docs_phd_dir = "../docs/Research/Short-term-Research-Projects"
 docs_extended_project_dir = "../docs/Research/Extended-Team-Projects"
 docs_img_dir = "../docs/images"
 
@@ -33,7 +33,7 @@ index_frontmatter = """---
 title: Academic Projects Repository
 tags: TeXt
 article_header:
-  type: cover
+  type: main_cover
   image:
     src: ./images/DeveloperLabs_Header.png
 ---
@@ -56,6 +56,9 @@ def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> st
         img_path = match.group(1)
 
         if doc_path.resolve() == Path("../README.md").resolve() and img_path == "./images/DeveloperLabs_Header.png":
+            return ""
+        
+        elif doc_path.resolve() == Path("../Research/research.md").resolve() and img_path == "../images/Research_on_arm_banner.png":
             return ""
         
         source_path = (doc_path.parent / img_path).resolve()
@@ -88,28 +91,33 @@ def convert_md(md_text: str) -> str:
 
     return replaced_md
 
-from pathlib import Path
-import os
-import frontmatter
-
 def format_content(pathlist, academic_level, docs_path):
     for path in pathlist:
         path = Path(path)
+
         if path.name == "README.md":
             continue
 
         raw_text = path.read_text(encoding="utf-8")
         post = frontmatter.loads(raw_text)
         body = post.content
+    
+        if path.name in ["research.md"]:
 
-        content_title = post.metadata.get("title")
-
-        formatted_frontmatter = contents_frontmatter.format(
-            title=content_title,
-            level=academic_level,
-        )
-        formatted_content = formatted_frontmatter + body
-
+            post.metadata["article_header"] = {
+                "type": "cover",
+                "image": {
+                    "src": "/images/Research_on_arm_banner.png",
+                },
+            }
+        
+        post.metadata["layout"] = "article"
+        post.metadata["sidebar"] = {
+            "nav": academic_level,
+        }
+        
+        formatted_content = frontmatter.dumps(post)
+        
         converted_content = convert_md_images_to_html(
             formatted_content,
             path,
