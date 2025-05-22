@@ -3,13 +3,13 @@ header:
       # @start locale config
       en      : &EN       Projects
       # @end locale config
-    url: Projects/projects.html
+    url: /Projects/projects.html
 
   - titles:
       # @start locale config
       en      : &EN       Research
       # @end locale config
-    url: Research/research.html
+    url: /Research/research.html
 projects:
 - title: Projects
   children:
