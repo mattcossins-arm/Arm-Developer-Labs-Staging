@@ -38,4 +38,5 @@ jobs:
         with:
           preview-branch: gh-pages
           source-dir: ./docs/
-          pages-base-path: ./docs/
+          umbrella-dir: pr-preview
+          pages-base-path: /pr-preview/pr-${{ github.event.pull_request.number }}
