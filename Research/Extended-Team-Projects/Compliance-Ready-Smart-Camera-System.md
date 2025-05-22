@@ -6,15 +6,8 @@ subjects:
     - "ML"
 ---
 
-![research_on_arm](../../images/Research_on_arm_banner.png)
-
-### Project Difficulty  
-Challenging
-
 Reach out to Arm at [education@arm.com](mailto:education@arm.com) if you'd like to participate in this challenge.
 
-### Target Audience  
-Industry or academia.
 
 ## Description  
 Government and external regulations, particularly in automotive industries, are shaping how smart camera products are designed, implemented, and verified. This project will explore how compliance with standards like ISO 26262 influences the design of smart camera systems, such as Driver Monitoring Systems (DMS) to ensure driver attentiveness. Students or engineers will collaborate with industry-relevant platforms, such as Arm's Kronos Fixed Virtual Platform (FVP) for automotive development, to understand and propose frictionless developer experiences aligned with functional safety standards.

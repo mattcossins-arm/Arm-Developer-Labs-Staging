@@ -40,7 +40,7 @@ article_header:
 """
 
 def clean() :
-    clean_lst = [docs_projects_dir,docs_projects_projects_dir, docs_research_dir, docs_phd_dir]
+    clean_lst = [docs_projects_dir,docs_projects_projects_dir, docs_research_dir, docs_phd_dir, docs_extended_project_dir]
     for dirpath in clean_lst:
         if os.path.exists(dirpath) and os.path.isdir(dirpath):
             shutil.rmtree(dirpath)
