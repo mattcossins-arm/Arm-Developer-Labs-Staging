@@ -69,6 +69,10 @@ def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> st
             print(f"Warning: {source_path} does not exist in {doc_path}!")
         
         new_img_path = f"./images/{Path(img_path).name}"
+        
+        if "ACA_badge.jpg" in new_img_path:
+            return f'<img class="image image--l" src="{new_img_path}"/>'
+            
         return f'<img class="image image--xl" src="{new_img_path}"/>'
 
     return re.sub(pattern, replace, md_text)
