@@ -5,20 +5,17 @@ from pathlib import Path
 import frontmatter
 
 projects_dir = "../Projects/Projects"
-research_phd_dir = "../Research/Short-term-Research-Projects"
-extended_projects_dir = "../Research/Extended-Team-Projects"
+extended_projects_dir = "../Projects/Extended-Team-Projects"
 
 projects_pathlist = [Path("../Projects/projects.md")]
 projects_projects_pathlist = Path(projects_dir).rglob('*.md')
+projects_extended_project_pathlist = Path(extended_projects_dir).rglob('*.md')
 research_pathlist = [Path("../Research/research.md")]
-research_phd_pathlist = Path(research_phd_dir).rglob('*.md')
-research_extended_project_pathlist = Path(extended_projects_dir).rglob('*.md')
 
 docs_projects_dir = "../docs/Projects"
 docs_projects_projects_dir = "../docs/Projects/Projects"
 docs_research_dir = "../docs/Research"
-docs_phd_dir = "../docs/Research/Short-term-Research-Projects"
-docs_extended_project_dir = "../docs/Research/Extended-Team-Projects"
+docs_extended_project_dir = "../docs/Projects/Extended-Team-Projects"
 docs_img_dir = "../docs/images"
 
 contents_frontmatter = """---
@@ -40,7 +37,7 @@ article_header:
 """
 
 def clean() :
-    clean_lst = [docs_projects_dir,docs_projects_projects_dir, docs_research_dir, docs_phd_dir, docs_extended_project_dir]
+    clean_lst = [docs_projects_dir,docs_projects_projects_dir, docs_research_dir, docs_extended_project_dir]
     for dirpath in clean_lst:
         if os.path.exists(dirpath) and os.path.isdir(dirpath):
             shutil.rmtree(dirpath)
@@ -112,9 +109,10 @@ def format_content(pathlist, academic_level, docs_path):
             }
         
         post.metadata["layout"] = "article"
-        post.metadata["sidebar"] = {
-            "nav": academic_level,
-        }
+        if academic_level == "projects":
+            post.metadata["sidebar"] = {
+                "nav": academic_level,
+            }
         
         formatted_content = frontmatter.dumps(post)
         
@@ -148,8 +146,7 @@ def main():
     format_content(projects_pathlist, "projects", docs_projects_dir)
     format_content(projects_projects_pathlist, "projects", docs_projects_projects_dir)
     format_content(research_pathlist, "research", docs_research_dir)
-    format_content(research_phd_pathlist, "research", docs_phd_dir)
-    format_content(research_extended_project_pathlist, "research", docs_extended_project_dir)
+    format_content(projects_extended_project_pathlist, "research", docs_extended_project_dir)
     
 if __name__ == "__main__":
     main()
