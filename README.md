@@ -35,12 +35,6 @@ Project-Ideas
 ├── images                              # Images
 └── template.md                         # Template to suggest a project
 ```
-## Previous Examples
-
-1. Carnegie Mellon Cloudlet Collaboration
-
-[![Arm-CMU collaboration](https://img.youtube.com/vi/zaRozkrcix0/0.jpg)](https://www.youtube.com/watch?v=zaRozkrcix0)
-
 
 ## How to Participate
 
