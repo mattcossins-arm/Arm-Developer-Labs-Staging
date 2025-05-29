@@ -1,7 +1,7 @@
 ---
 layout: article
 sidebar:
-  nav: research
+  nav: projects
 subjects:
 - Performance and Architecture
 title: Optimise Performance of an Algorithm Used in High-Performance Compute Using

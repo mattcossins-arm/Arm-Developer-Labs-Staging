@@ -4,8 +4,6 @@ article_header:
     src: /images/Research_on_arm_banner.png
   type: cover
 layout: article
-sidebar:
-  nav: research
 title: Research that Matters
 ---
 

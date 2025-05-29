@@ -1,7 +1,5 @@
 ---
 layout: article
-sidebar:
-  nav: research
 subjects:
 - Security
 - Embedded Linux
