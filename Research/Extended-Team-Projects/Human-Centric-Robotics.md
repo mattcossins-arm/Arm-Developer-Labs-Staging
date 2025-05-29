@@ -5,17 +5,7 @@ subjects:
     - "Embedded Linux"
 ---
 
-![research_on_arm](../../images/Research_on_arm_banner.png)
-
-### Project Difficulty
-
-Challenging.
-
 Reach out to Arm at [education@arm.com](mailto:education@arm.com) if you'd like to participate in this challenge.
-
-### Target Audience
-
-Computer Science, Electronic Engineering or Computer Engineering.
 
 ## Description
 
@@ -48,9 +38,6 @@ Can be extended for dissertation-level depth or research publication.
 - **IP/Cloud Access**:
   - Any cloud service provider with Arm-based instances (for model training or data analysis)
 
-## Resources
-
-- Reach out to Arm at [education@arm.com](mailto:education@arm.com) if you'd like to participate in this challenge.
 
 ## Benefits / Prizes
 
