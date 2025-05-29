@@ -1,7 +1,7 @@
 ---
 layout: article
 sidebar:
-  nav: research
+  nav: projects
 subjects:
 - ML
 - Migration to Arm

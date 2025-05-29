@@ -29,9 +29,8 @@ The following infographic details the directory structure and where to find exam
 Project-Ideas
 ├── Projects                            # Design Contests and Hackathons
 │   └── Projects                        # Projects with different levels
-├── Research                
 │   └── Extended-Team-Projects          # Team Research Projects 
-│   └── Short-term-Research-Projects    # Short Research Projects           
+├── Research                      
 ├── README.md
 ├── images                              # Images
 └── template.md                         # Template to suggest a project
