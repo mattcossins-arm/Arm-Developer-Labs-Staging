@@ -103,7 +103,7 @@ def format_content(pathlist, academic_level, docs_path):
         post = frontmatter.loads(raw_text)
         body = post.content
     
-        if path.name in ["research.md"]:
+        if path.name in ["projects.md", "research.md"]:
 
             post.metadata["article_header"] = {
                 "type": "cover",

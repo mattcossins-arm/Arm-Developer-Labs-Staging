@@ -15,8 +15,8 @@ def process_yml(pathlist, level: str, tab: str):
     with open(navigation, 'r') as f:
         lines = f.readlines()
         
-    header = lines[:12] 
-    partial_content = ''.join(lines[12:])
+    header = lines[:6] 
+    partial_content = ''.join(lines[6:])
 
     yam_tab = yaml.safe_load(partial_content)
     
