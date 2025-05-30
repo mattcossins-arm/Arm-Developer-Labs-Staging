@@ -1,10 +1,23 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - Migration to Arm
 - Performance and Architecture
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
+- Hardware
 title: Adding Windows on Arm Support to the Glasgow Haskell Compiler (GHC)
 ---
 

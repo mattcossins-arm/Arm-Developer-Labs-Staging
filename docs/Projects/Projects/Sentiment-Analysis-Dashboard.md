@@ -1,10 +1,25 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+- Mobile, Graphics, and Gaming
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - ML
 - Web
+- Databases
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
 title: Create a Sentiment Analysis Dashboard for Keywords Based on the Semiconductor
   Industry
 ---

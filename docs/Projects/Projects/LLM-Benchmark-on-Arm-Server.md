@@ -1,11 +1,23 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - ML
 - Performance and Architecture
-- Migration to Arm
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
 title: LLM Benchmark for Arm Server
 ---
 

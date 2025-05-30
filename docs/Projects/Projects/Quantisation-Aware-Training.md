@@ -1,10 +1,24 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+- Mobile, Graphics, and Gaming
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - ML
 - Performance and Architecture
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
 title: 'Quantization-Aware Training for Mobile Deployment: Deploying Lightweight Models
   on Arm'
 ---

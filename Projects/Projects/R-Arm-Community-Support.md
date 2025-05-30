@@ -1,8 +1,20 @@
 ---
 title: "Improving R Support for the Windows on Arm Community"
 subjects:
+    - "Performance and Architecture"
     - "Migration to Arm"
     - "Libraries"
+requires-team:
+    - "No"
+platform:
+    - "Laptops and Desktops"
+sw-hw:
+    - "Software"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![learn_on_arm](../../images/Learn_on_Arm_banner.png)

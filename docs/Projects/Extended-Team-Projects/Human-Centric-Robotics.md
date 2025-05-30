@@ -1,8 +1,25 @@
 ---
 layout: article
+license: null
+platform:
+- Automotive
+- IoT
+- Embedded and Microcontrollers
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'Yes'
 subjects:
 - ML
 - Embedded Linux
+- RTOS Fundamentals
+support-level:
+- Self-Service
+- Arm Ambassador Support
+- Direct Support from Arm
+sw-hw:
+- Software
+- Hardware
 title: Human-Centric Robotics – Urban Deployment & Socioeconomic Modelling
 ---
 

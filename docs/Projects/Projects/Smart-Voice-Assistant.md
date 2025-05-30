@@ -1,10 +1,23 @@
 ---
 layout: article
+license: null
+platform:
+- IoT
+- Embedded and Microcontrollers
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - ML
-- Embedded Linux
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
+- Hardware
 title: Smart Voice Assistant Using TinyML on Cortex-M55
 ---
 

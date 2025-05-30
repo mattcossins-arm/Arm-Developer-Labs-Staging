@@ -1,8 +1,21 @@
 ---
 title: "Porting and Optimizing Arduino IDE for Windows on Arm"
 subjects:
+    - "Performance and Architecture"
     - "Migration to Arm"
     - "Libraries"
+requires-team:
+    - "No"
+platform:
+    - "Laptops and Desktops"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license:  
 ---
 
 ![learn_on_arm](../../images/Learn_on_Arm_banner.png)

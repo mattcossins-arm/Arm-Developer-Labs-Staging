@@ -3,7 +3,19 @@ title: "LLM Benchmark for Arm Server"
 subjects:
     - "ML"
     - "Performance and Architecture"
-    - "Migration to Arm"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "AI"
+sw-hw:
+    - "Software"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![research_on_arm](../../images/Research_on_arm_banner.png)

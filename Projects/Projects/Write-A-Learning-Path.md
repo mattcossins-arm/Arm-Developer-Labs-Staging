@@ -3,6 +3,24 @@ title: "Write an Educational Tutorial (Learning Path) of your Choice"
 subjects:
     - "Libraries"
     - "Web"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "Mobile, Graphics, and Gaming"
+    - "Automotive"
+    - "IoT"
+    - "Embedded and Microcontrollers"
+    - "AI"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![teach_on_arm](../../images/Educate_on_Arm_banner.png)

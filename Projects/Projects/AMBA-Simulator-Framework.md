@@ -3,6 +3,17 @@ title: "AMBA Infrastructure Design and Simulation Framework"
 subjects:
     - "Virtual Hardware"
     - "Performance and Architecture"
+requires-team:
+    - "No"
+platform:
+    - "Embedded and Microcontrollers"
+sw-hw:
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![amba](./images/AMBA.avif)

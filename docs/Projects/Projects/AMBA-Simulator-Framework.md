@@ -1,10 +1,21 @@
 ---
 layout: article
+license: null
+platform:
+- Embedded and Microcontrollers
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - Virtual Hardware
 - Performance and Architecture
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Hardware
 title: AMBA Infrastructure Design and Simulation Framework
 ---
 

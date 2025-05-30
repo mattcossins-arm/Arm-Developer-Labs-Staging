@@ -3,6 +3,18 @@ title: "Benchmarking Bioconda Packages for Arm64 in Bioinformatics Pipelines"
 subjects:
     - "Performance and Architecture"
     - "Databases"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+sw-hw:
+    - "Software"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![research_on_arm](../../images/Research_on_arm_banner.png)

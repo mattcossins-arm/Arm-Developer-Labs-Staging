@@ -3,6 +3,20 @@ title: "Design a Dashboard that Tracks the Progression of Academic Papers on Com
 subjects:
     - "Web"
     - "Databases"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "Mobile, Graphics, and Gaming"
+    - "AI"
+sw-hw:
+    - "Software"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![dashboard](./images/dashboard.png)
@@ -31,7 +45,7 @@ You are free to choose your own implementation details. The resouces below are e
 
 ## Previous Submissions
 
-No submissions yet - be the first!
+
 
 ## Benefits 
 

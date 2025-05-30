@@ -1,10 +1,24 @@
 ---
 layout: article
+license: null
+platform:
+- IoT
+- Embedded and Microcontrollers
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - ML
 - Performance and Architecture
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
+- Hardware
 title: Running Real-Time Image Classification on Arm Cortex-M with CMSIS-NN
 ---
 
@@ -34,7 +48,7 @@ This project aims to develop a real-time image classification system using Convo
 
 ## Previous Submissions
 
-No submissions yet - be the first!
+
 
 ## Benefits 
 

@@ -1,10 +1,25 @@
 ---
 layout: article
+license: null
+platform:
+- Laptops and Desktops
+- Automotive
+- Embedded and Microcontrollers
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - Embedded Linux
 - RTOS Fundamentals
+- Virtual Hardware
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
+- Hardware
 title: Processor-in-the-Loop for an Automotive Control System
 ---
 

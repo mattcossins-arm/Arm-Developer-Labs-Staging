@@ -4,6 +4,18 @@ subjects:
     - "ML"
     - "Migration to Arm"
     - "Performance and Architecture"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "AI"
+sw-hw:
+    - "Software"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ## Description

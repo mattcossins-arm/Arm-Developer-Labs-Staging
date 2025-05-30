@@ -1,9 +1,22 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - Performance and Architecture
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
 title: Optimise Performance of an Algorithm Used in High-Performance Compute Using
   Scalable Vector Extensions (SVE / SVE2)
 ---

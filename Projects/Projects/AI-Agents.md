@@ -2,6 +2,19 @@
 title: "AI-Powered Workflow Agent in a Sandboxed Environment"
 subjects:
     - "ML"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "AI"
+sw-hw:
+    - "Software"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![learn_on_arm](../../images/Research_on_arm_banner.png)

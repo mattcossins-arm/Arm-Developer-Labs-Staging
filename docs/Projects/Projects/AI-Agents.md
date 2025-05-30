@@ -1,9 +1,22 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - ML
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
 title: AI-Powered Workflow Agent in a Sandboxed Environment
 ---
 

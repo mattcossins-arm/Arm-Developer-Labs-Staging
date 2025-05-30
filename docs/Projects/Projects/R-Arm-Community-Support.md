@@ -1,10 +1,22 @@
 ---
 layout: article
+license: null
+platform:
+- Laptops and Desktops
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
+- Performance and Architecture
 - Migration to Arm
 - Libraries
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
 title: Improving R Support for the Windows on Arm Community
 ---
 

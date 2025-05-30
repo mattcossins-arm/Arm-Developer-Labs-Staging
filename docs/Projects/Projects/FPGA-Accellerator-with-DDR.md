@@ -1,10 +1,22 @@
 ---
 layout: article
+license: null
+platform:
+- IoT
+- Embedded and Microcontrollers
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - Virtual Hardware
 - Performance and Architecture
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Hardware
 title: Linux Capable SoC FPGA Prototyping Platform with DDR Memory
 ---
 

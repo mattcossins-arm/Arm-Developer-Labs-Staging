@@ -3,6 +3,18 @@ title: "Linux Capable SoC FPGA Prototyping Platform with DDR Memory"
 subjects:
     - "Virtual Hardware"
     - "Performance and Architecture"
+requires-team:
+    - "No"
+platform:
+    - "IoT"
+    - "Embedded and Microcontrollers"
+sw-hw:
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ## Description

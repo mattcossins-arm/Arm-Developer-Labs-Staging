@@ -2,7 +2,20 @@
 title: "Smart Voice Assistant Using TinyML on Cortex-M55"
 subjects:
     - "ML"
-    - "Embedded Linux"
+requires-team:
+    - "No"
+platform:
+    - "IoT"
+    - "Embedded and Microcontrollers"
+    - "AI"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![educate_on_arm](../../images/Educate_on_Arm_banner.png)

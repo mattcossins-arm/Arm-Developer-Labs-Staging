@@ -3,6 +3,21 @@ title: "Processor-in-the-Loop for an Automotive Control System"
 subjects:
     - "Embedded Linux"
     - "RTOS Fundamentals"
+    - "Virtual Hardware"
+requires-team:
+    - "No"
+platform:
+    - "Laptops and Desktops"
+    - "Automotive"
+    - "Embedded and Microcontrollers"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![matlab](./images/mathworks.png)
