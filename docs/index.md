@@ -15,7 +15,7 @@ The state of the art of in software development is changing more rapidly than ev
 You can take a project as is, adapt it to your circumstances or simply take inspiration from it eg. for selecting a student project or PhD research topic.  Arm helps by providing contextual collateral and resources (including, where relevant, letters of support) and projects include meta-data tags to help you search and find the right one for you.
 
 
-## [Developer Labs Repository](https://github.com/arm-university/Arm-Developer-Labs)
+### [Show me the projects](https://arm-university.github.io/Arm-Developer-Labs/Projects/projects.html)
 
 ## What are the benefits?
 
