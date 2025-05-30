@@ -84,7 +84,6 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-    - Direct Support from Arm
   - title: Arduino-IDE-Windows-on-Arm
     url: /Projects/Projects/Arduino-IDE-Windows-on-Arm.html
     subjects:

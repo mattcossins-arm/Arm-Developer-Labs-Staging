@@ -17,7 +17,6 @@ subjects:
 support-level:
 - Self-Service
 - Arm Ambassador Support
-- Direct Support from Arm
 sw-hw:
 - Software
 title: Develop an Arm Architecture Insight Dashboard
