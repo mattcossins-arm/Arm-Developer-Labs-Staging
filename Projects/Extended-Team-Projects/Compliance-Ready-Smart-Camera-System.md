@@ -15,7 +15,6 @@ platform:
     - "Embedded and Microcontrollers"
     - "AI"
 sw-hw:
-    - "Software"
     - "Hardware"
 support-level: 
     - "Self-Service"
