@@ -1,10 +1,29 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+- Mobile, Graphics, and Gaming
+- Automotive
+- IoT
+- Embedded and Microcontrollers
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - Web
 - Databases
+support-level:
+- Self-Service
+- Arm Ambassador Support
+- Direct Support from Arm
+sw-hw:
+- Software
+- Hardware
 title: Design a Dashboard that Tracks the Progression of Academic Papers on Computer
   Science Over Time
 ---

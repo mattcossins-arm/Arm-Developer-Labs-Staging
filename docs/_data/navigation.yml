@@ -18,102 +18,402 @@ projects:
     subjects:
     - Web
     - Databases
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: AI-Agents
     url: /Projects/Projects/AI-Agents.html
     subjects:
     - ML
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: AI-Powered-Porting-Tool
     url: /Projects/Projects/AI-Powered-Porting-Tool.html
     subjects:
     - CI-CD
     - ML
     - Migration to Arm
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: AMBA-Simulator-Framework
     url: /Projects/Projects/AMBA-Simulator-Framework.html
     subjects:
     - Virtual Hardware
     - Performance and Architecture
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Architecture-Insight-Dashboard
     url: /Projects/Projects/Architecture-Insight-Dashboard.html
     subjects:
     - Performance and Architecture
     - Web
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Arduino-IDE-Windows-on-Arm
     url: /Projects/Projects/Arduino-IDE-Windows-on-Arm.html
     subjects:
     - Migration to Arm
     - Libraries
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Bioinformatic-Pipeline-Analysis
     url: /Projects/Projects/Bioinformatic-Pipeline-Analysis.html
     subjects:
     - Performance and Architecture
     - Databases
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: FPGA-Accellerator-with-DDR
     url: /Projects/Projects/FPGA-Accellerator-with-DDR.html
     subjects:
     - Virtual Hardware
     - Performance and Architecture
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Haskell-Compiler-Windows-on-Arm
     url: /Projects/Projects/Haskell-Compiler-Windows-on-Arm.html
     subjects:
     - Migration to Arm
     - Performance and Architecture
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: HPC-Algorithm
     url: /Projects/Projects/HPC-Algorithm.html
     subjects:
     - Performance and Architecture
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: LLM-Benchmark-on-Arm-Server
     url: /Projects/Projects/LLM-Benchmark-on-Arm-Server.html
     subjects:
     - ML
     - Performance and Architecture
     - Migration to Arm
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Machine-Learning-on-AWS-Graviton
     url: /Projects/Projects/Machine-Learning-on-AWS-Graviton.html
     subjects:
     - ML
     - Migration to Arm
     - Performance and Architecture
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Processor-in-the-Loop-Automotive
     url: /Projects/Projects/Processor-in-the-Loop-Automotive.html
     subjects:
     - Embedded Linux
     - RTOS Fundamentals
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Quantisation-Aware-Training
     url: /Projects/Projects/Quantisation-Aware-Training.html
     subjects:
     - ML
     - Performance and Architecture
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: R-Arm-Community-Support
     url: /Projects/Projects/R-Arm-Community-Support.html
     subjects:
     - Migration to Arm
     - Libraries
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Real-Time-Image-Classification
     url: /Projects/Projects/Real-Time-Image-Classification.html
     subjects:
     - ML
     - Performance and Architecture
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Sentiment-Analysis-Dashboard
     url: /Projects/Projects/Sentiment-Analysis-Dashboard.html
     subjects:
     - ML
     - Web
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Smart-Voice-Assistant
     url: /Projects/Projects/Smart-Voice-Assistant.html
     subjects:
     - ML
     - Embedded Linux
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: SpecINT2017-benchmarking-on-Arm64
     url: /Projects/Projects/SpecINT2017-benchmarking-on-Arm64.html
     subjects:
     - Performance and Architecture
     - Migration to Arm
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Write-A-Learning-Path
     url: /Projects/Projects/Write-A-Learning-Path.html
     subjects:
     - Libraries
     - Web
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
 - title: Extended Team Projects
   children:
   - title: Compliance-Ready-Smart-Camera-System

@@ -3,6 +3,25 @@ title: "Human-Centric Robotics – Urban Deployment & Socioeconomic Modelling"
 subjects:
     - "ML"
     - "Embedded Linux"
+requires-team:
+    - "Yes"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "Mobile, Graphics, and Gaming"
+    - "Automotive"
+    - "IoT"
+    - "Embedded and Microcontrollers"
+    - "AI"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+    - "Direct Support from Arm"
+publication-date: 30-05-2025
+license: 
 ---
 
 Reach out to Arm at [education@arm.com](mailto:education@arm.com) if you'd like to participate in this challenge.

@@ -1,10 +1,29 @@
 ---
 layout: article
+license: null
+platform:
+- Servers and Cloud Computing
+- Laptops and Desktops
+- Mobile, Graphics, and Gaming
+- Automotive
+- IoT
+- Embedded and Microcontrollers
+- AI
+publication-date: 30-05-2025
+requires-team:
+- 'No'
 sidebar:
   nav: projects
 subjects:
 - Performance and Architecture
 - Migration to Arm
+support-level:
+- Self-Service
+- Arm Ambassador Support
+- Direct Support from Arm
+sw-hw:
+- Software
+- Hardware
 title: 'SpecINT2017 Benchmarking on Arm64: Evaluating Compiler and Workload Performance'
 ---
 

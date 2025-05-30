@@ -3,6 +3,25 @@ title: "Develop an Arm Architecture Insight Dashboard"
 subjects:
     - "Performance and Architecture"
     - "Web"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "Mobile, Graphics, and Gaming"
+    - "Automotive"
+    - "IoT"
+    - "Embedded and Microcontrollers"
+    - "AI"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+    - "Direct Support from Arm"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![supporting image](./images/can-i-use.jpg)

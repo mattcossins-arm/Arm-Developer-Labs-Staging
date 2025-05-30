@@ -2,6 +2,25 @@
 title: "Optimise Performance of an Algorithm Used in High-Performance Compute Using Scalable Vector Extensions (SVE / SVE2)"
 subjects:
     - "Performance and Architecture"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "Mobile, Graphics, and Gaming"
+    - "Automotive"
+    - "IoT"
+    - "Embedded and Microcontrollers"
+    - "AI"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+    - "Direct Support from Arm"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![research_on_arm](../../images/Research_on_arm_banner.png)

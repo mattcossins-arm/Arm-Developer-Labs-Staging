@@ -3,6 +3,25 @@ title: "Running Real-Time Image Classification on Arm Cortex-M with CMSIS-NN"
 subjects:
     - "ML"
     - "Performance and Architecture"
+requires-team:
+    - "No"
+platform:
+    - "Servers and Cloud Computing"
+    - "Laptops and Desktops"
+    - "Mobile, Graphics, and Gaming"
+    - "Automotive"
+    - "IoT"
+    - "Embedded and Microcontrollers"
+    - "AI"
+sw-hw:
+    - "Software"
+    - "Hardware"
+support-level: 
+    - "Self-Service"
+    - "Arm Ambassador Support"
+    - "Direct Support from Arm"
+publication-date: 30-05-2025
+license: 
 ---
 
 ![computer_vision](./images/computer_vision.jpg)
