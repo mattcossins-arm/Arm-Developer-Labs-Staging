@@ -8,10 +8,6 @@ requires-team:
 platform:
     - "Servers and Cloud Computing"
     - "Laptops and Desktops"
-    - "Mobile, Graphics, and Gaming"
-    - "Automotive"
-    - "IoT"
-    - "Embedded and Microcontrollers"
     - "AI"
 sw-hw:
     - "Software"
@@ -19,7 +15,6 @@ sw-hw:
 support-level: 
     - "Self-Service"
     - "Arm Ambassador Support"
-    - "Direct Support from Arm"
 publication-date: 30-05-2025
 license: 
 ---

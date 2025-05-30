@@ -2,9 +2,6 @@
 layout: article
 license: null
 platform:
-- Servers and Cloud Computing
-- Laptops and Desktops
-- Mobile, Graphics, and Gaming
 - Automotive
 - IoT
 - Embedded and Microcontrollers
@@ -15,6 +12,7 @@ requires-team:
 subjects:
 - ML
 - Embedded Linux
+- RTOS Fundamentals
 support-level:
 - Self-Service
 - Arm Ambassador Support

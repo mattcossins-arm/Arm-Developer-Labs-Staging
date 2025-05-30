@@ -20,7 +20,6 @@ subjects:
 support-level:
 - Self-Service
 - Arm Ambassador Support
-- Direct Support from Arm
 sw-hw:
 - Software
 - Hardware

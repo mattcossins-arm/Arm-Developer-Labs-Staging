@@ -5,9 +5,6 @@ platform:
 - Servers and Cloud Computing
 - Laptops and Desktops
 - Mobile, Graphics, and Gaming
-- Automotive
-- IoT
-- Embedded and Microcontrollers
 - AI
 publication-date: 30-05-2025
 requires-team:
@@ -20,10 +17,8 @@ subjects:
 support-level:
 - Self-Service
 - Arm Ambassador Support
-- Direct Support from Arm
 sw-hw:
 - Software
-- Hardware
 title: 'Quantization-Aware Training for Mobile Deployment: Deploying Lightweight Models
   on Arm'
 ---

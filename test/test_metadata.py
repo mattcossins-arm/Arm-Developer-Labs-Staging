@@ -81,10 +81,6 @@ def collect_markdown_files():
 
 @pytest.fixture(params=collect_markdown_files(), ids=lambda p: os.path.relpath(p))
 def md_frontmatter(request):
-    """
-    Load the front-matter of each markdown file using python-frontmatter.
-    Returns a tuple: (filepath, metadata_dict)
-    """
     path = request.param
     post = frontmatter.load(path)
     assert post.metadata, f"No front-matter found in {path}"

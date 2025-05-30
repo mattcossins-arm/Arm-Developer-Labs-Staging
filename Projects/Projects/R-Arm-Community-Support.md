@@ -1,25 +1,18 @@
 ---
 title: "Improving R Support for the Windows on Arm Community"
 subjects:
+    - "Performance and Architecture"
     - "Migration to Arm"
     - "Libraries"
 requires-team:
     - "No"
 platform:
-    - "Servers and Cloud Computing"
     - "Laptops and Desktops"
-    - "Mobile, Graphics, and Gaming"
-    - "Automotive"
-    - "IoT"
-    - "Embedded and Microcontrollers"
-    - "AI"
 sw-hw:
     - "Software"
-    - "Hardware"
 support-level: 
     - "Self-Service"
     - "Arm Ambassador Support"
-    - "Direct Support from Arm"
 publication-date: 30-05-2025
 license: 
 ---

@@ -3,12 +3,10 @@ title: "Human-Centric Robotics – Urban Deployment & Socioeconomic Modelling"
 subjects:
     - "ML"
     - "Embedded Linux"
+    - "RTOS Fundamentals"
 requires-team:
     - "Yes"
 platform:
-    - "Servers and Cloud Computing"
-    - "Laptops and Desktops"
-    - "Mobile, Graphics, and Gaming"
     - "Automotive"
     - "IoT"
     - "Embedded and Microcontrollers"

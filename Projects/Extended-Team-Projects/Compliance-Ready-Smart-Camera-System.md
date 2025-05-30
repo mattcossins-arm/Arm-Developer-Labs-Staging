@@ -4,11 +4,10 @@ subjects:
     - "Security"
     - "Embedded Linux"
     - "ML"
+    - "Virtual Hardware"
 requires-team:
     - "Yes"
 platform:
-    - "Servers and Cloud Computing"
-    - "Laptops and Desktops"
     - "Mobile, Graphics, and Gaming"
     - "Automotive"
     - "IoT"

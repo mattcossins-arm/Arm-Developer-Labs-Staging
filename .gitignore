@@ -1,6 +1,6 @@
 ._DS_Store
 *.DS_Store
 /Undergraduate-Level/.DS_Store
-/scripts/docs
+/scripts/.venv
 .pytest_cache
 __pycache__

@@ -2,10 +2,6 @@
 layout: article
 license: null
 platform:
-- Servers and Cloud Computing
-- Laptops and Desktops
-- Mobile, Graphics, and Gaming
-- Automotive
 - IoT
 - Embedded and Microcontrollers
 - AI
@@ -20,7 +16,6 @@ subjects:
 support-level:
 - Self-Service
 - Arm Ambassador Support
-- Direct Support from Arm
 sw-hw:
 - Software
 - Hardware
