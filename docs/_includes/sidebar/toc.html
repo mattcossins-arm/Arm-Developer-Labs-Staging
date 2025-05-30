@@ -119,7 +119,7 @@
                   data-platforms='{{ _child.platform | jsonify }}'
                   data-subjects='{{ _child.subjects | jsonify }}'
                   data-swhw='{{ _child["sw-hw"] | jsonify }}'
-                  data-support-level='{{ _child.support_level | jsonify }}'>
+                  data-support-level='{{ _child["support-level"] | jsonify }}'>
                 <a href="{{ _nav_url }}">{{ _child.title }}</a>
               </li>
             {%- endfor -%}
@@ -156,7 +156,7 @@
         const plats   = JSON.parse(li.dataset.platforms    || '[]');
         const subs    = JSON.parse(li.dataset.subjects     || '[]');
         const swhws   = JSON.parse(li.dataset.swhw         || '[]');
-        const levels  = JSON.parse(li.dataset.supportLevel || li.dataset['support-level'] || '[]');
+        const levels  = JSON.parse(li.dataset.supportLevel || '[]');
 
         // All filters must pass (AND across categories, OR within)
         const ok = activeFilters.every(f => {
