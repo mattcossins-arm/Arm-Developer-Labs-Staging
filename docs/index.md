@@ -41,6 +41,4 @@ Most projects are designed to be self-serve with some attracting community suppo
 
 Yes!  If you’ve already been working on something that you believe is relevant – or just have a suggestion for a project or hackathon – then please tell us about it.  The only stipulation is that the submission must target Arm-based platforms.  We will review and contact you to follow up (meaning publish the project and/or support it in some way if it meets our threshold).
 
-<img class="image image--xl" src="./images/how-to-suggest-project.gif"/>
-
-Someone from Arm education will be in contact to discuss how we can support. 
+Please get in touch via [our online form](https://forms.office.com/e/597pKN2JBW). Someone from Arm education will be in contact to discuss how we can support. 
