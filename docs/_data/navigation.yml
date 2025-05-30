@@ -422,8 +422,37 @@ projects:
     - Security
     - Embedded Linux
     - ML
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
   - title: Human-Centric-Robotics
     url: /Projects/Extended-Team-Projects/Human-Centric-Robotics.html
     subjects:
     - ML
     - Embedded Linux
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
+    - Automotive
+    - IoT
+    - Embedded and Microcontrollers
+    - AI
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    - Direct Support from Arm
