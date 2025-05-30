@@ -17,9 +17,9 @@ You can be sure that any project you see here is valued by Arm or a named eco-sy
 
 To receive the benefits from your submission, you must:
 
-- check for any confidential information in my contribution and have received prior permission from my institution / company to share my material with Arm education.
+-   Ensure that no confidential information is included in your contribution and that you have received permission from your organization to share with Arm
 
-- Submit you project via [our online form](https://forms.office.com/e/VZnJQLeRhD)
+-   Submit your project via [our online form](https://forms.office.com/e/VZnJQLeRhD)
 
 
 ## What about mentorship and supervision?
