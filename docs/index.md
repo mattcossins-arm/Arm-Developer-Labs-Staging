@@ -25,14 +25,9 @@ You can be sure that any project you see here is valued by Arm or a named eco-sy
 
 To receive the benefits from your submission, you must:
 
--	Send an email to Education@arm.com with the subject title “Arm Developer Labs” followed by your project title. 
+- check for any confidential information in my contribution and have received prior permission from my institution / company to share my material with Arm education.
 
--	Include relevant links to GitHub repositories, videos, and other resources with clear instructions on how to replicate your results.
-
--	Include the follow statement for us to accept your submission
-
- I have not included any confidential information in my contribution and have received prior permission from my institution / company to share my material with Arm education. Arm can promote and share my example solution. 
-
+- Submit you project via [our online form](https://forms.office.com/e/VZnJQLeRhD)
 
 
 ## What about mentorship and supervision?
