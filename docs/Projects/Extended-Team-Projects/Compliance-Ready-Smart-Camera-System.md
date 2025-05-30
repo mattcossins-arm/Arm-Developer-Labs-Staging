@@ -21,6 +21,7 @@ support-level:
 - Arm Ambassador Support
 - Direct Support from Arm
 sw-hw:
+- Software
 - Hardware
 title: End-to-End Computer Vision System for Functional Safety
 ---

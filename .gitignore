@@ -2,3 +2,5 @@
 *.DS_Store
 /Undergraduate-Level/.DS_Store
 /scripts/docs
+.pytest_cache
+__pycache__
