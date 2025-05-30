@@ -15,7 +15,6 @@ sw-hw:
 support-level: 
     - "Self-Service"
     - "Arm Ambassador Support"
-    - "Direct Support from Arm"
 publication-date: 30-05-2025
 license: 
 ---
