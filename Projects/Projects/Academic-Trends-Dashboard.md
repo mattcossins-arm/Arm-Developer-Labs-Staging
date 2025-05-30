@@ -31,7 +31,7 @@ You are free to choose your own implementation details. The resouces below are e
 
 ## Previous Submissions
 
-No submissions yet - be the first!
+
 
 ## Benefits 
 

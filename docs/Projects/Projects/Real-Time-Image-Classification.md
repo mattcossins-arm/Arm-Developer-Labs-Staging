@@ -34,7 +34,7 @@ This project aims to develop a real-time image classification system using Convo
 
 ## Previous Submissions
 
-No submissions yet - be the first!
+
 
 ## Benefits 
 
