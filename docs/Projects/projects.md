@@ -1,4 +1,8 @@
 ---
+article_header:
+  image:
+    src: /images/Research_on_arm_banner.png
+  type: cover
 layout: article
 sidebar:
   nav: projects
