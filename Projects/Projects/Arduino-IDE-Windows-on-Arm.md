@@ -33,32 +33,30 @@ This project focuses on **porting the Arduino IDE**—an essential open-source p
 
 This project aligns strongly with Arm’s mission to expand native software compatibility on Arm-based Windows devices. It provides students with a **deep dive into cross-platform development, native module compilation, and Arm architecture optimization**, making it ideal for CV building, community contribution, and real-world system-level experience.
 
+## Prequisites
 
-## Hardware, Software and Skills Required
+
+- Familiarity with JavaScript (Node.js), TypeScript and C++ (lzma-native)
+- Familiarity or willing to learn `CMake`, `Ninja`, `Visual Studio with C++ Desktop Dev`, UTM
+- Basic understandig of terminal programs such as `Windows Terminal`, `PowerShell` and `WSL2` 
+- Access to a physical Windows on Arm device or a [WoA Virtual Machine running through UTM](https://mac.getutm.app/gallery/windows-11-arm). see the [Linaro Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments) for more information.
 
 
-- **Languages**: Familiarity with JavaScript (Node.js), TypeScript and C++ (lzma-native)
-- **Tooling**: Familiarity or willing to learn
-  - `CMake`, `Ninja`, `Visual Studio with C++ Desktop Dev`, UTM
-  - `Windows Terminal`, `PowerShell`, `WSL2` (optional for cross-compilation)
-- **Hardware**: Access to a physical Windows on Arm device or a [WoA Virtual Machine running through UTM](https://mac.getutm.app/gallery/windows-11-arm)
-  - [Linaro Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments) available to students
-- **Accounts**:
-  - GitHub for forks/PRs
-  - Arduino developer forums
+## Resources from Arm and our partners
 
-## Resources
+- Repository: [Arduino IDE GitHub repo](https://github.com/arduino/arduino-ide)
+- Repository: [lzma-native GitHub repo](https://github.com/addaleax/lzma-native)
+- External Documentation: [Issue #132 – lzma-native Windows Arm64 build failure](https://github.com/addaleax/lzma-native/issues/132)
+- Documentation: Arm’s official [Learn on Arm](https://learn.arm.com/) platform
+- External Documentation: [Windows on Arm Environments – Linaro wiki](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)
+- Documentation: [Node.js native addon guides](https://nodejs.org/api/addons.html)
 
-- [Arduino IDE GitHub repo](https://github.com/arduino/arduino-ide)
-- [lzma-native GitHub repo](https://github.com/addaleax/lzma-native)
-- [Issue #132 – lzma-native Windows Arm64 build failure](https://github.com/addaleax/lzma-native/issues/132)
-- Arm’s official [Learn on Arm](https://learn.arm.com/) platform
-- [Windows on Arm Environments – Linaro wiki](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)
-- Optional: [Node.js native addon guides](https://nodejs.org/api/addons.html)
+## Support Level
 
-## Benefits / Prizes
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
-- Standout projects could be internally referred for relevant positions at Arm! 📃  
-- If your submission is approved, you could receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! 🎓  
-- It's a great way to demonstrate your initiative and commitment to your field.  
-- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉  
+## Benefits 
+
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

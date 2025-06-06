@@ -28,29 +28,26 @@ This project aims to develop a sentiment analysis dashboard for keywords related
 
 This data will then be processed through a sentiment analysis LLM (Large Language Model) to determine the sentiment of the content and how it varies over time. The project will provide practical experience in web scraping, data processing, databases and using LLMs for sentiment analysis. The final output will be a functional dashboard that displays the sentiment analysis results in an easy-to-understand format.
 
-## Hardware, Software and Skills Required
+## Prequisites
 
 - Languages: Intermediate understanding of Python
 - Hardware: Access to a computer with internet connectivity and access to cloud instances
 
-## Resources
+## Resources from Arm and our partners
 
 You are free to choose your own implementation details. The resouces below are examples to get started. 
 
-- Learning paths: Online tutorials on web scraping, sentiment analysis, and [LLMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/)
-- Software Libraries: Example libraries for web scraping are [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), Selenium. Flask/Django for the dashboard and Pandas for the data aggregation. 
-- Databases: Relational Databases (e.g. [MariaDB](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mariadb/))
-- Textbooks: "Web Scraping with Python" by Ryan Mitchell, "Data Science from Scratch" by Joel Grus
+- External Documentation:  [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) 
+- Learning Paths: [Deploy MariaDB](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mariadb/)
 
 
-## Benefits / Prizes
+## Support Level
 
-1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-![academic_badge](../../images/ACA_badge.jpg)
+## Benefits 
 
-3. It's a great way to demonstrate your initiative and commitment to your field. 
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
-4. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm!  :tada:
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

@@ -37,34 +37,28 @@ The work has potential for real-world deployment and academic publishing, and wo
 
 ---
 
-## Hardware / Software Requirements
+## Prequisites
 
-- **Languages & Frameworks**
-  - Haskell (including Template Haskell, Core-to-STG pipeline understanding)
-  - Arm64 Assembly (AArch64)
+- Advanced understanding of Haskell (including Template Haskell, Core-to-STG pipeline understanding)
+- Arm64 Windows device or Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)
+- Intemediate understanding of Arm64 Assembly (AArch64)
+- Comfortable using compilers such as LLVM and Clang for backend work (if using LLVM codegen)
+- Access to MSYS2 / CMake / Ninja for Windows builds
 
-- **Tooling**
-  - GHC source tree from [gitlab.haskell.org/ghc](https://gitlab.haskell.org/ghc/ghc)
-  - LLVM and Clang for backend work (if using LLVM codegen)
-  - MSYS2 / CMake / Ninja for Windows builds
 
-- **Hardware**
-  - Arm64 Windows device or Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)
-- **Accounts**
-  - GitLab for collaboration and contribution
+## Resources from Arm and our partners
 
----
+- External Documentation: [GHC Development Wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/)
+- Repository: [GHC source tree](https://gitlab.haskell.org/ghc/ghc)
+- External Documentation: [Linaro WoA Support Documentation](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)
 
-## Resources
 
-- 🔗 [GHC Development Wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/)
-- 🔧 Linaro WoA support documentation: [Linaro WoA Platforms](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)
+## Support Level
 
----
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
-## Benefits / Prizes
+## Benefits 
 
-- Standout projects could be internally referred for relevant positions at Arm! 📃  
-- If your submission is approved, you could receive a recognised badge that you can list on your CV and share on LinkedIn. A great way to stand out from the crowd! 🎓  
-- It's a great way to demonstrate your initiative and commitment to your field.  
-- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉  
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

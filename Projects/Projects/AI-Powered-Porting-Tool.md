@@ -42,35 +42,30 @@ The goal is to build a sophisticated system (beyond simple shell scripts) that u
 
 This project is an ideal blend of automation, machine learning, and systems programming — built with real-world impact in mind. The outcome could directly contribute to open source ecosystems and help bring cutting-edge bioinformatics tools to wider hardware audiences.
 
-## Hardware, Software and Skills Required
+## Prerequisites
 
-Hardware: Access to Apple Silicon either through the cloud or with Physical hardware
-Languages: Familiarity with Python, Bash and Nextflow
-Tooling: Experience or willing to learn nf-core pipelines, Conda, BioConda and Docker/Singularity.
-Background: Familiar with genomics or interest in computational biology. 
+- Access to Apple Silicon either through the cloud or with Physical hardware
+- Familiarity with Python, Bash and Nextflow
+- Familiar with genomics or interest in computational biology. 
+- Experience or willing to learn nf-core pipelines, Conda, BioConda and Docker/Singularity.
 
-## Resources 
 
-[Example Porting Script for Bioconda](https://github.com/dslarm/bioconda-contrib-notes/tree/main)
+## Resources from Arm and our partners
 
-[Bioconda package repository](https://bioconda.github.io/)
+- External Resource: [Example Porting Script for Bioconda](https://github.com/dslarm/bioconda-contrib-notes/tree/main), [Arm64 nf-core pipelines](https://github.com/ewels/nf-core-arm-discovery/tree/main) and [Bioconda package repository](https://bioconda.github.io/)
 
-[nf-core documentation](https://nf-co.re/docs/)
+- Documentation: [nf-core documentation](https://nf-co.re/docs/)
 
-[Bioconductor Build Reports](https://bioconductor.org/checkResults/)  
-Package installation results for [CRAN](https://www.r-project.org/nosvn/winutf8/ucrt3/CRAN_aarch64/install_out/) and [Bioconductor](https://www.r-project.org/nosvn/winutf8/ucrt3/BIOC_aarch64/install_out/) packages
+- External Documentation: [Bioconductor Build Reports](https://bioconductor.org/checkResults/), Package installation results for [CRAN](https://www.r-project.org/nosvn/winutf8/ucrt3/CRAN_aarch64/install_out/) and [Bioconductor](https://www.r-project.org/nosvn/winutf8/ucrt3/BIOC_aarch64/install_out/) packages
 
-[Arm64 nf-core pipelines](https://github.com/ewels/nf-core-arm-discovery/tree/main)
-[NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
+- Dataset: [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
 
-### Benefits
+## Support Level
 
-1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
+## Benefits 
 
-![academic_badge](../../images/ACA_badge.jpg)
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
-3. Problem-Solving Experience: Opportunity to debug and optimize bioinformatics software for emerging computing architectures.
-
-4. Industry Relevance: Hands-on experience with Arm-based architectures, applicable to genomics research and cloud computing.  :tada:
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
