@@ -11,7 +11,178 @@ type: article
 <div class="layout--article">
   {%- include article/top/custom.html -%}
 
-  <div class="article__content" itemprop="articleBody">{{ content }}</div>
+  <div class="article__content" itemprop="articleBody">
+    {{ content }}
+
+    {%- if page.filter == "project" -%}
+      <!-- 1) Checkbox filters exactly as before -->
+      <div class="subjects">
+        {%- assign nav_group = site.data.navigation["projects"] -%}
+
+        <!-- Platform -->
+        <div class="filter">
+          <strong>Platform:</strong>
+          {%- assign platforms = "" | split: "" -%}
+          {%- for grp in nav_group -%}
+            {%- for item in grp.children -%}
+              {%- for p in item.platform -%}
+                {%- unless platforms contains p -%}
+                  {%- assign platforms = platforms | push: p -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          {%- endfor -%}
+          {%- for platform in platforms -%}
+            <label>
+              <input
+                type="checkbox"
+                class="filter-checkbox"
+                data-category="platform"
+                value="{{ platform }}"
+                onchange="filterProjects()"
+              >
+              {{ platform }}
+            </label>
+          {%- endfor -%}
+        </div>
+
+        <!-- Subject -->
+        <div class="filter">
+          <strong>Subject:</strong>
+          {%- assign subjects = "" | split: "" -%}
+          {%- for grp in nav_group -%}
+            {%- for item in grp.children -%}
+              {%- for s in item.subjects -%}
+                {%- unless subjects contains s -%}
+                  {%- assign subjects = subjects | push: s -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          {%- endfor -%}
+          {%- for subject in subjects -%}
+            <label>
+              <input
+                type="checkbox"
+                class="filter-checkbox"
+                data-category="subject"
+                value="{{ subject }}"
+                onchange="filterProjects()"
+              >
+              {{ subject }}
+            </label>
+          {%- endfor -%}
+        </div>
+
+        <!-- SW/HW -->
+        <div class="filter">
+          <strong>SW/HW:</strong>
+          {%- assign swhw_items = "" | split: "" -%}
+          {%- for grp in nav_group -%}
+            {%- for item in grp.children -%}
+              {%- for tag in item["sw-hw"] -%}
+                {%- unless swhw_items contains tag -%}
+                  {%- assign swhw_items = swhw_items | push: tag -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          {%- endfor -%}
+          {%- for tag in swhw_items -%}
+            <label>
+              <input
+                type="checkbox"
+                class="filter-checkbox"
+                data-category="sw-hw"
+                value="{{ tag }}"
+                onchange="filterProjects()"
+              >
+              {{ tag }}
+            </label>
+          {%- endfor -%}
+        </div>
+
+        <!-- Support Level -->
+        <div class="filter">
+          <strong>Support Level:</strong>
+          {%- assign levels = "" | split: "" -%}
+          {%- for grp in nav_group -%}
+            {%- for item in grp.children -%}
+              {%- for lvl in item["support-level"] -%}
+                {%- unless levels contains lvl -%}
+                  {%- assign levels = levels | push: lvl -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          {%- endfor -%}
+          {%- for lvl in levels -%}
+            <label>
+              <input
+                type="checkbox"
+                class="filter-checkbox"
+                data-category="support-level"
+                value="{{ lvl }}"
+                onchange="filterProjects()"
+              >
+              {{ lvl }}
+            </label>
+          {%- endfor -%}
+        </div>
+      </div>
+
+      <!-- 2) Two‐section project list -->
+      <div class="project-results">
+        {%- assign nav_root = site.data.navigation["projects"] -%}
+        
+        {%- for category in nav_root -%}
+          <h2 class="project-group-title">{{ category.title }}</h2>
+          <ul class="project-list">
+            {%- for _child in category.children -%}
+              {%- include snippets/get-nav-url.html path=_child.url -%}
+              {%- assign _nav_url = __return -%}
+
+              <li class="project-item"
+                  data-platforms='{{ _child.platform | jsonify }}'
+                  data-subjects='{{ _child.subjects | jsonify }}'
+                  data-swhw='{{ _child["sw-hw"] | jsonify }}'
+                  data-support-level='{{ _child["support-level"] | jsonify }}'>
+                <a href="{{ _nav_url }}">{{ _child.title }}</a>
+              </li>
+            {%- endfor -%}
+            </ul>
+        {%- endfor -%}
+      </div>
+
+      <!-- 3) Filtering script (unchanged) -->
+      <script>
+        function filterProjects() {
+          const checks = Array.from(document.querySelectorAll('.filter-checkbox:checked'));
+          if (checks.length === 0) {
+            document.querySelectorAll('.project-item').forEach(el => el.style.display = '');
+            return;
+          }
+          const activeFilters = checks.map(cb => ({
+            cat: cb.dataset.category,
+            val: cb.value
+          }));
+          document.querySelectorAll('.project-item').forEach(li => {
+            const plats   = JSON.parse(li.dataset.platforms    || '[]');
+            const subs    = JSON.parse(li.dataset.subjects     || '[]');
+            const swhws   = JSON.parse(li.dataset.swhw         || '[]');
+            const levels  = JSON.parse(li.dataset.supportLevel || '[]');
+            const ok = activeFilters.every(f => {
+              switch (f.cat) {
+                case 'platform':      return plats.includes(f.val);
+                case 'subject':       return subs.includes(f.val);
+                case 'sw-hw':         return swhws.includes(f.val);
+                case 'support-level': return levels.includes(f.val);
+                default:              return true;
+              }
+            });
+            li.style.display = ok ? '' : 'none';
+          });
+        }
+      </script>
+    {%- endif -%}
+  </div>
 
   {%- if _sharing -%}
     <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
@@ -19,11 +190,5 @@ type: article
 
   <div class="d-print-none">
     {%- include article-footer.html -%}
-    {%- include article-section-navigator.html -%}
   </div>
-
 </div>
-
-<script>
-  {%- include scripts/article.js -%}
-</script>

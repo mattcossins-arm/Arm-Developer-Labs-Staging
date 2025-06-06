@@ -18,14 +18,6 @@ docs_research_dir = "../docs/Research"
 docs_extended_project_dir = "../docs/Projects/Extended-Team-Projects"
 docs_img_dir = "../docs/images"
 
-contents_frontmatter = """---
-layout: article
-title: "{title}"
-sidebar:
-  nav: {level}
----
-"""
-
 index_frontmatter = """---
 title: Academic Projects Repository
 tags: TeXt
@@ -108,12 +100,16 @@ def format_content(pathlist, academic_level, docs_path):
             post.metadata["article_header"] = {
                 "type": "cover",
                 "image": {
-                    "src": "/images/Research_on_arm_banner.png",
+                    "src": "/images/DeveloperLabs_Header.png",
                 },
             }
         
         post.metadata["layout"] = "article"
-        if academic_level == "projects":
+        
+        if path.name == "projects.md":
+            pass
+        
+        elif academic_level == "projects":
             post.metadata["sidebar"] = {
                 "nav": academic_level,
             }
@@ -143,7 +139,8 @@ def format_index():
         out_file = os.path.join(docs_path, "index.md")
         with open(out_file, 'w', encoding='utf-8') as out_f:
             out_f.write(converted_content)
-            
+
+
 def main():
     clean()
     format_index()
