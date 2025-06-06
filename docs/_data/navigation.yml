@@ -1,14 +1,12 @@
 header:
-  - titles:
-      # @start locale config
-      en      : &EN       Projects
-      # @end locale config
-    url: /posts/projects.html
+- titles:
+    en: Projects
+  url: /2025/06/06/projects.html
 projects:
 - title: Projects
   children:
-  - title: ends-Dashboard
-    url: posts/Academic-Trends-Dashboard.html
+  - title: Academic-Trends-Dashboard
+    url: /2025/06/06/Academic-Trends-Dashboard.html
     subjects:
     - Web
     - Databases
@@ -22,8 +20,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: ''
-    url: posts/AI-Agents.html
+  - title: AI-Agents
+    url: /2025/06/06/AI-Agents.html
     subjects:
     - ML
     platform:
@@ -35,8 +33,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: Porting-Tool
-    url: posts/AI-Powered-Porting-Tool.html
+  - title: AI-Powered-Porting-Tool
+    url: /2025/06/06/AI-Powered-Porting-Tool.html
     subjects:
     - CI-CD
     - ML
@@ -51,8 +49,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: tor-Framework
-    url: posts/AMBA-Simulator-Framework.html
+  - title: AMBA-Simulator-Framework
+    url: /2025/06/06/AMBA-Simulator-Framework.html
     subjects:
     - Virtual Hardware
     - Performance and Architecture
@@ -63,8 +61,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: e-Insight-Dashboard
-    url: posts/Architecture-Insight-Dashboard.html
+  - title: Architecture-Insight-Dashboard
+    url: /2025/06/06/Architecture-Insight-Dashboard.html
     subjects:
     - Performance and Architecture
     - Web
@@ -78,8 +76,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: -Windows-on-Arm
-    url: posts/Arduino-IDE-Windows-on-Arm.html
+  - title: Arduino-IDE-Windows-on-Arm
+    url: /2025/06/06/Arduino-IDE-Windows-on-Arm.html
     subjects:
     - Performance and Architecture
     - Migration to Arm
@@ -92,8 +90,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: ic-Pipeline-Analysis
-    url: posts/Bioinformatic-Pipeline-Analysis.html
+  - title: Bioinformatic-Pipeline-Analysis
+    url: /2025/06/06/Bioinformatic-Pipeline-Analysis.html
     subjects:
     - Performance and Architecture
     - Databases
@@ -105,8 +103,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: erator-with-DDR
-    url: posts/FPGA-Accellerator-with-DDR.html
+  - title: FPGA-Accellerator-with-DDR
+    url: /2025/06/06/FPGA-Accellerator-with-DDR.html
     subjects:
     - Virtual Hardware
     - Performance and Architecture
@@ -118,8 +116,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: piler-Windows-on-Arm
-    url: posts/Haskell-Compiler-Windows-on-Arm.html
+  - title: Haskell-Compiler-Windows-on-Arm
+    url: /2025/06/06/Haskell-Compiler-Windows-on-Arm.html
     subjects:
     - Migration to Arm
     - Performance and Architecture
@@ -132,8 +130,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: hm
-    url: posts/HPC-Algorithm.html
+  - title: HPC-Algorithm
+    url: /2025/06/06/HPC-Algorithm.html
     subjects:
     - Performance and Architecture
     platform:
@@ -145,8 +143,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: rk-on-Arm-Server
-    url: posts/LLM-Benchmark-on-Arm-Server.html
+  - title: LLM-Benchmark-on-Arm-Server
+    url: /2025/06/06/LLM-Benchmark-on-Arm-Server.html
     subjects:
     - ML
     - Performance and Architecture
@@ -159,8 +157,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: rning-on-AWS-Graviton
-    url: posts/Machine-Learning-on-AWS-Graviton.html
+  - title: Machine-Learning-on-AWS-Graviton
+    url: /2025/06/06/Machine-Learning-on-AWS-Graviton.html
     subjects:
     - ML
     - Migration to Arm
@@ -173,8 +171,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: n-the-Loop-Automotive
-    url: posts/Processor-in-the-Loop-Automotive.html
+  - title: Processor-in-the-Loop-Automotive
+    url: /2025/06/06/Processor-in-the-Loop-Automotive.html
     subjects:
     - Embedded Linux
     - RTOS Fundamentals
@@ -189,8 +187,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: n-Aware-Training
-    url: posts/Quantisation-Aware-Training.html
+  - title: Quantisation-Aware-Training
+    url: /2025/06/06/Quantisation-Aware-Training.html
     subjects:
     - ML
     - Performance and Architecture
@@ -204,8 +202,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: nity-Support
-    url: posts/R-Arm-Community-Support.html
+  - title: R-Arm-Community-Support
+    url: /2025/06/06/R-Arm-Community-Support.html
     subjects:
     - Performance and Architecture
     - Migration to Arm
@@ -217,8 +215,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: mage-Classification
-    url: posts/Real-Time-Image-Classification.html
+  - title: Real-Time-Image-Classification
+    url: /2025/06/06/Real-Time-Image-Classification.html
     subjects:
     - ML
     - Performance and Architecture
@@ -232,8 +230,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: nalysis-Dashboard
-    url: posts/Sentiment-Analysis-Dashboard.html
+  - title: Sentiment-Analysis-Dashboard
+    url: /2025/06/06/Sentiment-Analysis-Dashboard.html
     subjects:
     - ML
     - Web
@@ -248,8 +246,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: -Assistant
-    url: posts/Smart-Voice-Assistant.html
+  - title: Smart-Voice-Assistant
+    url: /2025/06/06/Smart-Voice-Assistant.html
     subjects:
     - ML
     platform:
@@ -262,8 +260,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: -benchmarking-on-Arm64
-    url: posts/SpecINT2017-benchmarking-on-Arm64.html
+  - title: SpecINT2017-benchmarking-on-Arm64
+    url: /2025/06/06/SpecINT2017-benchmarking-on-Arm64.html
     subjects:
     - Performance and Architecture
     - Migration to Arm
@@ -277,8 +275,8 @@ projects:
     support-level:
     - Self-Service
     - Arm Ambassador Support
-  - title: rning-Path
-    url: posts/Write-A-Learning-Path.html
+  - title: Write-A-Learning-Path
+    url: /2025/06/06/Write-A-Learning-Path.html
     subjects:
     - Libraries
     - Web
@@ -298,8 +296,8 @@ projects:
     - Arm Ambassador Support
 - title: Extended Team Projects
   children:
-  - title: Ready-Smart-Camera-System
-    url: posts/Compliance-Ready-Smart-Camera-System.html
+  - title: Compliance-Ready-Smart-Camera-System
+    url: /2025/06/06/Compliance-Ready-Smart-Camera-System.html
     subjects:
     - Security
     - Embedded Linux
@@ -318,8 +316,8 @@ projects:
     - Self-Service
     - Arm Ambassador Support
     - Direct Support from Arm
-  - title: ic-Robotics
-    url: posts/Human-Centric-Robotics.html
+  - title: Human-Centric-Robotics
+    url: /2025/06/06/Human-Centric-Robotics.html
     subjects:
     - ML
     - Embedded Linux
