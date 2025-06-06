@@ -26,7 +26,7 @@ def process_yml(pathlist, level: str, tab: str):
             filename = os.path.basename(path)
             name_no_ext = filename.removesuffix(".md")
             path_in_str = f"posts/{name_no_ext}.html"
-            title = name_no_ext
+            title = name_no_ext[11:]
 
             post = frontmatter.load(path)
             platform = post.metadata.get("platform")
@@ -55,7 +55,7 @@ def process_yml(pathlist, level: str, tab: str):
             filename = os.path.basename(path)
             name_no_ext = filename.removesuffix(".md")
             path_in_str = f"posts/{name_no_ext}.html"
-            title = name_no_ext
+            title = name_no_ext[11:]
 
             post = frontmatter.load(path)
             platform = post.metadata.get("platform")

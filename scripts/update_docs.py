@@ -3,13 +3,14 @@ import re
 import shutil
 from pathlib import Path
 import frontmatter
+from datetime import datetime
 
 projects_dir = "../Projects/Projects"
 extended_projects_dir = "../Projects/Extended-Team-Projects"
 
 projects_pathlist = [Path("../Projects/projects.md")]
-projects_projects_pathlist = Path(projects_dir).rglob('*.md')
-projects_extended_project_pathlist = Path(extended_projects_dir).rglob('*.md')
+projects_projects_pathlist = Path(projects_dir).rglob("*.md")
+projects_extended_project_pathlist = Path(extended_projects_dir).rglob("*.md")
 research_pathlist = [Path("../Research/research.md")]
 
 docs_posts_dir = "../docs/_posts"
@@ -24,7 +25,7 @@ article_header:
 ---
 """
 
-def clean() :
+def clean():
     clean_lst = [docs_posts_dir]
     for dirpath in clean_lst:
         if os.path.exists(dirpath) and os.path.isdir(dirpath):
@@ -36,31 +37,30 @@ def clean() :
 def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> str:
     pattern = r'!\[[^\]]*\]\(([^)]+)\)'
     docs_dir_path = Path(docs_dir)
-    
+
     def replace(match):
         img_path = match.group(1)
 
+        # Skip certain banner images entirely
         if doc_path.resolve() == Path("../README.md").resolve() and img_path == "./images/DeveloperLabs_Header.png":
             return ""
-        
+
         elif doc_path.resolve() == Path("../Research/research.md").resolve() and img_path == "../images/Research_on_arm_banner.png":
             return ""
-        
-        source_path = (doc_path.parent / img_path).resolve()
 
+        source_path = (doc_path.parent / img_path).resolve()
         target_folder = (docs_dir_path / "images").resolve()
         target_folder.mkdir(parents=True, exist_ok=True)
-        
+
         if source_path.is_file():
             shutil.copy2(source_path, target_folder)
         else:
             print(f"Warning: {source_path} does not exist in {doc_path}!")
-        
+
         new_img_path = f"./images/{Path(img_path).name}"
-        
+
         if "ACA_badge.jpg" in new_img_path:
             return f'<img class="image image--l" src="{new_img_path}"/>'
-            
         return f'<img class="image image--xl" src="{new_img_path}"/>'
 
     return re.sub(pattern, replace, md_text)
@@ -69,10 +69,17 @@ def convert_md(md_text: str) -> str:
     pattern_link = "[Developer Labs Website](https://arm-university.github.io/Arm-Developer-Labs/)"
     replacement_link = "[Developer Labs Repository](https://github.com/arm-university/Arm-Developer-Labs)"
     pattern_youtube = "[![Arm-CMU collaboration](https://img.youtube.com/vi/zaRozkrcix0/0.jpg)](https://www.youtube.com/watch?v=zaRozkrcix0)"
-    replacement_youtube = '<iframe width="560" height="315" src="https://www.youtube.com/embed/zaRozkrcix0?si=eRZirXrv5300fnBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    replacement_youtube = (
+        '<iframe width="560" height="315" '
+        'src="https://www.youtube.com/embed/zaRozkrcix0?si=eRZirXrv5300fnBc" '
+        'title="YouTube video player" frameborder="0" '
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; '
+        'gyroscope; picture-in-picture; web-share" '
+        'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>'
+        '</iframe>'
+    )
 
     replaced_md = md_text
-
     if pattern_youtube in replaced_md:
         replaced_md = replaced_md.replace(pattern_youtube, replacement_youtube)
     if pattern_link in replaced_md:
@@ -81,6 +88,13 @@ def convert_md(md_text: str) -> str:
     return replaced_md
 
 def format_content(pathlist, academic_level, docs_path):
+    """
+    For each Path in pathlist:
+      - Load frontmatter metadata.
+      - Extract the 'date' field from metadata (expected YYYY-MM-DD or datetime).
+      - Use that date plus the filename-slug to name the output: "<date>-<slug>.md".
+      - Convert images and special markdown embeds, then write to docs_path.
+    """
     for path in pathlist:
         path = Path(path)
 
@@ -90,43 +104,71 @@ def format_content(pathlist, academic_level, docs_path):
         raw_text = path.read_text(encoding="utf-8")
         post = frontmatter.loads(raw_text)
         body = post.content
-    
-        if path.name in ["projects.md", "research.md"]:
 
+        # If there's a 'date' key in frontmatter, normalize it to "YYYY-MM-DD"
+        date_meta = post.metadata.get("publication-date")
+        if date_meta is None:
+            # If there's no date, fallback to file's modified date
+            timestamp = path.stat().st_mtime
+            date_str = datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d")
+        elif isinstance(date_meta, datetime):
+            date_str = date_meta.strftime("%Y-%m-%d")
+        else:
+            # If it's already a string, trust it but ensure formatting
+            try:
+                parsed = datetime.fromisoformat(str(date_meta))
+                date_str = parsed.strftime("%Y-%m-%d")
+            except ValueError:
+                # If it isn't ISO, just take the first 10 chars
+                date_str = str(date_meta)[:10]
+
+        # Build a slug from the filename (without .md)
+        filename = path.name  # e.g. "my-project.md"
+        slug = filename.removesuffix(".md")
+
+        # For certain top-level markdowns ("projects.md", "research.md"), 
+        # we assign a special article_header override:
+        if path.name in ["projects.md", "research.md"]:
             post.metadata["article_header"] = {
                 "type": "cover",
                 "image": {
                     "src": "/images/DeveloperLabs_Header.png",
                 },
             }
-        
+
+        # Always set layout to "article"
         post.metadata["layout"] = "article"
-        
+
+        # Only set sidebar nav if it's a project‐level file (not the top-level README)
         if path.name == "projects.md":
             pass
-        
         elif academic_level == "projects":
             post.metadata["sidebar"] = {
                 "nav": academic_level,
             }
-        
+
+        # Serialize back to frontmatter+content
         formatted_content = frontmatter.dumps(post)
-        
+
+        # Convert Markdown image embeds → HTML and copy assets
         converted_content = convert_md_images_to_html(
             formatted_content,
             path,
             docs_path,
         )
 
-        out_file = Path(docs_path, path.name)
+        # Build the new filename: "<date>-<slug>.md"
+        new_filename = f"{date_str}-{slug}.md"
+        out_file = Path(docs_path, new_filename)
         out_file.write_text(converted_content, encoding="utf-8")
 
-        
 def format_index():
     src = "../README.md"
     docs_path = "../docs"
     with open(src, 'r', encoding='utf-8') as f:
-        formatted_content = convert_md(index_frontmatter + f.read())
+        # Prepend our custom frontmatter, then convert images/embeds
+        combined = index_frontmatter + f.read()
+        formatted_content = convert_md(combined)
         converted_content = convert_md_images_to_html(
             formatted_content,
             Path(src),
@@ -136,13 +178,12 @@ def format_index():
         with open(out_file, 'w', encoding='utf-8') as out_f:
             out_f.write(converted_content)
 
-
 def main():
     clean()
     format_index()
     format_content(projects_pathlist, "projects", docs_posts_dir)
     format_content(projects_projects_pathlist, "projects", docs_posts_dir)
     format_content(projects_extended_project_pathlist, "research", docs_posts_dir)
-    
+
 if __name__ == "__main__":
     main()
