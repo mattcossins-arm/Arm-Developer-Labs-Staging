@@ -12,11 +12,7 @@ projects_projects_pathlist = Path(projects_dir).rglob('*.md')
 projects_extended_project_pathlist = Path(extended_projects_dir).rglob('*.md')
 research_pathlist = [Path("../Research/research.md")]
 
-docs_projects_dir = "../docs/Projects"
-docs_projects_projects_dir = "../docs/Projects/Projects"
-docs_research_dir = "../docs/Research"
-docs_extended_project_dir = "../docs/Projects/Extended-Team-Projects"
-docs_img_dir = "../docs/images"
+docs_posts_dir = "../docs/_posts"
 
 index_frontmatter = """---
 title: Academic Projects Repository
@@ -29,7 +25,7 @@ article_header:
 """
 
 def clean() :
-    clean_lst = [docs_projects_dir,docs_projects_projects_dir, docs_research_dir, docs_extended_project_dir]
+    clean_lst = [docs_posts_dir]
     for dirpath in clean_lst:
         if os.path.exists(dirpath) and os.path.isdir(dirpath):
             shutil.rmtree(dirpath)
@@ -144,10 +140,9 @@ def format_index():
 def main():
     clean()
     format_index()
-    format_content(projects_pathlist, "projects", docs_projects_dir)
-    format_content(projects_projects_pathlist, "projects", docs_projects_projects_dir)
-    format_content(research_pathlist, "research", docs_research_dir)
-    format_content(projects_extended_project_pathlist, "research", docs_extended_project_dir)
+    format_content(projects_pathlist, "projects", docs_posts_dir)
+    format_content(projects_projects_pathlist, "projects", docs_posts_dir)
+    format_content(projects_extended_project_pathlist, "research", docs_posts_dir)
     
 if __name__ == "__main__":
     main()
