@@ -18,7 +18,7 @@ def extract_date_components(path: Path) -> (str, str, str):
     Otherwise, fall back to the file's last-modified timestamp. Return (YYYY, MM, DD).
     """
     post = frontmatter.load(path)
-    date_meta = post.metadata.get("date")
+    date_meta = str(post.metadata.get("publication-date"))
 
     if isinstance(date_meta, datetime):
         dt = date_meta

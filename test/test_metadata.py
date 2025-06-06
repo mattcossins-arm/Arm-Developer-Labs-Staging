@@ -112,6 +112,6 @@ def test_publication_date_format(md_frontmatter):
     import re
     path, meta = md_frontmatter
     date = meta.get("publication-date", "")
-    assert re.match(r"^\d{2}-\d{2}-\d{4}$", date), (
-        f"[{path}] `publication-date` must be DD-MM-YYYY, got: {date}"
+    assert re.match(r"^\d{4}-\d{2}-\d{2}$", str(date)), (
+        f"[{path}] `publication-date` must be YYYY-MM-DD, got: {date}"
     )
