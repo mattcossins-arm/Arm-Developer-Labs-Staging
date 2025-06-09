@@ -3,11 +3,13 @@ layout: article
 license: null
 platform:
 - Laptops and Desktops
-publication-date: 30-05-2025
+publication-date: 2025-05-30
 requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Published
 subjects:
 - Performance and Architecture
 - Migration to Arm
@@ -20,13 +22,17 @@ sw-hw:
 title: Improving R Support for the Windows on Arm Community
 ---
 
-<img class="image image--xl" src="./images/Learn_on_Arm_banner.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/Learn_on_Arm_banner.png"/>
 
-
-### Target Audience  
-Computer Science, Electronic Engineering, or Computer Engineering students with an interest in programming languages, operating systems, and community-driven open-source software.
 
 ## Description  
+
+**Why this is important?**
+
+Since 2020, there has been notable growth in multi-core Arm-based laptops and desktops, including the recent launch of Windows on Arm (WOA). In the coming years, Arm anticipates an increase in available OEM (original equipment manufacturer) devices. As such, developers will expect packages to be available for WoA so that downstream applications can more easily build for WoA platforms.
+
+**Project summary**
+
 
 This project aims to significantly enhance the support for running **R packages on Windows 11 for Arm64 (WoA)** by identifying and contributing bug fixes / improvements to the relevant parts of the R community (e.g.,  CRAN/Bioconductor packages or even R Core / Rtools etc.). The project’s goals include:
 
@@ -41,30 +47,34 @@ Stretch Objectives:
 
 - **Identifying, Analyzing and fixing compatibility issues** in base R and Rtools for the Windows/Arm64 environment. This may involve waiting for improved upstream support from GCC for Windows-AArch64. A summary and progress is [available here](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28802842658/MinGW+GNU+Toolchain).
 
+The deliverables include:
 
-**Deliverables**:
 - Patches, request for comments and bug reports the highest impact packages
 - A curated list of packages with proposed WoA support status
 - A short technical write-up describing the contributions and challenges
 
-## Hardware / Software Requirements  
+## Prequisites 
 
-- **Languages**: R  
-- **Tooling**: Rtools, Git, Bugzilla, Windows 11 on Arm device, GitHub CI/CD, optional Docker for cross-compilation  
+- Intermediate understanding of the R language  
+- Intermediate understanding of Rtools, Git and Docker for cross-compilation.
+- Basic understanding or willingness to learn Bugzilla, Windows 11 operating system and GitHub CI/CD. 
 - Arm64 Windows device or Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments).
 
-## Resources  
+## Resources from Arm and our partners
   
-- [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file)  
-- [R Bugzilla](https://bugs.r-project.org/)  
-- [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/)   
-- [Bioconductor Build Reports](https://bioconductor.org/checkResults/)  
-- Package installation results for [CRAN](https://www.r-project.org/nosvn/winutf8/ucrt3/CRAN_aarch64/install_out/) and [Bioconductor](https://www.r-project.org/nosvn/winutf8/ucrt3/BIOC_aarch64/install_out/) packages
+- Documentation: [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file)  
+- Documentation: [R Bugzilla](https://bugs.r-project.org/)  
+- Documentation: [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/)   
+- Documentation: [Bioconductor Build Reports](https://bioconductor.org/checkResults/)  
+- Documentation: Package installation results for [CRAN](https://www.r-project.org/nosvn/winutf8/ucrt3/CRAN_aarch64/install_out/) and [Bioconductor](https://www.r-project.org/nosvn/winutf8/ucrt3/BIOC_aarch64/install_out/) packages
+
+## Support Level
+
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors , who are part of the Arm Developer program and the R community. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
 
-## Benefits / Prizes  
+## Benefits 
 
-- Standout projects could be internally referred for relevant positions at Arm! 📃  
-- If your submission is approved, you could receive a recognised badge that you can list on your CV and share on LinkedIn. A great way to stand out from the crowd! 🎓  
-- It's a great way to demonstrate your initiative and commitment to your field.  
-- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

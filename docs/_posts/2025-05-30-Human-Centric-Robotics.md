@@ -6,9 +6,13 @@ platform:
 - IoT
 - Embedded and Microcontrollers
 - AI
-publication-date: 30-05-2025
+publication-date: 2025-05-30
 requires-team:
 - 'Yes'
+sidebar:
+  nav: projects
+status:
+- Published
 subjects:
 - ML
 - Embedded Linux
@@ -27,7 +31,14 @@ Reach out to Arm at [education@arm.com](mailto:education@arm.com) if you'd like 
 
 ## Description
 
+**Why this is important?**
+
+Arm is transitioning from traditional IP to providing platforms for the AI era, please see a recent [news post](https://newsroom.arm.com/news/new-arm-product-naming-architecture) for more details. This project is crucial for Arm as it showcases the versatility of Arm-based platforms in real-world applications, enhancing their relevance in the robotics sector.  Furthermore, the insights gained from this project can inform future developments and partnerships and share future platforms related to robotics.
+
+**Project Summary**
+
 This project challenges students to design, build, and evaluate a human-centric robotic system for urban deployment using Arm-based compute platforms such as Raspberry Pi 5, NVIDIA Jetson Orin Nano, etc. The primary focus is on deploying prototypes in a controlled campus environment for applications like last-mile delivery, eldercare assistance, or smart waste collection.
+
 
 Participants will integrate real-time navigation, object manipulation, and human-interaction modules using state-of-the-art computer vision and sensor fusion frameworks. The second phase involves simulating or evaluating the robot’s impact on urban workflows and labor markets, including surveys or socioeconomic modeling techniques (e.g., system dynamics or agent-based simulation).
 
@@ -44,22 +55,17 @@ Potential Deliverables include:
 
 6+ months  
 Team size: 2+ participants  
-Can be extended for dissertation-level depth or research publication.
 
-## Hardware, Software and Skills Required
+## Prerequisites
 
 - **Languages**: Familiarity with an OOP language. 
 - **Hardware**:
-  - Raspberry Pi 4/5, Jetson Orin Nano or other Arm-based systems
-  - Sensors: Any
-  - Optional: Robotic chassis or simulation-only mode
 - **IP/Cloud Access**:
   - Any cloud service provider with Arm-based instances (for model training or data analysis)
 
 
-## Benefits / Prizes
+## Benefits 
 
-- Standout projects could be internally referred for relevant positions at Arm! 📃
-- If your submission is approved, you could receive a recognised badge that you can list on your CV and share on LinkedIn. A great way to stand out from the crowd! 🎓
-- It's a great way to demonstrate your initiative and commitment to your field.
-- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

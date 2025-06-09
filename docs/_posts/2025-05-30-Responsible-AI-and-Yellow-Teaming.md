@@ -1,22 +1,25 @@
 ---
-title: "Responsible AI and Yellow Teaming"
-subjects:
-    - "ML"
-requires-team:
-    - "No"
+layout: article
+license: null
 platform:
-    - "Servers and Cloud Computing"
-    - "Laptops and Desktops"
-    - "AI"
-sw-hw:
-    - "Software"
-support-level: 
-    - "Self-Service"
-    - "Arm Ambassador Support"
+- Servers and Cloud Computing
+- Laptops and Desktops
+- AI
 publication-date: 2025-05-30
-license:
+requires-team:
+- 'No'
+sidebar:
+  nav: projects
 status:
-    - "Published" 
+- Published
+subjects:
+- ML
+support-level:
+- Self-Service
+- Arm Ambassador Support
+sw-hw:
+- Software
+title: Responsible AI and Yellow Teaming
 ---
 
 ## Description

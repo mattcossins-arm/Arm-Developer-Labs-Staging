@@ -18,7 +18,7 @@ support-level:
     - "Self-Service"
     - "Arm Ambassador Support"
     - "Direct Support from Arm"
-publication-date: 30-05-2025
+publication-date: 2025-05-30
 license: 
 status:
     - "Published" 
@@ -57,11 +57,9 @@ Team size: 2+ participants
 
 - **Languages**: Familiarity with an OOP language. 
 - **Hardware**:
-  - Raspberry Pi 4/5, Jetson Orin Nano or other Arm-based systems
-  - Sensors: Any
-  - Optional: Robotic chassis or simulation-only mode
 - **IP/Cloud Access**:
   - Any cloud service provider with Arm-based instances (for model training or data analysis)
+
 
 ## Benefits 
 

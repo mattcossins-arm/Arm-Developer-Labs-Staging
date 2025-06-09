@@ -24,11 +24,7 @@ You can be sure that any project you see here is valued by Arm or a named eco-sy
 
 To receive the benefits, you must show us your project by: 
 
-- Sending us an email at [education@arm.com](mailto:education@arm.com?subject=Arm%20Developer%20Labs%20%E2%80%93%20%3CYour%20Project%20Title%3E) with the title “Arm Developer Labs” followed by your project title
-- Include relevant links to code repositories, videos and any other relevant resources with clear instructions on how to replicate your results 
-- Include the follow statement for us to accept your submission: 
-  
-  *I have not included any confidential information in my contribution and have received prior permission from my organization to share with Arm.*
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
 
 Please note, we may contact you to discuss co-promotion opportunities. 
 
