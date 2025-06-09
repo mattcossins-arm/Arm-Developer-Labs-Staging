@@ -1,7 +1,7 @@
 ---
 title: "Find industry relevant challenges on Arm "
 filter: project
-publication-date: 2025-05-30
+publication-date: 2025-05-30 # Do NOT change this
 ---
 
 **Arm Developer Labs** is a repository of software and hardware project suggestions sourced from internal Arm teams and our network of eco-system partners but framed in way to be immediately accessible and useful to both academics and professional software developers alike. 
