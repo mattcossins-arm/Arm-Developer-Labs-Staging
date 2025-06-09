@@ -21,7 +21,6 @@ status:
     - "Published" 
 ---
 
-![research_on_arm](../../images/Research_on_arm_banner.png)
 
 
 ### Description

@@ -19,8 +19,6 @@ status:
     - "Published" 
 ---
 
-![research_on_arm](../../images/Research_on_arm_banner.png)
-
 
 ### Description
 
@@ -28,7 +26,7 @@ status:
 
 Bioconda is a specialized package repository for bioinformatics and genomics. Since 2020, there has been notable growth in multi-core Arm-based laptops and desktops running Linux and MacOS. In the coming years, Arm anticipates an increase in available OEM (original equipment manufacturer) devices. These machines facilitate the execution of computationally intensive bioinformatics and statistics tasks locally. Potential downstream applications include faster, more affordable diagnoses that can be conducted closer to hospital patients, exemplified by the pilot [ROBIN software](https://www.nottingham.ac.uk/news/genetic-brain-tumour-diagnosis). While many leading Bioconda packages now support Linux/Arm, there still emulated components that can be the bottleneck. 
 
-**Project Specification**
+**Project summary**
 
 This project aims to benchmark specific Bioconda packages that have been built for Arm64 using the nf-core-arm-discovery repository. The participant will utilize public genomic datasets from databases such as NCBI, select appropriate datasets, and execute bioinformatics workflows on Arm-based infrastructure. The candidate will evaluate the performance, compatibility, and efficiency of these packages, document errors and failures, and investigate the reasons behind package build failures. The final deliverable will be a detailed report with performance metrics, identified issues, and recommended improvements to enhance package support on Arm64.
 

@@ -29,7 +29,7 @@ status:
 
 Since 2020, there has been notable growth in multi-core Arm-based laptops and desktops, including the recent launch of Windows on Arm (WOA). In the coming years, Arm anticipates an increase in available OEM (original equipment manufacturer) devices. As such, consumers will expect both performance and battery efficiency across all WoA applications, such as the ArduinoIDE. 
 
-**Project specification**
+**Project summary**
 
 This project focuses on **porting and optimising the Arduino IDE**—an essential open-source platform for embedded development to run natively and efficiently on Windows on Arm platforms. In addition, the project tackles a key dependency, `lzma-native`, a compression library used by the IDE, which currently [**lacks support for Windows on Arm**](https://github.com/addaleax/lzma-native/issues/132) Previous attempts to build `lzma-native` on WoA failed due to architecture-specific compilation issues and native module bindings (`node-gyp`, `liblzma`, etc.).
 
