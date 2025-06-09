@@ -10,6 +10,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Draft
 subjects:
 - ML
 - Performance and Architecture

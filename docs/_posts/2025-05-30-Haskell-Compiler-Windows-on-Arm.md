@@ -9,6 +9,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Published
 subjects:
 - Migration to Arm
 - Performance and Architecture
@@ -26,9 +28,14 @@ title: Adding Windows on Arm Support to the Glasgow Haskell Compiler (GHC)
 
 ## Description
 
-The Glasgow Haskell Compiler (GHC) is the de facto standard compiler for Haskell, an advanced purely functional programming language with strong type inference and lazy evaluation. This project aims to **port GHC cto support Windows on Arm (WoA)**, a platform that is increasingly relevant with the rise of Arm-powered laptops and developer kits. Request for support has [previously been requested by the community](https://gitlab.haskell.org/ghc/ghc/-/issues/24603)
+**Why this is important?**
 
-Currently, GHC lacks robust support for WoA, hindering Haskell’s reach in energy-efficient and mobile-native environments. The goal is to bridge this gap by:
+The Glasgow Haskell Compiler (GHC) is the de facto standard compiler for Haskell, an advanced purely functional programming language with strong type inference and lazy evaluation. This project aims to **port GHC to support Windows on Arm (WoA)**, a platform that is increasingly relevant with the rise of Arm-powered laptops and developer kits. Arm anticipates more original equipment manufacturers (OEMs) to be available in the coming years.
+
+
+**Project summary**
+
+Currently, GHC lacks robust support for WoA, hindering Haskell’s reach in energy-efficient and mobile-native environments (Request for support has [previously been requested by the community](https://gitlab.haskell.org/ghc/ghc/-/issues/24603)). The goal is to bridge this gap by:
 - Enabling native compilation of Haskell code via GHC on WoA.
 - Implementing and testing architecture-specific assembly and intrinsic functions.
 - Extending the GHC build system to recognize WoA environments.

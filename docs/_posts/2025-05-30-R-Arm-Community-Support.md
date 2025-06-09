@@ -8,6 +8,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Published
 subjects:
 - Performance and Architecture
 - Migration to Arm
@@ -23,10 +25,14 @@ title: Improving R Support for the Windows on Arm Community
 <img class="image image--xl" src="/Arm-Developer-Labs/images/Learn_on_Arm_banner.png"/>
 
 
-### Target Audience  
-Computer Science, Electronic Engineering, or Computer Engineering students with an interest in programming languages, operating systems, and community-driven open-source software.
-
 ## Description  
+
+**Why this is important?**
+
+Since 2020, there has been notable growth in multi-core Arm-based laptops and desktops, including the recent launch of Windows on Arm (WOA). In the coming years, Arm anticipates an increase in available OEM (original equipment manufacturer) devices. As such, developers will expect packages to be available for WoA so that downstream applications can more easily build for WoA platforms.
+
+**Project summary**
+
 
 This project aims to significantly enhance the support for running **R packages on Windows 11 for Arm64 (WoA)** by identifying and contributing bug fixes / improvements to the relevant parts of the R community (e.g.,  CRAN/Bioconductor packages or even R Core / Rtools etc.). The project’s goals include:
 
@@ -41,16 +47,17 @@ Stretch Objectives:
 
 - **Identifying, Analyzing and fixing compatibility issues** in base R and Rtools for the Windows/Arm64 environment. This may involve waiting for improved upstream support from GCC for Windows-AArch64. A summary and progress is [available here](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28802842658/MinGW+GNU+Toolchain).
 
+The deliverables include:
 
-**Deliverables**:
 - Patches, request for comments and bug reports the highest impact packages
 - A curated list of packages with proposed WoA support status
 - A short technical write-up describing the contributions and challenges
 
 ## Prequisites 
 
-- **Languages**: R  
-- **Tooling**: Rtools, Git, Bugzilla, Windows 11 on Arm device, GitHub CI/CD, optional Docker for cross-compilation  
+- Intermediate understanding of the R language  
+- Intermediate understanding of Rtools, Git and Docker for cross-compilation.
+- Basic understanding or willingness to learn Bugzilla, Windows 11 operating system and GitHub CI/CD. 
 - Arm64 Windows device or Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments).
 
 ## Resources from Arm and our partners

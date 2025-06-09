@@ -14,6 +14,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Hidden
 subjects:
 - Libraries
 - Web

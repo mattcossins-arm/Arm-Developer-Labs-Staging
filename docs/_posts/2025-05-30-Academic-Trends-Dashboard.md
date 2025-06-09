@@ -11,6 +11,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Draft
 subjects:
 - Web
 - Databases
@@ -29,25 +31,24 @@ title: Design a Dashboard that Tracks the Progression of Academic Papers on Comp
 
 **Why this is important?** 
 
-The field of computer science research is continually evolving, with new algorithms shaping the design of future hardware. This project aims to guide computer architecture decisions, ensuring that upcoming hardware aligns with the needs of software algorithms and applications. The dashboard you create can be of use to Arm partners who create physical chips. 
+The field of computer science research is continually evolving, with new algorithms shaping the design of future hardware. This project aims to guide computer architecture decisions, ensuring that upcoming hardware aligns with the needs of software algorithms and applications. The dashboard you create can be of use to Arm partners manufacturing physical chips and used to guide architecture decisions.  
 
 **Project Summary**
 
-The main deliverable is a web scraping tool that pulls keywords from academic papers, considering the popularity of the paper and its publication. The data will be stored in an appropriate database and displayed in a web browser format, allowing users to visualize trends and changes in research focus over time. This project will provide practical experience in using APIs, web scraping, and data analysis. Some academic search engines to consider are Google Scholar, [BASE](https://www.base-search.net/), [Core](https://core.ac.uk/) and [Science.gov](https://science.gov/)
+The main deliverable is a web scraping tool that pulls keywords from academic papers, considering the popularity of the paper and its publication. The data will be stored in an appropriate database and displayed in a web browser format, allowing users to visualize trends and changes in research focus over time. This project will provide practical experience in using APIs, web scraping, and data analysis. Some academic search engines to consider are Google Scholar, [BASE](https://www.base-search.net/), [Core](https://core.ac.uk/) and [Science.gov](https://science.gov/). 
 
 
 ## Prequisites
 
 - Software: Intermediate understand of a scripting programming language (e.g., Python, JavaScript), web development and statistics.
 - Hardware: Access to a computer with internet connectivity
-
-To scrape specific journal websites, you may need to obtain explicit permission from the website administrators or owners.
+- API access to scrape specific journal websites, you may need to obtain explicit permission from the website administrators or owners.
 
 ## Resources from Arm and our partners
 
 - Learning path: [Deploy MariaDB on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mariadb/))
 - Learning path: [Learn how to deploy PostgresSQL](https://learn.arm.com/learning-paths/servers-and-cloud-computing/postgresql/)
-- Software Libraries: Example libraries for web scraping are [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), Selenium. Flask/Django for the dashboard and Pandas for the data aggregation. 
+- Software Libraries: Example libraries for web scraping are [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), Selenium.
 
 
 ## Support Level

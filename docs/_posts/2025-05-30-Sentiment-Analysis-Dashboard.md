@@ -11,6 +11,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Draft
 subjects:
 - ML
 - Web

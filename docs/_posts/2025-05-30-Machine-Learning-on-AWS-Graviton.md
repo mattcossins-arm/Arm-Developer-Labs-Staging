@@ -9,6 +9,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Draft
 subjects:
 - ML
 - Migration to Arm
@@ -23,7 +25,7 @@ title: Efficient Inference of Vision Transformers on AWS Graviton Instances
 
 ## Description
 
-This project investigates the deployment and optimization of Vision Transformer (ViT) models on Arm-based instances, leveraging CPU-only execution for cost-effective and scalable inference. Vision Transformers, though typically run on GPUs, are increasingly required to operate in resource-constrained environments or as part of serverless and CPU-bound cloud services. 
+This project investigates the deployment and optimization of text-to-video transformer models on Arm-based instances, leveraging CPU-only execution for cost-effective and scalable inference. Vision Transformers, though typically run on GPUs, are increasingly required to operate in resource-constrained environments or as part of serverless and CPU-bound cloud services. 
 
 The aim of this project is to port, benchmark, and optimize a pre-trained ViT model (e.g., OpenSora) on Arm-based instances. Students will explore efficiency techniques such as  INT8 quantization, refactoring of expensive operations, and memory-efficient transformer kernels, and compare results with x86-based instances. Deliverables include a reproducable inference pipeline and a technical report outlining bottlenecks and optimization strategies.
 

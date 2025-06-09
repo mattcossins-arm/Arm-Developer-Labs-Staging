@@ -11,6 +11,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Published
 subjects:
 - Performance and Architecture
 - Web
@@ -26,7 +28,12 @@ title: Develop an Arm Architecture Insight Dashboard
 
 
 ### Description
-Developers struggle to decide which platform to target their software. There are many smartphones and cloud instances to choose from but the consumer popularity is difficult to gauge and software stack dependencies issues are time-consuming to identify.
+
+**Why this is important?** 
+
+Developers often face challenges in selecting the appropriate platform for their software. With numerous smartphones and cloud instances available, gauging consumer popularity and availability can be difficult, and identifying software stack dependencies can be time-consuming. As Arm anticipates an increase in Arm-based products in the coming years, this situation is likely to become even more complex, requiring the need for a single, validated solution. 
+
+**Project Summary**
 
 This project aims to develop a comprehensive dashboard that lets a developer know what proportion of devices support a specific Arm CPU extension, similar to [“Can I use”](https://caniuse.com/) for web development and any software compatibility issues. The functional requirements for the Architecture Insights dashboard:
 

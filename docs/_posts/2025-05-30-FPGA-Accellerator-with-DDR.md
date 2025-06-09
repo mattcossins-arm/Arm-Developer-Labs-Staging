@@ -9,6 +9,8 @@ requires-team:
 - 'No'
 sidebar:
   nav: projects
+status:
+- Hidden
 subjects:
 - Virtual Hardware
 - Performance and Architecture
