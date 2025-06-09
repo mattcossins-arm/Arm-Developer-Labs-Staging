@@ -34,9 +34,9 @@ def clean():
         else:
             os.makedirs(dirpath)
 
-def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> str:
+def convert_md_images_to_html(md_text: str, doc_path: Path) -> str:
     pattern = r'!\[[^\]]*\]\(([^)]+)\)'
-    docs_dir_path = Path(docs_dir)
+    docs_dir_path = Path("../docs")
 
     def replace(match):
         img_path = match.group(1)
@@ -57,7 +57,7 @@ def convert_md_images_to_html(md_text: str, doc_path: Path, docs_dir: str) -> st
         else:
             print(f"Warning: {source_path} does not exist in {doc_path}!")
 
-        new_img_path = f"./images/{Path(img_path).name}"
+        new_img_path = f"/Arm-Developer-Labs/images/{Path(img_path).name}"
 
         if "ACA_badge.jpg" in new_img_path:
             return f'<img class="image image--l" src="{new_img_path}"/>'
@@ -153,8 +153,7 @@ def format_content(pathlist, academic_level, docs_path):
         # Convert Markdown image embeds → HTML and copy assets
         converted_content = convert_md_images_to_html(
             formatted_content,
-            path,
-            docs_path,
+            path
         )
 
         # Build the new filename: "<date>-<slug>.md"
@@ -171,8 +170,7 @@ def format_index():
         formatted_content = convert_md(combined)
         converted_content = convert_md_images_to_html(
             formatted_content,
-            Path(src),
-            docs_path
+            Path(src)
         )
         out_file = os.path.join(docs_path, "index.md")
         with open(out_file, 'w', encoding='utf-8') as out_f:

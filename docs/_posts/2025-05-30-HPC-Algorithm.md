@@ -21,32 +21,32 @@ title: Optimise Performance of an Algorithm Used in High-Performance Compute Usi
   Scalable Vector Extensions (SVE / SVE2)
 ---
 
-<img class="image image--xl" src="./images/Research_on_arm_banner.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/Research_on_arm_banner.png"/>
 
 
 ## Description
 This project aims to identify and optimize the performance of an algorithm used in high-performance computing (HPC) by leveraging Scalable Vector Extensions (SVE) instructions. The main deliverable is an optimized version of the chosen algorithm that demonstrates significant performance improvements using SVE. This project will provide practical experience in HPC, vectorization, and performance optimization. The final output will be a detailed report and a functional implementation of the optimized algorithm.
 
-## Hardware / Software Requirements
-- Languages: C, C++
-- Tooling: Arm Compiler for HPC, SVE-enabled hardware or simulator
-- Hardware: Access to Arm-based servers or SVE-enabled hardware
-- IP access: Arm Academic Access member (link to get if they don't have it)
+## Prequisites
 
-## Resources
-- Learning paths: Online courses on HPC, vectorization, and performance optimization
-- Textbooks: "High Performance Computing" by Charles Severance, "Programming with SVE" by Arm Education Media
-- Similar projects: Previous HPC optimization projects available on GitHub
-- Previous project submissions: GitHub link to past projects
+- Intermediate undestanding of C, C++ or Fortran.
+- Experience with high performance compute (HPC).
+- Basic understanding of compilers such as Arm Compiler for HPC, or autovectorising compiler such as GCC.
+- Access to Arm-based servers or SVE-enabled hardware
 
-## Benefits / Prizes
+## Resources from Arm and our partners
 
-1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+- Learning path: [Port Code to SVE](https://learn.arm.com/learning-paths/servers-and-cloud-computing/sve/)
+- Learning path: [Migrate applications that use performance libraries](https://learn.arm.com/learning-paths/servers-and-cloud-computing/using-and-porting-performance-libs/)
+- Documentation: [SVE Programmers Guide](https://developer.arm.com/documentation/102476/0101/Programming-with-SVE)
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-<img class="image image--l" src="./images/ACA_badge.jpg"/>
+## Support Level
 
-3. Problem-Solving Experience: Opportunity to debug and optimize scientific vector application software on Arm.
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
-4. Industry Relevance: Hands-on experience with Arm-based architectures, applicable to scientific computing.  :tada:
+## Benefits 
+
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

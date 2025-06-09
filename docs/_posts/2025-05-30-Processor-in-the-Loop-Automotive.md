@@ -23,7 +23,7 @@ sw-hw:
 title: Processor-in-the-Loop for an Automotive Control System
 ---
 
-<img class="image image--xl" src="./images/mathworks.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/mathworks.png"/>
 
 ## Description
 
@@ -39,28 +39,29 @@ Students can choose from of the following **automotive application topics**:
 Each project will go through system design, simulation in Simulink, code generation via Embedded Coder, and real-time testing using Arm Fast Models and Code Profile Analyzer. Deliverables include models, auto-generated code, verification reports, and benchmarking results.
 
 
-## Hardware, Software and Skills Required
+## Prequisites
 
 
-- [**MATLAB & Simulink License**](https://uk.mathworks.com/pricing-licensing.html?prodcode=ML&intendeduse=edu)
-- **Languages & Modeling Tools**: Familiarity with C/C++, Simulink, Stateflow and Embedded Coder
-- **Verification Tools**: Processor-in-the-Loop (PIL), Code Profile Analyzer
-- **Target Hardware**: Arm Cortex-M7 (via [Arm Fast Models](https://uk.mathworks.com/products/connections/product_detail/arm-fast-models.html))
-- **Toolboxes**: Arm Compiler Support Package, Embedded Coder Support Package for ARM Cortex-M
-- [**Arm Fast Models in MATLAB**](https://uk.mathworks.com/products/connections/product_detail/arm-fast-models.html)
-- **V-Model lifecycle methodology** integrated via Simulink Verification and Validation
+- [MATLAB & Simulink License](https://uk.mathworks.com/pricing-licensing.html?prodcode=ML&intendeduse=edu)
+- Familiarity with C/C++, Simulink, Stateflow and Embedded Coder
+- Familiarity with Processor-in-the-Loop (PIL), Code Profile Analyzer
+- Understanding of automotive software development such as V-Model lifecycle methodology. 
 
 
-## Resources
+## Resources from Arm and our partners
 
-- [MathWorks Embedded Coder](https://uk.mathworks.com/products/embedded-coder.html)
-- [Code Profile Analyzer](https://uk.mathworks.com/help/ecoder/ref/codeprofileanalyzer-app.html)
-- [Arm Compiler Support Package](https://uk.mathworks.com/matlabcentral/fileexchange/68896-arm_compiler_support_package)
-- [Simulink Getting Started Guide](https://uk.mathworks.com/help/simulink/getting-started-with-simulink.html)
+- Documentation: [MathWorks Embedded Coder](https://uk.mathworks.com/products/embedded-coder.html)
+- Documentation: [Code Profile Analyzer](https://uk.mathworks.com/help/ecoder/ref/codeprofileanalyzer-app.html)
+- Documentation: [Arm Compiler Support Package](https://uk.mathworks.com/matlabcentral/fileexchange/68896-arm_compiler_support_package)
+- Documentation: [Simulink Getting Started Guide](https://uk.mathworks.com/help/simulink/getting-started-with-simulink.html)
+- Documentation: (https://uk.mathworks.com/products/connections/product_detail/arm-fast-models.html)
 
-## Benefits / Prizes
+## Support Level
 
-- Standout projects could be internally referred for relevant positions at Arm! 📃  
-- If your submission is approved, you could receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! 🎓  
-- It's a great way to demonstrate your initiative and commitment to your field.  
-- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
+
+## Benefits 
+
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

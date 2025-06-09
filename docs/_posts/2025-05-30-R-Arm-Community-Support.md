@@ -20,7 +20,7 @@ sw-hw:
 title: Improving R Support for the Windows on Arm Community
 ---
 
-<img class="image image--xl" src="./images/Learn_on_Arm_banner.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/Learn_on_Arm_banner.png"/>
 
 
 ### Target Audience  
@@ -47,24 +47,27 @@ Stretch Objectives:
 - A curated list of packages with proposed WoA support status
 - A short technical write-up describing the contributions and challenges
 
-## Hardware / Software Requirements  
+## Prequisites 
 
 - **Languages**: R  
 - **Tooling**: Rtools, Git, Bugzilla, Windows 11 on Arm device, GitHub CI/CD, optional Docker for cross-compilation  
 - Arm64 Windows device or Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments).
 
-## Resources  
+## Resources from Arm and our partners
   
-- [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file)  
-- [R Bugzilla](https://bugs.r-project.org/)  
-- [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/)   
-- [Bioconductor Build Reports](https://bioconductor.org/checkResults/)  
-- Package installation results for [CRAN](https://www.r-project.org/nosvn/winutf8/ucrt3/CRAN_aarch64/install_out/) and [Bioconductor](https://www.r-project.org/nosvn/winutf8/ucrt3/BIOC_aarch64/install_out/) packages
+- Documentation: [R Contribution Guide](https://github.com/r-devel/rdevguide?tab=readme-ov-file)  
+- Documentation: [R Bugzilla](https://bugs.r-project.org/)  
+- Documentation: [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/)   
+- Documentation: [Bioconductor Build Reports](https://bioconductor.org/checkResults/)  
+- Documentation: Package installation results for [CRAN](https://www.r-project.org/nosvn/winutf8/ucrt3/CRAN_aarch64/install_out/) and [Bioconductor](https://www.r-project.org/nosvn/winutf8/ucrt3/BIOC_aarch64/install_out/) packages
+
+## Support Level
+
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors , who are part of the Arm Developer program and the R community. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
 
-## Benefits / Prizes  
+## Benefits 
 
-- Standout projects could be internally referred for relevant positions at Arm! 📃  
-- If your submission is approved, you could receive a recognised badge that you can list on your CV and share on LinkedIn. A great way to stand out from the crowd! 🎓  
-- It's a great way to demonstrate your initiative and commitment to your field.  
-- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

@@ -22,7 +22,7 @@ sw-hw:
 title: Develop an Arm Architecture Insight Dashboard
 ---
 
-<img class="image image--xl" src="./images/can-i-use.jpg"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/can-i-use.jpg"/>
 
 
 ### Description
@@ -36,30 +36,27 @@ This project aims to develop a comprehensive dashboard that lets a developer kno
  
 Students will gain hands-on experience with data visualization, statistical analysis, web development, and market analysis, providing valuable insights into the Arm ecosystem. 
 
-## Hardware, Software and Skills Required
+## Prequisites
 
 You are free to explore your own implementation. The skills below are examples.
 
-- Languages: Python, JavaScript
-- Tooling: D3.js, Flask/Django for the dashboard, APIs for data collection
-- Hardware: Access to a computer with internet connectivity
+- Intemediate understanding of an OOP language such as Python or JavaScript
+- Access to a computer with internet connectivity
 
 
-## Resources
+## Resources from Arm and our partners
 
-- [Arm Software Ecosystem Dashboard](https://www.arm.com/developer-hub/ecosystem-dashboard)
-- [Windows on Arm Support Wiki page](https://linaro.atlassian.net/wiki/spaces/WOAR/overview)
-- ["Can I Use?" dashboard](https://caniuse.com/) 
+- Website: [Arm Software Ecosystem Dashboard](https://www.arm.com/developer-hub/ecosystem-dashboard)
+- Website: [Windows on Arm Support Wiki page](https://linaro.atlassian.net/wiki/spaces/WOAR/overview)
+- Website: ["Can I Use?" dashboard](https://caniuse.com/) 
+
+## Support Level
+
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
 
-## Benefits / Prizes
+## Benefits 
 
-1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
-
-<img class="image image--l" src="./images/ACA_badge.jpg"/>
-
-3. It's a great way to demonstrate your initiative and commitment to your field. 
-
-4. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm!  :tada:
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

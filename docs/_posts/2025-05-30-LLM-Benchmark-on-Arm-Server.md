@@ -21,33 +21,30 @@ sw-hw:
 title: LLM Benchmark for Arm Server
 ---
 
-<img class="image image--xl" src="./images/Research_on_arm_banner.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/Research_on_arm_banner.png"/>
 
 ## Description
 This project aims to benchmark inference on Arm-based servers using the MLPerf Inference benchmark suite. The project spans performance analysis across different configurations of Arm-based servers. The main deliverable is a comprehensive benchmarking setup that can evaluate the performance of large language models (LLMs) on various Arm server configurations in addition to a report highlighting the performance difference and how to recreate the results. This project will provide practical experience in benchmarking, performance analysis, and working with Arm-based server architectures. The final output will be a detailed report and a functional benchmarking infrastructure that can be used for further research and development.
 
 
-## Hardware, Software and Skills Required
+## Prequisites
 
-- Languages: Intermediate understanding of Python and C++
-- Tooling: MLPerf, TensorFlow, PyTorch
-- Hardware: Arm-based server, access to cloud service providers
-- IP access: Arm Academic Access member (link to get if they don't have it)
+- Intermediate understanding of Python and C++
+- Intemediate understanding of ML frameworks such as MLPerf, TensorFlow and PyTorch
+- Access to physcial Arm-based server or access to cloud service providers
 
-## Resources
-- [MLPerf Inference ](https://github.com/mlcommons/inference)
-- [MLPerf Inference Benchmark Suite](https://mlcommons.org/en/inference-datacenter-20/)
-- [Blog on Arm Server inference performance](https://community.arm.com/arm-community-blogs/b/servers-and-cloud-computing-blog/posts/machine-learning-inference-on-aws-graviton3)
-- Previous project submissions: GitHub link to past projects
+## Resources from Arm and our partners
+
+- Repository: [MLPerf Inference ](https://github.com/mlcommons/inference)
+- External Documentation: [MLPerf Inference Benchmark Suite](https://mlcommons.org/en/inference-datacenter-20/)
+- Blog: [Arm Server inference performance](https://community.arm.com/arm-community-blogs/b/servers-and-cloud-computing-blog/posts/machine-learning-inference-on-aws-graviton3)
+
+## Support Level
+
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
 ## Benefits 
 
-1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
-
-<img class="image image--l" src="./images/ACA_badge.jpg"/>
-
-3. It's a great way to demonstrate your initiative and commitment to your field. 
-
-4. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm!  :tada:
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

@@ -20,7 +20,7 @@ sw-hw:
 title: Benchmarking Bioconda Packages for Arm64 in Bioinformatics Pipelines
 ---
 
-<img class="image image--xl" src="./images/Research_on_arm_banner.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/Research_on_arm_banner.png"/>
 
 
 ### Description
@@ -40,37 +40,33 @@ Documentation of failed package builds and proposed fixes.
 Comprehensive report with results, analysis, and recommendations.
 
 
-### Hardware / Software Requirements
+## Prequisites
 
-Languages: Python, Bash, Nextflow
+- Intermediate understanding of Python, Bash and nextflow
+- Basic experience with nf-core pipelines, Conda, Docker/Singularity, Snakemake
+- Access to Arm64-based cloud instances (e.g., AWS Graviton) with plenty of memory and storage
+- IP access to Public genomic databases (NCBI, ENA, etc.)
 
-Tooling: nf-core pipelines, Conda, Docker/Singularity, Snakemake
+## Resources from Arm and our partners
 
-Hardware: Access to Arm64-based cloud instances (e.g., AWS Graviton) with plenty of memory and storage
+- External Documentation: [nf-core documentation](https://nf-co.re/docs/)
 
-IP Access: Public genomic databases (NCBI, ENA, etc.), Bioconda repository
+- External Documentation: [AWS Graviton documentation](https://aws.amazon.com/ec2/graviton/)
 
-### Resources
+- Repository: [Arm64 nf-core pipelines](https://github.com/ewels/nf-core-arm-discovery/tree/main)
 
-[nf-core documentation](https://nf-co.re/docs/)
+- Repository: [Bioconda package repository](https://bioconda.github.io/)
 
-[NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
-
-[Arm64 nf-core pipelines](https://github.com/ewels/nf-core-arm-discovery/tree/main)
-
-[Bioconda package repository](https://bioconda.github.io/)
-
-AWS Graviton documentation
+- Dataset: [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
 
 
-### Benefits
+## Support Level
 
-1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
 
-<img class="image image--l" src="./images/ACA_badge.jpg"/>
+## Benefits 
 
-3. Problem-Solving Experience: Opportunity to debug and optimize bioinformatics software for emerging computing architectures.
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
-4. Industry Relevance: Hands-on experience with Arm-based architectures, applicable to genomics research and cloud computing.  :tada:
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.

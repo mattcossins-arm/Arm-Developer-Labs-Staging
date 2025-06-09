@@ -21,7 +21,7 @@ sw-hw:
 title: Smart Voice Assistant Using TinyML on Cortex-M55
 ---
 
-<img class="image image--xl" src="./images/Educate_on_Arm_banner.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/Educate_on_Arm_banner.png"/>
 
 
 ## Description
@@ -29,28 +29,27 @@ This undergraduate project aims to develop a simple voice assistant that can rec
 
 The deliverables include a functional voice assistant capable of understanding and executing basic commands, along with documentation detailing the development process and the performance of the system.
 
-## Hardware, Software and Skills Required
+## Prequisites
 
 - Languages: Python, C++, Embedded C
 - Tooling: TensorFlow Lite for Microcontrollers, Keil MDK
 - Hardware: Cortex-M55/U55 development board (or Corstone Virtual Platform), microphone, peripheral devices (e.g., lights, speakers)
 
 
-## Resources
+## Resources from Arm and our partners
+
 - Learning paths: [Navigating Machine Learning with Ethos-U processors](https://learn.arm.com/learning-paths/microcontrollers/nav-mlek/)
 - Learning paths: [Tutorials on CMSIS](https://learn.arm.com/tag/cmsis/)
 - Install Guide: [Keil Studio for VSCode](https://learn.arm.com/install-guides/keilstudio_vs/)
-- Free e-textbook: ["A beginner's Guide to Designing Embedded System Applications on Arm Cortex-M Microcontrollers"](https://www.arm.com/resources/education/books)
-- Free e-textbook: ["Arm Helium Technology M-Profile Vector Extensions (MVE)"](https://www.arm.com/resources/education/books)
+- Book: ["A beginner's Guide to Designing Embedded System Applications on Arm Cortex-M Microcontrollers"](https://www.arm.com/resources/education/books)
+- Book: ["Arm Helium Technology M-Profile Vector Extensions (MVE)"](https://www.arm.com/resources/education/books)
 
-## Benefits / Prizes
+## Support Level
 
-1. Standout projects could be internally referred for relevant positions at Arm! :page_with_curl:
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
 
-2. If your submission is approved, you will receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! :mortar_board:
+## Benefits 
 
-<img class="image image--l" src="./images/ACA_badge.jpg"/>
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
-3. It's a great way to demonstrate your initiative and commitment to your field. 
-
-4. It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm!  :tada:
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
