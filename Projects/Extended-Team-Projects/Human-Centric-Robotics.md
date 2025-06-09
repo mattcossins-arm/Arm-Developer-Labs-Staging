@@ -60,7 +60,6 @@ Team size: 2+ participants
 - **IP/Cloud Access**:
   - Any cloud service provider with Arm-based instances (for model training or data analysis)
 
-
 ## Benefits 
 
 Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
