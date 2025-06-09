@@ -22,8 +22,6 @@ You can be sure that any project you see here is valued by Arm or a named eco-sy
 
 ## How does it work? 
 
-To receive the benefits, you must show us your project by: 
-
 To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
 
 Please note, we may contact you to discuss co-promotion opportunities. 

@@ -21,7 +21,7 @@ status:
 license:  
 ---
 
-![learn_on_arm](../../images/Learn_on_Arm_banner.png)
+![arduino_logo](../../images/arduino_logo.png)
 
 
 ## Description
