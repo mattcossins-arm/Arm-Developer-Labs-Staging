@@ -52,13 +52,17 @@ def make_url_from_path(path: Path) -> str:
     slug = path.stem
     return f"/{year}/{month}/{day}/{slug}.html"
 
+def clear_nav():
+    with open(navigation, "r") as f:
+        yam_tab = yaml.safe_load(f)
+    for i in range(0,3):
+        yam_tab["projects"][i]["children"].clear()
+
 def process_yml(pathlist, level: str, tab: str):
     # Load the entire navigation.yml as a Python dict
     with open(navigation, "r") as f:
         yam_tab = yaml.safe_load(f)
         
-    yam_tab[tab][2]["children"].clear()
-
     # --- Update the header URL for the "projects" tab ---
     if level == "projects":
         projects_index = Path("../Projects/projects.md")
@@ -68,11 +72,8 @@ def process_yml(pathlist, level: str, tab: str):
             if "header" in yam_tab and isinstance(yam_tab["header"], list):
                 yam_tab["header"][0]["url"] = header_url
 
-        # Clear existing children under yam_tab["projects"][0]["children"]
-        yam_tab[tab][0]["children"].clear()
-
         for path in pathlist:
-            if check_status(path)[0].lower() == "hidden" :
+            if check_status(path)[0].lower() == "hidden":
                 print(f"Skipping hidden project: {path.name}")
                 continue
             
@@ -87,7 +88,8 @@ def process_yml(pathlist, level: str, tab: str):
             support_level = post.metadata.get("support-level")
             subjects = post.metadata.get("subjects")
             
-            if check_status(path)[0].lower() == "draft" :
+            if check_status(path)[0].lower() == "draft":
+                print(f"Draft project: {path.name}")
                 yam_tab[tab][2]["children"].append({
                     "title": title,
                     "url": url,
@@ -110,11 +112,8 @@ def process_yml(pathlist, level: str, tab: str):
             })
 
     elif level == "extended-team-project":
-        # Clear existing children under yam_tab["projects"][1]["children"]
-        yam_tab[tab][1]["children"].clear()
-
         for path in pathlist:
-            if check_status(path)[0].lower() == "hidden" :
+            if check_status(path)[0].lower() == "hidden":
                 print(f"Skipping hidden project: {path.name}")
                 continue
 
@@ -129,7 +128,8 @@ def process_yml(pathlist, level: str, tab: str):
             support_level = post.metadata.get("support-level")
             subjects = post.metadata.get("subjects")
             
-            if check_status(path)[0].lower() == "draft" :
+            if check_status(path)[0].lower() == "draft":
+                print(f"Draft project: {path.name}")
                 yam_tab[tab][2]["children"].append({
                     "title": title,
                     "url": url,
@@ -155,5 +155,6 @@ def process_yml(pathlist, level: str, tab: str):
         yaml.safe_dump(yam_tab, f, sort_keys=False)
 
 if __name__ == "__main__":
+    clear_nav()
     process_yml(projects_pathlist, "projects", "projects")
     process_yml(extended_project_pathlist, "extended-team-project", "projects")
