@@ -15,10 +15,11 @@ sw-hw:
 support-level: 
     - "Self-Service"
     - "Arm Ambassador Support"
-publication-date: 30-05-2025
+publication-date: 2025-05-30
 license:
 status:
     - "Hidden"
+license: 
 ---
 
 ![computer_vision](./images/computer_vision.jpg)

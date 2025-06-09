@@ -14,10 +14,11 @@ sw-hw:
 support-level: 
     - "Self-Service"
     - "Arm Ambassador Support"
-publication-date: 30-05-2025
+publication-date: 2025-05-30
 license:
 status:
     - "Draft" 
+license: 
 ---
 
 ![research_on_arm](../../images/Research_on_arm_banner.png)

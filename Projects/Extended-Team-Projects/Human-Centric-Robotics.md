@@ -18,7 +18,7 @@ support-level:
     - "Self-Service"
     - "Arm Ambassador Support"
     - "Direct Support from Arm"
-publication-date: 30-05-2025
+publication-date: 2025-05-30
 license: 
 ---
 

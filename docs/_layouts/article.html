@@ -18,7 +18,20 @@ type: article
       <!-- 1) Checkbox filters exactly as before -->
       <div class="subjects">
         {%- assign nav_group = site.data.navigation["projects"] -%}
-
+        <div class="search search--bright">
+          <div class="main">
+            <div class="search-bar">
+              <div class="search-box js-search-box not-empty">
+                <div class="search-box__icon-search"><i class="fas fa-search"></i></div>
+                <input type="text" class="">
+                <div class="search-box__icon-clear js-icon-clear">
+                  <a><i class="fas fa-times"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="search-result js-search-result"></div>
+          </div>
+        </div>
         <!-- Platform -->
         <div class="filter">
           <strong>Platform:</strong>
@@ -127,7 +140,6 @@ type: article
           {%- endfor -%}
         </div>
       </div>
-
       <!-- 2) Two‐section project list -->
       <div class="project-results">
         {%- assign nav_root = site.data.navigation["projects"] -%}
