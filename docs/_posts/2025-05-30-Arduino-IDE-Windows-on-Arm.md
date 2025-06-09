@@ -23,7 +23,7 @@ sw-hw:
 title: Porting and Optimizing Arduino IDE for Windows on Arm
 ---
 
-<img class="image image--xl" src="/Arm-Developer-Labs/images/Learn_on_Arm_banner.png"/>
+<img class="image image--xl" src="/Arm-Developer-Labs/images/arduino_logo.png"/>
 
 
 ## Description
