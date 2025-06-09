@@ -26,6 +26,12 @@ status:
 
 ### Description
 
+**Why this is important?**
+
+SPEC is an industry standard for assessing the performance of both single-threaded and multi-threaded applications across various data types and compilers. This synthetic workload accurately represents real-world tasks and serves as a common metric for evaluating platform choices. Therefore, it is essential to comprehend the inner workings of these benchmarks to identify which microarchitectural features can enhance end-user applications.
+
+**Project Summary**
+
 This project aims to replicate the characterisation study from "SPEC CPU2017: Performance, Event, and Energy Characterization on the Core i7-8700K" on an Arm64 platform (e.g., Ampere Altra, AWS Graviton) using different compilers and performance profiling tools. The study will analyze how compiler optimizations and architectural features affect execution time, energy efficiency, and instruction throughput on Arm-based server processors. Deliverables include a comprehensive performance analysis report, reproducible benchmarking scripts, and a dataset comparing performance across different configurations. The report should locate microarchitectural bottlenecks using the [top-down methodology](https://developer.arm.com/documentation/109542/0100/Arm-Topdown-methodology), compiler performance and recommendations on how to improve performance.
 
 ## Prequisites

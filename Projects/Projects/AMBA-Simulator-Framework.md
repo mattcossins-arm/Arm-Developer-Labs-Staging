@@ -16,7 +16,6 @@ publication-date: 30-05-2025
 license:
 status:
     - "Hidden"
-
 ---
 
 ![amba](./images/AMBA.avif)

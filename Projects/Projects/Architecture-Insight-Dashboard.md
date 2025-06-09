@@ -28,7 +28,7 @@ status:
 
 **Why this is important?** 
 
-Developers struggle to decide which platform to target their software. There are many smartphones and cloud instances to choose from but the consumer popularity is difficult to gauge and software stack dependencies issues are time-consuming to identify. Arm expected even more Arm-based platforms to be available over the coming years and this will exerberbate a confusing situation.
+Developers often face challenges in selecting the appropriate platform for their software. With numerous smartphones and cloud instances available, gauging consumer popularity and availability can be difficult, and identifying software stack dependencies can be time-consuming. As Arm anticipates an increase in Arm-based products in the coming years, this situation is likely to become even more complex, requiring the need for a single, validated solution. 
 
 **Project Summary**
 
