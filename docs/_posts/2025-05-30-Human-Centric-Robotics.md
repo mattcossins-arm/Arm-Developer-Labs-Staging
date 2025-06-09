@@ -63,6 +63,8 @@ Team size: 2+ participants
 - **IP/Cloud Access**:
   - Any cloud service provider with Arm-based instances (for model training or data analysis)
 
+## Benefits
+
 
 ## Benefits 
 
