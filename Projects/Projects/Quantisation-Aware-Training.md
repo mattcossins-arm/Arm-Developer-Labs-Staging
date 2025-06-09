@@ -32,7 +32,7 @@ Students will apply QAT to maintain accuracy while reducing model size and infer
 
 The project encourages referencing work by contributing **optimized and quantized models for Arm platforms** on HuggingFace. The final quantized model will be **uploaded to HuggingFace** and may be submitted for listing in the [Arm on HuggingFace space](https://huggingface.co/Arm), encouraging open, community-supported contributions.
 
-## Hardware, Software and Skills Required
+## Prequisites
 
 - **Languages**: Familiar with Python, pytorch and Java/Kotlin (if Android).
 - **Frameworks**: Intermediate understanding of PyTorch 
@@ -42,15 +42,19 @@ The project encourages referencing work by contributing **optimized and quantize
 - **Deployment Targets**:  
   - Android  
 
-## Resources  
-- [Quantization in PyTorch](https://pytorch.org/docs/stable/quantization.html)  
-- [Google Media Pipe](https://android-developers.googleblog.com/2024/10/bring-your-ai-model-to-android-devices.html)  
-- [Hugging Face Datasets](https://huggingface.co/docs/datasets/en/index) 
-- [AI on Arm course](https://github.com/arm-university/AI-on-Arm)
+## Resources from Arm and our partners
 
-## Benefits / Prizes  
+- Documentation: [Quantization in PyTorch](https://pytorch.org/docs/stable/quantization.html)  
+- Blog: [Google Media Pipe](https://android-developers.googleblog.com/2024/10/bring-your-ai-model-to-android-devices.html)  
+- Datasets: [Hugging Face Datasets](https://huggingface.co/docs/datasets/en/index) 
+- Repository: [AI on Arm course](https://github.com/arm-university/AI-on-Arm)
 
-- Standout projects could be internally referred for relevant positions at Arm! 📃  
-- If your submission is approved, you could receive a recognised badge that you can list on your CV and shared on LinkedIn. A great way to stand out from the crowd! 🎓  
-- It's a great way to demonstrate your initiative and commitment to your field.  
-- It offers the opportunity to learn valuable skills that are highly relevant to a successful career at Arm! 🎉  
+## Support Level
+
+This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
+
+## Benefits 
+
+Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
