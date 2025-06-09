@@ -12,6 +12,11 @@ extended_project_pathlist = Path(extended_projects_dir).rglob("*.md")
 
 navigation = "../docs/_data/navigation.yml"
 
+def check_status(path: Path) -> str:
+    post = frontmatter.load(path)
+    status_meta = post.metadata.get("status")
+    return status_meta
+
 def extract_date_components(path: Path) -> (str, str, str):
     """
     Look for a 'date' field in frontmatter. If present and valid ISO or datetime, use it.
@@ -51,6 +56,8 @@ def process_yml(pathlist, level: str, tab: str):
     # Load the entire navigation.yml as a Python dict
     with open(navigation, "r") as f:
         yam_tab = yaml.safe_load(f)
+        
+    yam_tab[tab][2]["children"].clear()
 
     # --- Update the header URL for the "projects" tab ---
     if level == "projects":
@@ -65,6 +72,10 @@ def process_yml(pathlist, level: str, tab: str):
         yam_tab[tab][0]["children"].clear()
 
         for path in pathlist:
+            if check_status(path)[0].lower() == "hidden" :
+                print(f"Skipping hidden project: {path.name}")
+                continue
+            
             filename = path.name
             slug = filename.removesuffix(".md")
             url = make_url_from_path(path)
@@ -75,6 +86,18 @@ def process_yml(pathlist, level: str, tab: str):
             sw_hw = post.metadata.get("sw-hw")
             support_level = post.metadata.get("support-level")
             subjects = post.metadata.get("subjects")
+            
+            if check_status(path)[0].lower() == "draft" :
+                yam_tab[tab][2]["children"].append({
+                    "title": title,
+                    "url": url,
+                    "subjects": subjects,
+                    "platform": platform,
+                    "sw-hw": sw_hw,
+                    "support-level": support_level,
+                    "status": check_status(path)
+                })
+                continue
 
             yam_tab[tab][0]["children"].append({
                 "title": title,
@@ -82,7 +105,8 @@ def process_yml(pathlist, level: str, tab: str):
                 "subjects": subjects,
                 "platform": platform,
                 "sw-hw": sw_hw,
-                "support-level": support_level
+                "support-level": support_level,
+                "status": check_status(path)
             })
 
     elif level == "extended-team-project":
@@ -90,6 +114,10 @@ def process_yml(pathlist, level: str, tab: str):
         yam_tab[tab][1]["children"].clear()
 
         for path in pathlist:
+            if check_status(path)[0].lower() == "hidden" :
+                print(f"Skipping hidden project: {path.name}")
+                continue
+
             filename = path.name
             slug = filename.removesuffix(".md")
             url = make_url_from_path(path)
@@ -100,6 +128,18 @@ def process_yml(pathlist, level: str, tab: str):
             sw_hw = post.metadata.get("sw-hw")
             support_level = post.metadata.get("support-level")
             subjects = post.metadata.get("subjects")
+            
+            if check_status(path)[0].lower() == "draft" :
+                yam_tab[tab][2]["children"].append({
+                    "title": title,
+                    "url": url,
+                    "subjects": subjects,
+                    "platform": platform,
+                    "sw-hw": sw_hw,
+                    "support-level": support_level,
+                    "status": check_status(path)
+                })
+                continue
 
             yam_tab[tab][1]["children"].append({
                 "title": title,
