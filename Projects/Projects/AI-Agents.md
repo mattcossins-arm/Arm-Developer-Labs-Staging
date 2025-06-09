@@ -14,7 +14,9 @@ support-level:
     - "Self-Service"
     - "Arm Ambassador Support"
 publication-date: 30-05-2025
-license: 
+license:
+status:
+    - "Published" 
 ---
 
 ![learn_on_arm](../../images/Research_on_arm_banner.png)
@@ -24,13 +26,13 @@ license:
 
 **Why this is important?** 
 
-AI Agents enhance large language models (LLMs) by performing user-driven actions, enabling various commercial applications. This creates numerous use cases supported by emerging frameworks like the model context protocol (MCP). The Arm architecture, from microcontrollers to servers, will be used to carry out agentic functions and Arm has many initatives to support the AI future. See [our website for more details](https://www.arm.com/markets/artificial-intelligence).
+AI Agents enhance large language models (LLMs) by performing user-driven actions, enabling various commercial applications. This is a nascent domain will emerging frameworks such as the model context protocol (MCP) leading to commercial products and services. The Arm architecture, from microcontrollers to servers, will be used to carry out agentic functions and Arm has many initatives to support the AI future. See [our website for more details](https://www.arm.com/markets/artificial-intelligence). 
 
 **Project Summary**
 
-Participants must develop an AI-powered agent that automates repetitive and complex workflow tasks in a specific domain, such as software development, project management, or DevOps. The foundational model can be a suitable model of your choice (e.g., [OpenAI API](https://openai.com/api/)) but you must consider the appropriate model for cost, reliability and accessibility. Additionally, you are free to choose the tools for agent functionality, such as [LLama-cpp-agent](https://github.com/Maximilian-Winter/llama-cpp-agent). 
+Participants must develop an AI-powered agent that automates repetitive and complex workflow tasks in a specific domain, such as software development, e-commerice, or DevOps. The foundational model can be a suitable model of your choice (e.g., [OpenAI API](https://openai.com/api/)) but you must consider the appropriate model for cost, reliability and accessibility. Additionally, you are free to choose the tools for agent functionality, such as [LLama-cpp-agent](https://github.com/Maximilian-Winter/llama-cpp-agent). One stipulatation, is that the LLM and/or agent must run on an Arm-based system, such as a Google Pixel phone or Arm-based server. 
 
-The AI agent will be deployed in a sandboxed environment to ensure safety and prevent unintended consequences.
+The AI agent will be deployed in a sandboxed environment to ensure safety and prevent unintended consequences, including prompt guardrails 
 
 ## Prerequisites
 

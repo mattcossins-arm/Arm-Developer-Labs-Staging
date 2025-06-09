@@ -16,14 +16,21 @@ support-level:
     - "Self-Service"
     - "Arm Ambassador Support"
 publication-date: 30-05-2025
-license: 
+license:
+status:
+    - "Published" 
 ---
 
 ![supporting image](./images/can-i-use.jpg)
 
 
 ### Description
-Developers struggle to decide which platform to target their software. There are many smartphones and cloud instances to choose from but the consumer popularity is difficult to gauge and software stack dependencies issues are time-consuming to identify.
+
+**Why this is important?** 
+
+Developers struggle to decide which platform to target their software. There are many smartphones and cloud instances to choose from but the consumer popularity is difficult to gauge and software stack dependencies issues are time-consuming to identify. Arm expected even more Arm-based platforms to be available over the coming years and this will exerberbate a confusing situation.
+
+**Project Summary**
 
 This project aims to develop a comprehensive dashboard that lets a developer know what proportion of devices support a specific Arm CPU extension, similar to [“Can I use”](https://caniuse.com/) for web development and any software compatibility issues. The functional requirements for the Architecture Insights dashboard:
 

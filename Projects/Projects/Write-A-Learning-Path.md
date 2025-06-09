@@ -20,7 +20,9 @@ support-level:
     - "Self-Service"
     - "Arm Ambassador Support"
 publication-date: 30-05-2025
-license: 
+license:
+status:
+    - "Hidden" 
 ---
 
 ![teach_on_arm](../../images/Educate_on_Arm_banner.png)

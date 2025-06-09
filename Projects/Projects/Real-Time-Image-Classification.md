@@ -16,7 +16,9 @@ support-level:
     - "Self-Service"
     - "Arm Ambassador Support"
 publication-date: 30-05-2025
-license: 
+license:
+status:
+    - "Hidden"
 ---
 
 ![computer_vision](./images/computer_vision.jpg)
