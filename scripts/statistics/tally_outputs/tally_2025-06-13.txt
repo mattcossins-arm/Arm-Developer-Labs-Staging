@@ -40,7 +40,6 @@ Key: license
   'None': 23
 
 Key: status
-  'Published': 12
-  'Draft': 6
-  'Hidden': 5
+  'Published': 15
+  'Hidden': 8
 
