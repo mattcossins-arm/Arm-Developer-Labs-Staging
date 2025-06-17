@@ -247,4 +247,14 @@ li.project-item {
 .filter-toggle .chevron.rotated {
   transform: rotate(45deg);
 }
+
+.donation-notice {
+  background-color: #fffbe6;        /* light yellow background */
+  border-left: 4px solid #ffc107;   /* bold amber accent on the left */
+  padding: 16px;                    /* inner spacing */
+  margin: 20px 0;                   /* vertical separation from other content */
+  border-radius: 4px;               /* slightly rounded corners */
+  line-height: 1.5;                 /* improve readability */
+  position: relative;               /* for any pseudo-element icons */
+}
 /* end custom scss snippet */

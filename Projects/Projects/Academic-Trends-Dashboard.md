@@ -19,6 +19,8 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
+donation:
+    - "10,000"
 ---
 
 ![dashboard](./images/dashboard.png)

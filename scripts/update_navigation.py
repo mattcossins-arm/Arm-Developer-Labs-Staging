@@ -57,7 +57,6 @@ def clear_nav():
         yam_tab = yaml.safe_load(f)
     yam_tab["projects"][0]["children"].clear()
     yam_tab["projects"][1]["children"].clear()
-    yam_tab["projects"][2]["children"].clear()
     with open(navigation, "w") as f:
         yaml.safe_dump(yam_tab, f, sort_keys=False)
 

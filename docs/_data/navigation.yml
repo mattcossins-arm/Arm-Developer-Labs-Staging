@@ -5,12 +5,11 @@ header:
 projects:
 - title: Projects
   children:
-  - title: AI-Powered-Porting-Tool
-    url: /2025/05/30/AI-Powered-Porting-Tool.html
+  - title: Academic-Trends-Dashboard
+    url: /2025/05/30/Academic-Trends-Dashboard.html
     subjects:
-    - CI-CD
-    - ML
-    - Migration to Arm
+    - Web
+    - Databases
     platform:
     - Servers and Cloud Computing
     - Laptops and Desktops
@@ -23,13 +22,31 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: HPC-Algorithm
-    url: /2025/05/30/HPC-Algorithm.html
+  - title: AI-Agents
+    url: /2025/05/30/AI-Agents.html
     subjects:
-    - Performance and Architecture
+    - ML
     platform:
     - Servers and Cloud Computing
     - Laptops and Desktops
+    - AI
+    sw-hw:
+    - Software
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    status:
+    - Published
+  - title: AI-Powered-Porting-Tool
+    url: /2025/05/30/AI-Powered-Porting-Tool.html
+    subjects:
+    - CI-CD
+    - ML
+    - Migration to Arm
+    platform:
+    - Servers and Cloud Computing
+    - Laptops and Desktops
+    - Mobile, Graphics, and Gaming
     - AI
     sw-hw:
     - Software
@@ -55,6 +72,22 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
+  - title: Arduino-IDE-Windows-on-Arm
+    url: /2025/05/30/Arduino-IDE-Windows-on-Arm.html
+    subjects:
+    - Performance and Architecture
+    - Migration to Arm
+    - Libraries
+    platform:
+    - Laptops and Desktops
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    status:
+    - Published
   - title: Bioinformatic-Pipeline-Analysis
     url: /2025/05/30/Bioinformatic-Pipeline-Analysis.html
     subjects:
@@ -70,30 +103,14 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: R-Arm-Community-Support
-    url: /2025/05/30/R-Arm-Community-Support.html
+  - title: Haskell-Compiler-Windows-on-Arm
+    url: /2025/05/30/Haskell-Compiler-Windows-on-Arm.html
     subjects:
-    - Performance and Architecture
     - Migration to Arm
-    - Libraries
-    platform:
-    - Laptops and Desktops
-    sw-hw:
-    - Software
-    support-level:
-    - Self-Service
-    - Arm Ambassador Support
-    status:
-    - Published
-  - title: SpecINT2017-benchmarking-on-Arm64
-    url: /2025/05/30/SpecINT2017-benchmarking-on-Arm64.html
-    subjects:
     - Performance and Architecture
-    - Migration to Arm
     platform:
     - Servers and Cloud Computing
     - Laptops and Desktops
-    - AI
     sw-hw:
     - Software
     - Hardware
@@ -102,10 +119,10 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: AI-Agents
-    url: /2025/05/30/AI-Agents.html
+  - title: HPC-Algorithm
+    url: /2025/05/30/HPC-Algorithm.html
     subjects:
-    - ML
+    - Performance and Architecture
     platform:
     - Servers and Cloud Computing
     - Laptops and Desktops
@@ -133,16 +150,32 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: Academic-Trends-Dashboard
-    url: /2025/05/30/Academic-Trends-Dashboard.html
+  - title: Processor-in-the-Loop-Automotive
+    url: /2025/05/30/Processor-in-the-Loop-Automotive.html
     subjects:
-    - Web
-    - Databases
+    - Embedded Linux
+    - RTOS Fundamentals
+    - Virtual Hardware
     platform:
-    - Servers and Cloud Computing
     - Laptops and Desktops
-    - Mobile, Graphics, and Gaming
-    - AI
+    - Automotive
+    - Embedded and Microcontrollers
+    sw-hw:
+    - Software
+    - Hardware
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    status:
+    - Published
+  - title: R-Arm-Community-Support
+    url: /2025/05/30/R-Arm-Community-Support.html
+    subjects:
+    - Performance and Architecture
+    - Migration to Arm
+    - Libraries
+    platform:
+    - Laptops and Desktops
     sw-hw:
     - Software
     support-level:
@@ -165,48 +198,15 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: Arduino-IDE-Windows-on-Arm
-    url: /2025/05/30/Arduino-IDE-Windows-on-Arm.html
+  - title: SpecINT2017-benchmarking-on-Arm64
+    url: /2025/05/30/SpecINT2017-benchmarking-on-Arm64.html
     subjects:
     - Performance and Architecture
     - Migration to Arm
-    - Libraries
-    platform:
-    - Laptops and Desktops
-    sw-hw:
-    - Software
-    - Hardware
-    support-level:
-    - Self-Service
-    - Arm Ambassador Support
-    status:
-    - Published
-  - title: Haskell-Compiler-Windows-on-Arm
-    url: /2025/05/30/Haskell-Compiler-Windows-on-Arm.html
-    subjects:
-    - Migration to Arm
-    - Performance and Architecture
     platform:
     - Servers and Cloud Computing
     - Laptops and Desktops
-    sw-hw:
-    - Software
-    - Hardware
-    support-level:
-    - Self-Service
-    - Arm Ambassador Support
-    status:
-    - Published
-  - title: Processor-in-the-Loop-Automotive
-    url: /2025/05/30/Processor-in-the-Loop-Automotive.html
-    subjects:
-    - Embedded Linux
-    - RTOS Fundamentals
-    - Virtual Hardware
-    platform:
-    - Laptops and Desktops
-    - Automotive
-    - Embedded and Microcontrollers
+    - AI
     sw-hw:
     - Software
     - Hardware

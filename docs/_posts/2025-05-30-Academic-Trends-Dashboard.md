@@ -1,4 +1,6 @@
 ---
+donation:
+- 10,000
 layout: article
 license: null
 platform:
