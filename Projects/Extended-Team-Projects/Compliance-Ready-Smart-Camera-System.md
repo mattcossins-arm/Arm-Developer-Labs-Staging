@@ -24,6 +24,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
+donation: 
 ---
 
 Reach out to Arm at [education@arm.com](mailto:education@arm.com) if you'd like to participate in this challenge.
