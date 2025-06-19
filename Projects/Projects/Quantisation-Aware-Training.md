@@ -19,7 +19,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Hidden" 
-license: 
+donation: 
 ---
 
 ## Description  

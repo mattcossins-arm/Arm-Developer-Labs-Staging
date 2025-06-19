@@ -19,7 +19,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Hidden"
-license: 
+donation: 
 ---
 
 ![computer_vision](./images/computer_vision.jpg)

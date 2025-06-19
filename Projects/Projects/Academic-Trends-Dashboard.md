@@ -20,7 +20,6 @@ license:
 status:
     - "Published" 
 donation:
-    - "10,000"
 ---
 
 ![dashboard](./images/dashboard.png)

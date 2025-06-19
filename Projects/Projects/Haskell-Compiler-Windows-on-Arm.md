@@ -18,7 +18,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
-license: 
+donation: 
 ---
 
 ![learn_on_arm](../../images/Learn_on_Arm_banner.png)
