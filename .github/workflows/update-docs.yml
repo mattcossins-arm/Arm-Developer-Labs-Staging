@@ -21,17 +21,26 @@ jobs:
 
       - name: Build docs & tests
         run: |
+          cd scripts
           python -m venv .venv
           source .venv/bin/activate
           pip install -r requirements.txt
           python update_docs.py
           python update_navigation.py
           pytest ../test/test_metadata.py
-
+          cd ..
+          
       - name: Commit & push regenerated docs
+        env:
+          BRANCH: ${{ github.head_ref }} 
         run: |
           git config --global user.name  "ci-bot"
           git config --global user.email "ci-bot@users.noreply.github.com"
+      
           git add -A
+          git diff --cached --quiet && exit 0
           git commit -m "docs: auto-update"
-          git push
+      
+          git fetch origin "$BRANCH"
+          git rebase origin/"$BRANCH"
+          git push origin HEAD:"$BRANCH"
