@@ -22,8 +22,9 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0' # Adjust the Ruby version as needed for your project
-
+          ruby-version: '3.2'
+          bundler-cache: true
+          
       - name: Set BASE_URL
         run: echo "BASE_URL=/github/${{ github.repository }}/${{ github.event.number }}/" >> $GITHUB_ENV
 
