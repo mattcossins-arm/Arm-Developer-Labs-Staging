@@ -1,5 +1,6 @@
 ---
 title: "SpecINT2017 Benchmarking on Arm64: Evaluating Compiler and Workload Performance"
+description: "This self-service project profiles SPEC CPU2017 on Arm64 servers—using GCC, Clang, and Arm Compiler with top-down analysis—to reveal how compiler choices and Arm micro-architectural features impact execution time, energy efficiency, and performance bottlenecks."
 subjects:
     - "Performance and Architecture"
     - "Migration to Arm"

@@ -1,5 +1,6 @@
 ---
 title: "Human-Centric Robotics – Urban Deployment & Socioeconomic Modelling"
+description: "This six-month team project will build and campus-test an Arm-based urban service robot—merging real-time navigation, vision-guided manipulation, and human interaction—and model its socioeconomic impact to show how Arm platforms can transform last-mile delivery, eldercare, and other city services."
 subjects:
     - "ML"
     - "Embedded Linux"

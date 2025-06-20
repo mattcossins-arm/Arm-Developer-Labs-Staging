@@ -1,5 +1,6 @@
 ---
 title: "Running Real-Time Image Classification on Arm Cortex-M with CMSIS-NN"
+description: "This self-service project trains, quantizes, and CMSIS-NN-deploys a CNN to achieve real-time image classification on an Arm Cortex-M board—demonstrating low-power, edge-ready AI on microcontrollers."
 subjects:
     - "ML"
     - "Performance and Architecture"

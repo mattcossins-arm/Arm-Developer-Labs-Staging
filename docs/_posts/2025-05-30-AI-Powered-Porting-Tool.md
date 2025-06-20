@@ -1,4 +1,8 @@
 ---
+description: This self-service project creates an AI-driven porting engine that analyzes
+  package dependencies, auto-generates fixes, and submits pull requests—accelerating
+  native macOS and Windows-on-Arm support for bioinformatics and R software so researchers
+  can run demanding workflows directly on modern Arm devices.
 donation: null
 layout: article
 license: null

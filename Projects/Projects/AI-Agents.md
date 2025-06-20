@@ -1,5 +1,6 @@
 ---
 title: "AI-Powered Workflow Agent in a Sandboxed Environment"
+description: "This self-service project builds a sandboxed AI agent on Arm hardware that harnesses appropriately sized LLMs to safely automate complex workflows—from DevOps pipelines to e-commerce tasks—demonstrating secure, efficient automation on accessible Arm platforms."
 subjects:
     - "ML"
 requires-team:

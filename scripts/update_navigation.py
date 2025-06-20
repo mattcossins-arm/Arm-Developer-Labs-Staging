@@ -89,11 +89,13 @@ def process_yml(pathlist, level: str, tab: str):
             sw_hw = post.metadata.get("sw-hw")
             support_level = post.metadata.get("support-level")
             subjects = post.metadata.get("subjects")
+            description = post.metadata.get("description")
             
             if check_status(path)[0].lower() == "draft":
                 print(f"Draft project: {path.name}")
                 yam_tab[tab][2]["children"].append({
                     "title": title,
+                    "description": description,
                     "url": url,
                     "subjects": subjects,
                     "platform": platform,
@@ -105,6 +107,7 @@ def process_yml(pathlist, level: str, tab: str):
 
             yam_tab[tab][0]["children"].append({
                 "title": title,
+                "description": description,
                 "url": url,
                 "subjects": subjects,
                 "platform": platform,
@@ -129,11 +132,13 @@ def process_yml(pathlist, level: str, tab: str):
             sw_hw = post.metadata.get("sw-hw")
             support_level = post.metadata.get("support-level")
             subjects = post.metadata.get("subjects")
+            description = post.metadata.get("description")
             
             if check_status(path)[0].lower() == "draft":
                 print(f"Draft project: {path.name}")
                 yam_tab[tab][2]["children"].append({
                     "title": title,
+                    "description": description,
                     "url": url,
                     "subjects": subjects,
                     "platform": platform,
@@ -145,6 +150,7 @@ def process_yml(pathlist, level: str, tab: str):
 
             yam_tab[tab][1]["children"].append({
                 "title": title,
+                "description": description,
                 "url": url,
                 "subjects": subjects,
                 "platform": platform,

@@ -1,4 +1,7 @@
 ---
+description: This self-service project trains, quantizes, and CMSIS-NN-deploys a CNN
+  to achieve real-time image classification on an Arm Cortex-M board—demonstrating
+  low-power, edge-ready AI on microcontrollers.
 donation: null
 layout: article
 license: null

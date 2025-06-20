@@ -1,4 +1,8 @@
 ---
+description: This self-service project brings native Glasgow Haskell Compiler support
+  to Windows on Arm—unlocking efficient Arm-laptop builds, extending Haskell’s reach,
+  and giving contributors hands-on experience with Arm64 code generation and runtime
+  integration.
 donation: null
 layout: article
 license: null

@@ -1,4 +1,8 @@
 ---
+description: This self-guided hardware project has you implement, simulate, and FPGA-prototype
+  a Verilog AMBA bus—from simple APB to advanced CHI—sharpening hands-on expertise
+  with Arm’s interconnect backbone and yielding a reusable reference design for future
+  embedded systems.
 donation: null
 layout: article
 license: null

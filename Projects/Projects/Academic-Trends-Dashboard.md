@@ -1,5 +1,6 @@
 ---
 title: "Design a Dashboard that Tracks the Progression of Academic Papers on Computer Science Over Time"
+description: "This self-service project creates a web-scraping, database-driven dashboard that visualizes how computer-science research topics shift over time—helping Arm partners and chip architects align future hardware designs with emerging algorithmic trends."
 subjects:
     - "Web"
     - "Databases"

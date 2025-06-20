@@ -1,5 +1,6 @@
 ---
 title: "Linux Capable SoC FPGA Prototyping Platform with DDR Memory"
+description: "This self-service project takes Arm Corstone-1000 from FPGA to silicon, delivering a DDR-backed, Linux-ready SoC platform that lets researchers plug in and evaluate custom accelerators with real-world performance."
 subjects:
     - "Virtual Hardware"
     - "Performance and Architecture"

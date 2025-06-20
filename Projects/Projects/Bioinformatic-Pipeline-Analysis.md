@@ -1,5 +1,6 @@
 ---
 title: "Benchmarking Bioconda Packages for Arm64 in Bioinformatics Pipelines"
+description: "This self-service project benchmarks Arm64 Bioconda packages in real nf-core workflows—measuring performance, diagnosing build failures, and proposing fixes that accelerate truly native bioinformatics on the expanding fleet of Arm-powered machines."
 subjects:
     - "Performance and Architecture"
     - "Databases"
@@ -70,6 +71,3 @@ This project is designed to be self-serve but comes with opportunity of some com
 Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
 To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
-
-
-

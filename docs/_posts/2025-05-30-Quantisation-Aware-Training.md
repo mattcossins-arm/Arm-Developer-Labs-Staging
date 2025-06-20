@@ -1,4 +1,8 @@
 ---
+description: This self-service project applies PyTorch quantization-aware training
+  to compress and accelerate vision models for Arm-powered Android devices—enabling
+  real-time, on-device AI while sharing the resulting lightweight models with the
+  Hugging Face community.
 donation: null
 layout: article
 license: null

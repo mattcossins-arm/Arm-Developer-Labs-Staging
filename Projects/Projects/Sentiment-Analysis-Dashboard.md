@@ -1,5 +1,6 @@
 ---
 title: "Create a Sentiment Analysis Dashboard for Keywords Based on the Semiconductor Industry"
+description: "This self-service project builds a web-scraping, LLM-powered dashboard that tracks and visualizes sentiment trends across semiconductor-industry news, giving stakeholders a real-time pulse on market mood and emerging themes."
 subjects:
     - "ML"
     - "Web"

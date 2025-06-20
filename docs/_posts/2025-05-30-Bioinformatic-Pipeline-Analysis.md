@@ -1,4 +1,8 @@
 ---
+description: This self-service project benchmarks Arm64 Bioconda packages in real
+  nf-core workflows—measuring performance, diagnosing build failures, and proposing
+  fixes that accelerate truly native bioinformatics on the expanding fleet of Arm-powered
+  machines.
 donation: null
 layout: article
 license: null

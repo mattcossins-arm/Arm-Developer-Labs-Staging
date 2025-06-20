@@ -1,4 +1,8 @@
 ---
+description: This self-service project creates a web-scraping, database-driven dashboard
+  that visualizes how computer-science research topics shift over time—helping Arm
+  partners and chip architects align future hardware designs with emerging algorithmic
+  trends.
 donation: null
 layout: article
 license: null
@@ -24,7 +28,6 @@ sw-hw:
 - Software
 title: Design a Dashboard that Tracks the Progression of Academic Papers on Computer
   Science Over Time
-description: hello
 ---
 
 <img class="image image--xl" src="/Arm-Developer-Labs/images/dashboard.png"/>
