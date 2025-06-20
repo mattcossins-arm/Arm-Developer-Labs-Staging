@@ -1,4 +1,8 @@
 ---
+description: This self-service project has students design, auto-generate, and processor-in-the-loop
+  verify a safety-critical automotive control algorithm on an Arm Cortex-M7 Fast Model—gaining
+  hands-on mastery of Simulink, Embedded Coder, and rigorous V-Model validation.
+donation: null
 layout: article
 license: null
 platform:

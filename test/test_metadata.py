@@ -67,6 +67,7 @@ REQUIRED_FIELDS = {
     "sw-hw",
     "support-level",
     "publication-date",
+    "description",
 }
 
 

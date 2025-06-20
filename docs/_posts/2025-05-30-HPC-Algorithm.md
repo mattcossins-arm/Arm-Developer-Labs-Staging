@@ -1,4 +1,8 @@
 ---
+description: This self-service project pinpoints a high-value HPC algorithm and turbo-charges
+  it with Arm’s SVE/SVE2 vectorization—demonstrating how next-generation Arm hardware
+  can deliver significant, scalable performance gains.
+donation: null
 layout: article
 license: null
 platform:

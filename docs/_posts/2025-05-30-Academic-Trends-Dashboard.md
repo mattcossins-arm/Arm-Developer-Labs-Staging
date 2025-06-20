@@ -1,4 +1,9 @@
 ---
+description: This self-service project creates a web-scraping, database-driven dashboard
+  that visualizes how computer-science research topics shift over time—helping Arm
+  partners and chip architects align future hardware designs with emerging algorithmic
+  trends.
+donation: null
 layout: article
 license: null
 platform:

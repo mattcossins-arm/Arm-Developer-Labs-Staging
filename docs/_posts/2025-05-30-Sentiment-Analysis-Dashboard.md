@@ -1,4 +1,8 @@
 ---
+description: This self-service project builds a web-scraping, LLM-powered dashboard
+  that tracks and visualizes sentiment trends across semiconductor-industry news,
+  giving stakeholders a real-time pulse on market mood and emerging themes.
+donation: null
 layout: article
 license: null
 platform:

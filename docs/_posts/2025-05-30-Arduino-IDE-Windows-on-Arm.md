@@ -1,4 +1,9 @@
 ---
+description: This self-service project ports and optimizes the Arduino IDE—patching
+  its lzma-native dependency—to run natively and efficiently on Windows on Arm, giving
+  developers hands-on experience with cross-platform builds, Arm64 performance tuning,
+  and upstream open-source contributions.
+donation: null
 layout: article
 license: null
 platform:

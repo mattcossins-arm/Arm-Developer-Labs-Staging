@@ -1,4 +1,9 @@
 ---
+description: This self-service project develops a data-rich dashboard that visualizes
+  the popularity of Arm CPU/OS combinations and pinpoints software-stack support for
+  specific extensions—giving developers an instant, validated view of where their
+  workloads will run best.
+donation: null
 layout: article
 license: null
 platform:
