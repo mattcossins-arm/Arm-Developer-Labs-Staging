@@ -24,6 +24,7 @@ sw-hw:
 - Software
 title: Design a Dashboard that Tracks the Progression of Academic Papers on Computer
   Science Over Time
+description: hello
 ---
 
 <img class="image image--xl" src="/Arm-Developer-Labs/images/dashboard.png"/>
