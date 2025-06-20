@@ -2,45 +2,71 @@ name: Update Docs
 
 on:
   push:
-    branches: [main]
-  pull_request:
+    branches: [main]       # rebuild when main is updated
+  pull_request:            # rebuild for every PR targeting main
 
-permissions:           
-  contents: write       
+permissions:
+  contents: write          # allow the job to push commits back
 
 jobs:
   update-docs:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4  
+    # -------------------------------------------------
+    # 1 – checkout full history so we can re-base/push
+    # -------------------------------------------------
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+    # -------------------------------------------------
+    # 2 – Python toolchain
+    # -------------------------------------------------
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
 
-      - name: Build docs & tests
-        run: |
-          cd scripts
-          python -m venv .venv
-          source .venv/bin/activate
-          pip install -r requirements.txt
-          python update_docs.py
-          python update_navigation.py
-          pytest ../test/test_metadata.py
-          cd ..
-          
-      - name: Commit & push regenerated docs
-        env:
-          BRANCH: ${{ github.head_ref }} 
-        run: |
-          git config --global user.name  "ci-bot"
-          git config --global user.email "ci-bot@users.noreply.github.com"
-      
-          git add -A
-          git diff --cached --quiet && exit 0
-          git commit -m "docs: auto-update"
-      
-          git fetch origin "$BRANCH"
-          git rebase origin/"$BRANCH"
-          git push origin HEAD:"$BRANCH"
+    # -------------------------------------------------
+    # 3 – build docs & run tests
+    # -------------------------------------------------
+    - name: Build docs and run tests
+      run: |
+        cd scripts
+        python -m venv .venv
+        source .venv/bin/activate
+        pip install -r scripts/requirements.txt
+        python scripts/update_docs.py
+        python scripts/update_navigation.py
+        pytest test/test_metadata.py
+        cd ..
+
+    # -------------------------------------------------
+    # 4 – commit + push back to the right branch
+    # -------------------------------------------------
+    - name: Commit and push regenerated docs
+      env:
+        # For PRs GitHub sets GITHUB_HEAD_REF (e.g. "test");
+        # on push events it is empty, so we default to "main".
+        TARGET_BRANCH: ${{ github.head_ref || 'main' }}
+      run: |
+        set -e
+        git config --global user.name  "ci-bot"
+        git config --global user.email "ci-bot@users.noreply.github.com"
+
+        # stage any changes produced by the scripts
+        git add -A
+        if git diff --cached --quiet; then
+          echo "Nothing to commit – skipping push"
+          exit 0
+        fi
+        git commit -m "docs: auto-update"
+
+        # make sure we’re rebasing onto the latest tip
+        git fetch origin "$TARGET_BRANCH"
+        # keep OUR regenerated version whenever a conflict happens
+        git rebase --strategy-option=ours origin/"$TARGET_BRANCH"  # :contentReference[oaicite:0]{index=0}
+
+        # push back to the same branch (main or PR source)
+        git push origin HEAD:"$TARGET_BRANCH"                     # :contentReference[oaicite:1]{index=1}
+
