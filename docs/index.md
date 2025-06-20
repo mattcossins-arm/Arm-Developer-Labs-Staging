@@ -10,8 +10,6 @@ article_header:
 
 
 
-test test test
-
 The state of the art of in software development is changing more rapidly than ever before.  Especially in fields like AI/ML, what was cutting-edge last year may have already been overtaken.  Arm Developer Labs is a repository of software and hardware project suggestions sourced from internal Arm teams and our network of eco-system partners but framed in way to be immediately accessible and useful to both academics and professional engineers alike. 
 
 You can take a project as is, adapt it to your circumstances or simply take inspiration from it eg. for selecting a student project or PhD research topic.  Arm helps by providing contextual collateral and resources (including, where relevant, letters of support) and projects include meta-data tags to help you search and find the right one for you. 
