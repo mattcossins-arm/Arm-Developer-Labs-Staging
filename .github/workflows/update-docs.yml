@@ -1,0 +1,42 @@
+name: Update Docs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:           
+  contents: write       
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4  
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build docs & tests
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install -r requirements.txt
+          python update_docs.py
+          python update_navigation.py
+          pytest ../test/test_metadata.py
+
+      - name: Commit & push regenerated docs
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config --global user.name  "ci-bot"
+          git config --global user.email "ci-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: auto-update"
+            git push
+          fi
