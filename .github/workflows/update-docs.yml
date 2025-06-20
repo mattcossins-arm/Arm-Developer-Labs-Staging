@@ -35,10 +35,10 @@ jobs:
         cd scripts
         python -m venv .venv
         source .venv/bin/activate
-        pip install -r scripts/requirements.txt
-        python scripts/update_docs.py
-        python scripts/update_navigation.py
-        pytest test/test_metadata.py
+        pip install -r requirements.txt
+        python update_docs.py
+        python update_navigation.py
+        pytest ../test/test_metadata.py
         cd ..
 
     # -------------------------------------------------
