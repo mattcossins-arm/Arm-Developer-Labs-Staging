@@ -1,5 +1,6 @@
 ---
 title: "Efficient Inference of text-to-video (OpenSora) on AWS Graviton Instances"
+description: "This self-service project ports and tunes OpenSora text-to-video transformers on AWS Graviton CPUs—showcasing cost-efficient, quantized, CPU-only inference pipelines and guiding best-practice optimization for Arm-based cloud AI workloads."
 subjects:
     - "ML"
     - "Migration to Arm"
@@ -18,7 +19,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
-license: 
+donation: 
 ---
 
 ![open_sora](./images/opensora.png)

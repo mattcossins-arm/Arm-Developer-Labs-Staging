@@ -1,5 +1,6 @@
 ---
 title: "Processor-in-the-Loop for an Automotive Control System"
+description: "This self-service project has students design, auto-generate, and processor-in-the-loop verify a safety-critical automotive control algorithm on an Arm Cortex-M7 Fast Model—gaining hands-on mastery of Simulink, Embedded Coder, and rigorous V-Model validation."
 subjects:
     - "Embedded Linux"
     - "RTOS Fundamentals"
@@ -20,7 +21,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
-license: 
+donation: 
 ---
 
 ![matlab](./images/mathworks.png)

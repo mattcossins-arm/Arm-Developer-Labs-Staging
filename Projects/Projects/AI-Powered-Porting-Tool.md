@@ -1,5 +1,6 @@
 ---
 title: "AI-Powered Package Porting Tool for the Arm Architectures"
+description: "This self-service project creates an AI-driven porting engine that analyzes package dependencies, auto-generates fixes, and submits pull requests—accelerating native macOS and Windows-on-Arm support for bioinformatics and R software so researchers can run demanding workflows directly on modern Arm devices."
 subjects:
     - "CI-CD"
     - "ML"
@@ -20,7 +21,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
-license: 
+donation:
 ---
 
 

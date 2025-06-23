@@ -1,5 +1,6 @@
 ---
 title: "Improving R Support for the Windows on Arm Community"
+description: "This self-service project boosts the R ecosystem on Windows on Arm by identifying unsupported packages, upstreaming fixes, and automating builds—so data scientists can run their workflows natively on fast, efficient Arm64 laptops and desktops."
 subjects:
     - "Performance and Architecture"
     - "Migration to Arm"
@@ -17,7 +18,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
-license: 
+donation: 
 ---
 
 ![learn_on_arm](../../images/Learn_on_Arm_banner.png)

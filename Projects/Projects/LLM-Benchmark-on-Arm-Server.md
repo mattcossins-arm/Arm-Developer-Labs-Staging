@@ -1,5 +1,6 @@
 ---
 title: "LLM Benchmark for Arm Server"
+description: "This self-service project sets up a reproducible MLPerf Inference workflow to benchmark large-language-model performance across Arm server configurations—yielding hard data that guides optimization of Arm hardware and software stacks for AI workloads."
 subjects:
     - "ML"
     - "Performance and Architecture"
@@ -18,7 +19,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Hidden" 
-license: 
+donation: 
 ---
 
 

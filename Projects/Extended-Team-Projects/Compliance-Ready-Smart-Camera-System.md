@@ -1,5 +1,6 @@
 ---
 title: "End-to-End Computer Vision System for Functional Safety"
+description: "This challenge will create and validate an Arm-based, smart camera pipeline on virtual automotive hardware—advancing safer, more developer-friendly driver-monitoring solutions for next-generation vehicles."
 subjects:
     - "Security"
     - "Embedded Linux"
@@ -24,6 +25,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Published" 
+donation: 
 ---
 
 Reach out to Arm at [education@arm.com](mailto:education@arm.com) if you'd like to participate in this challenge.

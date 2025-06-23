@@ -1,5 +1,6 @@
 ---
 title: "Quantization-Aware Training for Mobile Deployment: Deploying Lightweight Models on Arm"
+description: "This self-service project applies PyTorch quantization-aware training to compress and accelerate vision models for Arm-powered Android devices—enabling real-time, on-device AI while sharing the resulting lightweight models with the Hugging Face community."
 subjects:
     - "ML"
     - "Performance and Architecture"
@@ -19,7 +20,7 @@ publication-date: 2025-05-30
 license:
 status:
     - "Hidden" 
-license: 
+donation: 
 ---
 
 ## Description  

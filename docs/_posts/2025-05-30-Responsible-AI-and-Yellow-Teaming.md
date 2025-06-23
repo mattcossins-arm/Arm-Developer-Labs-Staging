@@ -1,4 +1,8 @@
 ---
+description: This self-service project equips teams with a YellowTeamGPT workflow
+  that probes Arm-based AI products for unintended impacts—turning responsible-AI
+  stress-testing into a core step of the development cycle.
+donation: null
 layout: article
 license: null
 platform:

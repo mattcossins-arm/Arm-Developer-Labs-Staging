@@ -1,5 +1,6 @@
 ---
 title: "AMBA Infrastructure Design and Simulation Framework"
+description: "This self-guided hardware project has you implement, simulate, and FPGA-prototype a Verilog AMBA bus—from simple APB to advanced CHI—sharpening hands-on expertise with Arm’s interconnect backbone and yielding a reusable reference design for future embedded systems."
 subjects:
     - "Virtual Hardware"
     - "Performance and Architecture"
@@ -16,7 +17,8 @@ publication-date: 2025-05-30
 license:
 status:
     - "Hidden"
-license: 
+
+donation: 
 ---
 
 ![amba](./images/AMBA.avif)

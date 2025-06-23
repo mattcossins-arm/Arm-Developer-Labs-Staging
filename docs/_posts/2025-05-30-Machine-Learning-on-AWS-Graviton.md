@@ -1,4 +1,8 @@
 ---
+description: This self-service project ports and tunes OpenSora text-to-video transformers
+  on AWS Graviton CPUs—showcasing cost-efficient, quantized, CPU-only inference pipelines
+  and guiding best-practice optimization for Arm-based cloud AI workloads.
+donation: null
 layout: article
 license: null
 platform:

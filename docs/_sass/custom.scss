@@ -123,6 +123,7 @@ ul.project-list {
 
 /* Individual project entry */
 li.project-item {
+  text-align: center;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -246,5 +247,22 @@ li.project-item {
 }
 .filter-toggle .chevron.rotated {
   transform: rotate(45deg);
+}
+
+.donation-notice {
+  background-color: #E5FCFC;        
+  border-left: 4px solid #02EAEA;   
+  padding: 16px;                    
+  margin: 20px 0;                  
+  border-radius: 4px;             
+  line-height: 1.5;              
+  position: relative;           
+}
+
+.project-desc {
+  margin: 0.25rem 0 0;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #666;        
 }
 /* end custom scss snippet */

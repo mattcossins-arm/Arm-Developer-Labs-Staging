@@ -1,4 +1,8 @@
 ---
+description: This challenge will create and validate an Arm-based, smart camera pipeline
+  on virtual automotive hardware—advancing safer, more developer-friendly driver-monitoring
+  solutions for next-generation vehicles.
+donation: null
 layout: article
 license: null
 platform:

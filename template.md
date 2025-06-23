@@ -1,5 +1,6 @@
 ---
 title: "INSERT TITLE HERE"
+description: "SHORT DESCRIPTION OF THE PROJECT"
 subjects:
     - 
 // chose from [
