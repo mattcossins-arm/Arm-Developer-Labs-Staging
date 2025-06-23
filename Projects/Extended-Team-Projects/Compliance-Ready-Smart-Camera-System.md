@@ -1,6 +1,6 @@
 ---
 title: "End-to-End Computer Vision System for Functional Safety"
-description: "This six-month team challenge will create and validate an Arm-based, ISO 26262-compliant smart camera pipeline on virtual automotive hardware—advancing safer, more developer-friendly driver-monitoring solutions for next-generation vehicles."
+description: "This challenge will create and validate an Arm-based, smart camera pipeline on virtual automotive hardware—advancing safer, more developer-friendly driver-monitoring solutions for next-generation vehicles."
 subjects:
     - "Security"
     - "Embedded Linux"
