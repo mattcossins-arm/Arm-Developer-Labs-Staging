@@ -270,8 +270,12 @@ li.project-item {
   display: flex;
   justify-content: space-between; /* pushes items to left and right */
   align-items: flex-start;         /* aligns their tops */
-  flex-wrap: wrap;                 /* so it stacks on small screens */
+  flex-wrap: nowrap;                 /* so it stacks on small screens */
   gap: 1rem;                       /* gutter between columns */
   padding: 1rem;                   /* optional padding around */
+}
+
+.footer__section {
+  width: 50%;
 }
 /* end custom scss snippet */
