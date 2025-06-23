@@ -1,6 +1,6 @@
 ---
 title: "Optimise Performance of an Algorithm Used in High-Performance Compute Using Scalable Vector Extensions (SVE / SVE2)"
-description: "This self-service project pinpoints a high-value HPC algorithm and turbo-charges it with Arm’s SVE/SVE2 vectorization—demonstrating how next-generation Arm hardware can deliver significant, scalable performance gains."
+description: "This self-service project is around finding a HPC algorithm and accelerating it with Arm’s SVE/SVE2 vectorization—demonstrating how next-generation Arm hardware can deliver significant, scalable performance gains."
 subjects:
     - "Performance and Architecture"
 requires-team:
