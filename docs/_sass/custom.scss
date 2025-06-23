@@ -265,4 +265,13 @@ li.project-item {
   line-height: 1.4;
   color: #666;        
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between; /* pushes items to left and right */
+  align-items: flex-start;         /* aligns their tops */
+  flex-wrap: wrap;                 /* so it stacks on small screens */
+  gap: 1rem;                       /* gutter between columns */
+  padding: 1rem;                   /* optional padding around */
+}
 /* end custom scss snippet */
