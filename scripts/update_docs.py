@@ -45,9 +45,6 @@ def convert_md_images_to_html(md_text: str, doc_path: Path) -> str:
         if doc_path.resolve() == Path("../README.md").resolve() and img_path == "./images/DeveloperLabs_Header.png":
             return ""
 
-        elif doc_path.resolve() == Path("../Research/research.md").resolve() and img_path == "../images/Research_on_arm_banner.png":
-            return ""
-
         source_path = (doc_path.parent / img_path).resolve()
         target_folder = (docs_dir_path / "images").resolve()
         target_folder.mkdir(parents=True, exist_ok=True)
@@ -128,13 +125,13 @@ def format_content(pathlist, docs_path):
 
         # For certain top-level markdowns ("projects.md", "research.md"), 
         # we assign a special article_header override:
-        if path.name in ["projects.md", "research.md"]:
-            post.metadata["article_header"] = {
-                "type": "cover",
-                "image": {
-                    "src": "/images/DeveloperLabs_Header.png",
-                },
-            }
+        # if path.name in ["projects.md", "research.md"]:
+        #     post.metadata["article_header"] = {
+        #         "type": "cover",
+        #         "image": {
+        #             "src": "/images/DeveloperLabs_Header.png",
+        #         },
+        #     }
 
         # Always set layout to "article"
         post.metadata["layout"] = "article"
