@@ -140,6 +140,8 @@ def format_content(pathlist, docs_path):
         if path.name != "projects.md":
             post.metadata["sidebar"] = {"nav": "projects"}
 
+        post.metadata["full_description"] = str(body)
+
         # Serialize back to frontmatter+content
         formatted_content = frontmatter.dumps(post)
 
