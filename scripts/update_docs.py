@@ -1,9 +1,11 @@
 import os
+import sys
 import re
 import shutil
 from pathlib import Path
 import frontmatter
 from datetime import datetime
+import ruamel.yaml
 
 projects_dir = "../Projects/Projects"
 extended_projects_dir = "../Projects/Extended-Team-Projects"
@@ -84,6 +86,8 @@ def convert_md(md_text: str) -> str:
 
     return replaced_md
 
+
+
 def format_content(pathlist, docs_path):
     """
     For each Path in pathlist:
@@ -100,7 +104,6 @@ def format_content(pathlist, docs_path):
 
         raw_text = path.read_text(encoding="utf-8")
         post = frontmatter.loads(raw_text)
-        body = post.content
 
         # If there's a 'date' key in frontmatter, normalize it to "YYYY-MM-DD"
         date_meta = post.metadata.get("publication-date")
@@ -140,10 +143,30 @@ def format_content(pathlist, docs_path):
         if path.name != "projects.md":
             post.metadata["sidebar"] = {"nav": "projects"}
 
-        post.metadata["full_description"] = str(body)
-
-        # Serialize back to frontmatter+content
-        formatted_content = frontmatter.dumps(post)
+        data = {"full_description": post.content}
+        post.metadata.update(data)
+        
+        # Use ruamel.yaml for proper literal block scalar formatting
+        yaml = ruamel.yaml.YAML()
+        yaml.preserve_quotes = True
+        yaml.width = 4096
+        
+        # Create the frontmatter manually to ensure literal block scalars
+        metadata_copy = post.metadata.copy()
+        
+        # Convert multiline strings to literal scalars
+        for key, value in metadata_copy.items():
+            if isinstance(value, str) and '\n' in value:
+                metadata_copy[key] = ruamel.yaml.scalarstring.LiteralScalarString(value)
+        
+        # Manually construct the frontmatter
+        from io import StringIO
+        stream = StringIO()
+        yaml.dump(metadata_copy, stream)
+        yaml_content = stream.getvalue()
+        
+        # Build the full content with frontmatter
+        formatted_content = f"---\n{yaml_content}---\n{post.content}"
 
         # Convert Markdown image embeds → HTML and copy assets
         converted_content = convert_md_images_to_html(
