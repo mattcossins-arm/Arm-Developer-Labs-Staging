@@ -22,7 +22,7 @@ window.Lazyload.js([SOURCES.jquery, PAHTS.search_js], function() {
       for (j = 0; j < searchData[key].length; j++) {
         cur = searchData[key][j];
         var haystack = (cur.title || '').toLowerCase() + ' ' + (cur.full_description || '').toLowerCase();
-        if ((result[key] === undefined || result[key] && result[key].length < 4 )
+        if ((result[key] === undefined || result[key] && result[key].length < 8 )
           && haystack.indexOf(query.toLowerCase()) >= 0) {
           if (result[key] === undefined) {
             result[key] = [];
