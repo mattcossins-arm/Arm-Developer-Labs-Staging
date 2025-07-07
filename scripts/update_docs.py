@@ -100,7 +100,6 @@ def format_content(pathlist, docs_path):
 
         raw_text = path.read_text(encoding="utf-8")
         post = frontmatter.loads(raw_text)
-        body = post.content
 
         # If there's a 'date' key in frontmatter, normalize it to "YYYY-MM-DD"
         date_meta = post.metadata.get("publication-date")
@@ -140,7 +139,7 @@ def format_content(pathlist, docs_path):
         if path.name != "projects.md":
             post.metadata["sidebar"] = {"nav": "projects"}
 
-        post.metadata["full_description"] = str(body)
+        post.metadata["full_description"] = post.content 
 
         # Serialize back to frontmatter+content
         formatted_content = frontmatter.dumps(post)
