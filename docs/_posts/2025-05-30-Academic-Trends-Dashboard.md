@@ -4,6 +4,39 @@ description: This self-service project creates a web-scraping, database-driven d
   partners and chip architects align future hardware designs with emerging algorithmic
   trends.
 donation: null
+full_description: "<img class="image image--xl" src="/Arm-Developer-Labs/images/dashboard.png"/>\n\n## Description\n\n**Why
+  this is important?** \n\nThe field of computer science research is continually evolving,
+  with new algorithms shaping the design of future hardware. This project aims to
+  guide computer architecture decisions, ensuring that upcoming hardware aligns with
+  the needs of software algorithms and applications. The dashboard you create can
+  be of use to Arm partners manufacturing physical chips and used to guide architecture
+  decisions.  \n\n**Project Summary**\n\nThe main deliverable is a web scraping tool
+  that pulls keywords from academic papers, considering the popularity of the paper
+  and its publication. The data will be stored in an appropriate database and displayed
+  in a web browser format, allowing users to visualize trends and changes in research
+  focus over time. This project will provide practical experience in using APIs, web
+  scraping, and data analysis. Some academic search engines to consider are Google
+  Scholar, [BASE](https://www.base-search.net/), [Core](https://core.ac.uk/) and [Science.gov](https://science.gov/).
+  \n\n\n## Prequisites\n\n- Software: Intermediate understand of a scripting programming
+  language (e.g., Python, JavaScript), web development and statistics.\n- Hardware:
+  Access to a computer with internet connectivity\n- API access to scrape specific
+  journal websites, you may need to obtain explicit permission from the website administrators
+  or owners.\n\n## Resources from Arm and our partners\n\n- Learning path: [Deploy
+  MariaDB on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mariadb/))\n-
+  Learning path: [Learn how to deploy PostgresSQL](https://learn.arm.com/learning-paths/servers-and-cloud-computing/postgresql/)\n-
+  Software Libraries: Example libraries for web scraping are [BeautifulSoup](https://pypi.org/project/beautifulsoup4/),
+  Selenium.\n\n\n## Support Level\n\nThis project is designed to be self-serve but
+  comes with opportunity of some community support from Arm Ambassadors, who are part
+  of the Arm Developer program. If you are not already part of our program, [click
+  here to join](https://www.arm.com/resources/developer-program?#register).\n\n##
+  Benefits \n\nStandout project contributions will result in preferential internal
+  referrals to Arm Talent Acquisition (with digital badges for CV building).  And
+  we are currently discussing with national agencies the potential for funding streams
+  for Arm Developer Labs projects, which would flow to you, not us.\n\nTo receive
+  the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD).
+  Please do not include any confidential information in your contribution. Additionally
+  if you are affiliated with an academic institution, please ensure you have the right
+  to share your material."
 layout: article
 license: null
 platform:
