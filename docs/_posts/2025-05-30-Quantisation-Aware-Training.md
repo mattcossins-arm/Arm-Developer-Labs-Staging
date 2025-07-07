@@ -4,6 +4,38 @@ description: This self-service project applies PyTorch quantization-aware traini
   real-time, on-device AI while sharing the resulting lightweight models with the
   Hugging Face community.
 donation: null
+full_description: "## Description  \n\nThis open-ended project invites students to
+  explore **Quantization-Aware Training (QAT)** with PyTorch to optimize computer
+  vision models for **Arm-based mobile devices** (e.g., Android smartphones).\n\nThe
+  project centers on training a model using a **non-restrictively licensed dataset**
+  and deploying it either on **Arm-powered mobile devices** (leveraging Android Neural
+  Networks API )\n\nStudents will apply QAT to maintain accuracy while reducing model
+  size and inference latency, making it suitable for real-time applications like:\n-
+  Sign language recognition for accessibility.\n- Visual anomaly detection in manufacturing.\n-
+  Personal health and activity monitoring from camera feeds.\n\nThe project encourages
+  referencing work by contributing **optimized and quantized models for Arm platforms**
+  on HuggingFace. The final quantized model will be **uploaded to HuggingFace** and
+  may be submitted for listing in the [Arm on HuggingFace space](https://huggingface.co/Arm),
+  encouraging open, community-supported contributions.\n\n## Prequisites\n\n- **Languages**:
+  Familiar with Python, pytorch and Java/Kotlin (if Android).\n- **Frameworks**: Intermediate
+  understanding of PyTorch \n- **Tooling**: PyTorch Lightning, Android Studio \n-
+  **Hardware Options**:  \n  - Android phone with Arm Cortex-A CPU or simulator through
+  Android Studio. \n- **Deployment Targets**:  \n  - Android  \n\n## Resources from
+  Arm and our partners\n\n- Documentation: [Quantization in PyTorch](https://pytorch.org/docs/stable/quantization.html)
+  \ \n- Blog: [Google Media Pipe](https://android-developers.googleblog.com/2024/10/bring-your-ai-model-to-android-devices.html)
+  \ \n- Datasets: [Hugging Face Datasets](https://huggingface.co/docs/datasets/en/index)
+  \n- Repository: [AI on Arm course](https://github.com/arm-university/AI-on-Arm)\n\n##
+  Support Level\n\nThis project is designed to be self-serve but comes with opportunity
+  of some community support from Arm Ambassadors, who are part of the Arm Developer
+  program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).\n\n##
+  Benefits \n\nStandout project contributions will result in preferential internal
+  referrals to Arm Talent Acquisition (with digital badges for CV building).  And
+  we are currently discussing with national agencies the potential for funding streams
+  for Arm Developer Labs projects, which would flow to you, not us.\n\nTo receive
+  the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD).
+  Please do not include any confidential information in your contribution. Additionally
+  if you are affiliated with an academic institution, please ensure you have the right
+  to share your material."
 layout: article
 license: null
 platform:

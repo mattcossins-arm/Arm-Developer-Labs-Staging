@@ -4,6 +4,45 @@ description: This self-service project brings native Glasgow Haskell Compiler su
   and giving contributors hands-on experience with Arm64 code generation and runtime
   integration.
 donation: null
+full_description: "<img class="image image--xl" src="/Arm-Developer-Labs/images/Learn_on_Arm_banner.png"/>\n\n\n## Description\n\n**Why
+  this is important?**\n\nThe Glasgow Haskell Compiler (GHC) is the de facto standard
+  compiler for Haskell, an advanced purely functional programming language with strong
+  type inference and lazy evaluation. This project aims to **port GHC to support Windows
+  on Arm (WoA)**, a platform that is increasingly relevant with the rise of Arm-powered
+  laptops and developer kits. Arm anticipates more original equipment manufacturers
+  (OEMs) to be available in the coming years.\n\n\n**Project summary**\n\nCurrently,
+  GHC lacks robust support for WoA, hindering Haskell’s reach in energy-efficient
+  and mobile-native environments (Request for support has [previously been requested
+  by the community](https://gitlab.haskell.org/ghc/ghc/-/issues/24603)). The goal
+  is to bridge this gap by:\n- Enabling native compilation of Haskell code via GHC
+  on WoA.\n- Implementing and testing architecture-specific assembly and intrinsic
+  functions.\n- Extending the GHC build system to recognize WoA environments.\n- Integrating
+  and validating linker and runtime support on Arm-based Windows systems.\n\nThe project
+  requires in-depth familiarity with compiler backends, calling conventions, code
+  generation pipelines, and the use of LLVM or native code generators. Students will
+  also gain experience in cross-compilation, Windows PE/COFF linking, and performance
+  benchmarking on Arm CPUs.\n\nThe work has potential for real-world deployment and
+  academic publishing, and would be of high value to the Haskell and Arm developer
+  ecosystems.\n\n---\n\n## Prequisites\n\n- Advanced understanding of Haskell (including
+  Template Haskell, Core-to-STG pipeline understanding)\n- Arm64 Windows device or
+  Access to virtualized WoA platforms via [Linaro’s Windows on Arm Environments](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)\n-
+  Intemediate understanding of Arm64 Assembly (AArch64)\n- Comfortable using compilers
+  such as LLVM and Clang for backend work (if using LLVM codegen)\n- Access to MSYS2
+  / CMake / Ninja for Windows builds\n\n\n## Resources from Arm and our partners\n\n-
+  External Documentation: [GHC Development Wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/)\n-
+  Repository: [GHC source tree](https://gitlab.haskell.org/ghc/ghc)\n- External Documentation:
+  [Linaro WoA Support Documentation](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/29005479987/Windows+on+Arm+Environments)\n\n\n##
+  Support Level\n\nThis project is designed to be self-serve but comes with opportunity
+  of some community support from Arm Ambassadors, who are part of the Arm Developer
+  program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).\n\n##
+  Benefits \n\nStandout project contributions will result in preferential internal
+  referrals to Arm Talent Acquisition (with digital badges for CV building).  And
+  we are currently discussing with national agencies the potential for funding streams
+  for Arm Developer Labs projects, which would flow to you, not us.\n\nTo receive
+  the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD).
+  Please do not include any confidential information in your contribution. Additionally
+  if you are affiliated with an academic institution, please ensure you have the right
+  to share your material."
 layout: article
 license: null
 platform:
