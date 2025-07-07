@@ -3,6 +3,30 @@ description: This self-service project takes Arm Corstone-1000 from FPGA to sili
   delivering a DDR-backed, Linux-ready SoC platform that lets researchers plug in
   and evaluate custom accelerators with real-world performance.
 donation: null
+full_description: "## Description\nThis project aims to leverage the Corstone-1000
+  platform to host and support a custom research accelerator. The main deliverables
+  include prototyping the accelerator in FPGA and then creating a physical silicon
+  implementation using a pre-verified programmable control system. The project will
+  provide practical experience in SoC design, FPGA prototyping, and hardware acceleration.
+  The final output will be a functional SoC FPGA prototyping platform with DDR memory,
+  capable of running Linux and demonstrating the feasibility and performance of the
+  design. **To undertake this project, please reach out to SoC Labs** in [this link](https://soclabs.org/).\n\n\n##
+  Prequisites\n\n- Languages: Verilog, SystemVerilog\n- Tooling: Vivado, ModelSim,
+  ASIC design tools\n- Hardware: FPGA development board (e.g., Xilinx or Altera),
+  Corstone-1000 platform\n- IP access: Arm Academic Access member (link to get if
+  they don't have it)\n\n## Resources from Arm and our partners\n\n- External Community:
+  [SoC Labs, community for Arm-based software development](https://soclabs.org/)\n\n##
+  Support Level\n\nThis project is designed to be self-serve but comes with opportunity
+  of some community support from Arm Ambassadors, who are part of the Arm Developer
+  program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).\n\n##
+  Benefits \n\nStandout project contributions will result in preferential internal
+  referrals to Arm Talent Acquisition (with digital badges for CV building).  And
+  we are currently discussing with national agencies the potential for funding streams
+  for Arm Developer Labs projects, which would flow to you, not us.\n\nTo receive
+  the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD).
+  Please do not include any confidential information in your contribution. Additionally
+  if you are affiliated with an academic institution, please ensure you have the right
+  to share your material."
 layout: article
 license: null
 platform:
