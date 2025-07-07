@@ -86,10 +86,7 @@ def convert_md(md_text: str) -> str:
 
     return replaced_md
 
-def lim(s):  # literal if multi-line
-    if '\n' in s:
-        return ruamel.yaml.scalarstring.LiteralScalarString(s)
-    return s
+
 
 def format_content(pathlist, docs_path):
     """
@@ -146,18 +143,30 @@ def format_content(pathlist, docs_path):
         if path.name != "projects.md":
             post.metadata["sidebar"] = {"nav": "projects"}
 
-        data = {"full_description": lim(post.content)}
+        data = {"full_description": post.content}
         post.metadata.update(data)
         
-        clean_metadata = {}
-        for key, value in post.metadata.items():
-            if isinstance(value, ruamel.yaml.scalarstring.LiteralScalarString):
-                clean_metadata[key] = str(value)
-            else:
-                clean_metadata[key] = value
+        # Use ruamel.yaml for proper literal block scalar formatting
+        yaml = ruamel.yaml.YAML()
+        yaml.preserve_quotes = True
+        yaml.width = 4096
         
-        # Serialize back to frontmatter+content
-        formatted_content = frontmatter.dumps(clean_post)
+        # Create the frontmatter manually to ensure literal block scalars
+        metadata_copy = post.metadata.copy()
+        
+        # Convert multiline strings to literal scalars
+        for key, value in metadata_copy.items():
+            if isinstance(value, str) and '\n' in value:
+                metadata_copy[key] = ruamel.yaml.scalarstring.LiteralScalarString(value)
+        
+        # Manually construct the frontmatter
+        from io import StringIO
+        stream = StringIO()
+        yaml.dump(metadata_copy, stream)
+        yaml_content = stream.getvalue()
+        
+        # Build the full content with frontmatter
+        formatted_content = f"---\n{yaml_content}---\n{post.content}"
 
         # Convert Markdown image embeds → HTML and copy assets
         converted_content = convert_md_images_to_html(

@@ -1,64 +1,62 @@
 ---
-description: This project trains and deploys a TinyML keyword-spotting model on an
-  Arm Cortex-M55/U55 board to create a low-power voice assistant that recognizes spoken
-  commands and quantifies its accuracy, latency, and energy use.
-donation: null
-full_description: "<img class="image image--xl" src="/Arm-Developer-Labs/images/Educate_on_Arm_banner.png"/>\n\n\n##
-  Description\nThis project aims to develop a simple voice assistant that can recognize
-  spoken commands such as “turn on the light,” “play music,” and other similar tasks.
-  The voice assistant will be able to control peripheral devices accordingly. The
-  main objective is to implement your design on a low-power microcontroller Cortex-M55/U55
-  to create low-level machine learning applications. You should look to access metrics
-  such as the accuracy, power and computation time. Please refer our [Machine Learning
-  keyword spotting example](https://github.com/Arm-Examples/mlek-cmsis-pack-examples)
-  as a reference. \n\nThe deliverables include a functional voice assistant capable
-  of understanding and executing basic commands, along with documentation detailing
-  the development process and the performance of the system.\n\n## Prequisites\n\n-
-  Languages: Python, C++, Embedded C\n- Tooling: TensorFlow Lite for Microcontrollers,
-  Keil MDK\n- Hardware: Cortex-M55/U55 development board (or Corstone Virtual Platform),
-  microphone, peripheral devices (e.g., lights, speakers)\n\n\n## Resources from Arm
-  and our partners\n\n- Learning paths: [Navigating Machine Learning with Ethos-U
-  processors](https://learn.arm.com/learning-paths/microcontrollers/nav-mlek/)\n-
-  Learning paths: [Tutorials on CMSIS](https://learn.arm.com/tag/cmsis/)\n- Install
-  Guide: [Keil Studio for VSCode](https://learn.arm.com/install-guides/keilstudio_vs/)\n-
-  Book: [\"A beginner's Guide to Designing Embedded System Applications on Arm Cortex-M
-  Microcontrollers\"](https://www.arm.com/resources/education/books)\n- Book: [\"Arm
-  Helium Technology M-Profile Vector Extensions (MVE)\"](https://www.arm.com/resources/education/books)\n\n##
-  Support Level\n\nThis project is designed to be self-serve but comes with opportunity
-  of some community support from Arm Ambassadors, who are part of the Arm Developer
-  program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).\n\n##
-  Benefits \n\nStandout project contributions will result in preferential internal
-  referrals to Arm Talent Acquisition (with digital badges for CV building).  And
-  we are currently discussing with national agencies the potential for funding streams
-  for Arm Developer Labs projects, which would flow to you, not us.\n\nTo receive
-  the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD).
-  Please do not include any confidential information in your contribution. Additionally
-  if you are affiliated with an academic institution, please ensure you have the right
-  to share your material."
-layout: article
-license: null
+title: Smart Voice Assistant Using TinyML on Cortex-M55
+description: This project trains and deploys a TinyML keyword-spotting model on an Arm Cortex-M55/U55 board to create a low-power voice assistant that recognizes spoken commands and quantifies its accuracy, latency, and energy use.
+subjects:
+- ML
+requires-team:
+- No
 platform:
 - IoT
 - Embedded and Microcontrollers
 - AI
-publication-date: 2025-05-30
-requires-team:
-- 'No'
-sidebar:
-  nav: projects
-status:
-- Hidden
-subjects:
-- ML
-support-level:
-- Self-Service
-- Arm Ambassador Support
 sw-hw:
 - Software
 - Hardware
-title: Smart Voice Assistant Using TinyML on Cortex-M55
----
+support-level:
+- Self-Service
+- Arm Ambassador Support
+publication-date: 2025-05-30
+license:
+status:
+- Hidden
+donation:
+layout: article
+sidebar:
+  nav: projects
+full_description: |-
+  <img class="image image--xl" src="/Arm-Developer-Labs/images/Educate_on_Arm_banner.png"/>
 
+
+  ## Description
+  This project aims to develop a simple voice assistant that can recognize spoken commands such as “turn on the light,” “play music,” and other similar tasks. The voice assistant will be able to control peripheral devices accordingly. The main objective is to implement your design on a low-power microcontroller Cortex-M55/U55 to create low-level machine learning applications. You should look to access metrics such as the accuracy, power and computation time. Please refer our [Machine Learning keyword spotting example](https://github.com/Arm-Examples/mlek-cmsis-pack-examples) as a reference. 
+
+  The deliverables include a functional voice assistant capable of understanding and executing basic commands, along with documentation detailing the development process and the performance of the system.
+
+  ## Prequisites
+
+  - Languages: Python, C++, Embedded C
+  - Tooling: TensorFlow Lite for Microcontrollers, Keil MDK
+  - Hardware: Cortex-M55/U55 development board (or Corstone Virtual Platform), microphone, peripheral devices (e.g., lights, speakers)
+
+
+  ## Resources from Arm and our partners
+
+  - Learning paths: [Navigating Machine Learning with Ethos-U processors](https://learn.arm.com/learning-paths/microcontrollers/nav-mlek/)
+  - Learning paths: [Tutorials on CMSIS](https://learn.arm.com/tag/cmsis/)
+  - Install Guide: [Keil Studio for VSCode](https://learn.arm.com/install-guides/keilstudio_vs/)
+  - Book: ["A beginner's Guide to Designing Embedded System Applications on Arm Cortex-M Microcontrollers"](https://www.arm.com/resources/education/books)
+  - Book: ["Arm Helium Technology M-Profile Vector Extensions (MVE)"](https://www.arm.com/resources/education/books)
+
+  ## Support Level
+
+  This project is designed to be self-serve but comes with opportunity of some community support from Arm Ambassadors, who are part of the Arm Developer program. If you are not already part of our program, [click here to join](https://www.arm.com/resources/developer-program?#register).
+
+  ## Benefits 
+
+  Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
+
+  To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
+---
 <img class="image image--xl" src="/Arm-Developer-Labs/images/Educate_on_Arm_banner.png"/>
 
 
