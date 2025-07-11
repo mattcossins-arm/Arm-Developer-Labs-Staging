@@ -122,6 +122,23 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
+  - title: C-Based-Application-from-Scratch
+    description: This self-service project goes back to the fundamentals. The challenge
+      is to develop an application of your choice but your are only permitted to use
+      the C language with as few dependencies as possible.
+    url: /2025/07/11/C-Based-Application-from-Scratch.html
+    subjects:
+    - Performance and Architecture
+    - Libraries
+    platform:
+    - IoT
+    sw-hw:
+    - Software
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    status:
+    - Published
   - title: Haskell-Compiler-Windows-on-Arm
     description: "This self-service project brings native Glasgow Haskell Compiler\
       \ support to Windows on Arm\u2014unlocking efficient Arm-laptop builds, extending\
