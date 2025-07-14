@@ -1,5 +1,5 @@
 ---
-title: Develop a Application from scratch for the Raspberry Pi
+title: Create a minimal C-Based Project for Raspberry Pi
 description: This self-service project goes back to the fundamentals. The challenge is to develop an application of your choice but your are only permitted to use the C language with as few dependencies as possible.
 subjects:
 - Performance and Architecture
@@ -26,13 +26,13 @@ full_description: |-
 
   **Why this is important?** 
 
-  With higher-level managed languages such as Java and Python enabling developers to stand up complex applications quickly, this often comes at the expense of configurability and performance. At Arm, we have an established history of developing low-level software components, such as compilers, as well as contributing to software projects, such as the Linux Kernel. We have plenty of software roles that require these skills. Developing low-level skills are valuable to unlocking performance but also are crucial to understanding the principle mechanisms in computer architecture. 
+  Modern, higher-level managed languages such as Java and Python enabling developers to stand up complex applications quickly. However, this often comes at the expense of configurability and performance. Developing low-level skills are valuable to unlocking performance but also are crucial to understanding the principle mechanisms in computer architecture and how to write programs that leverage available hardware features. At Arm, we have a history of developing low-level software components, such as compilers, as well as contributing to software projects, such as the Linux Kernel. The demand for developers with these skills is high. 
 
   **Project Summary**
 
-  This project asks you to develop an application of your choice that runs on any Raspberry Pi–class device. All implementation code must be written in C (any ISO-standard version), and we will measure your submission by counting only the lines of C source files. Auxiliary files, such as Makefiles, JSON configuration files, etc., are excluded from this line count.
+  This project asks you to develop an application of your choice that runs on any generation of Raspberry Pi device. The majority of implementation code must be written in C (any ISO-standard version), and we will measure your submission by counting only the lines of C source files. Auxiliary files, such as Makefiles, JSON configuration files, etc., are excluded from this line count.
 
-  Further, we recommend that you have no, or very few, depencies. This is excluding those provided by the C standard library. You are also free to use any suitable compiler. If you have no other reasonable options but to use dependency that is written in another language, you are permitted to do so but it may negatively impact our assessment. If you use a difference language or a dependency written in another language, please include a short jusification in your submission. 
+  Further, we recommend that you keep the number of external dependencies to a minimum, writing any libraries from scratch where suitable. This is excluding those provided by the C standard library. You are also free to use any suitable compiler. If you use a difference language or a dependency written in another language, please include a short jusification in your submission. 
 
   Be creative! This challenge is open ended and we are looking for submissions that show creativity and novel solutions. 
 
@@ -57,18 +57,21 @@ full_description: |-
   Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
   To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
+
+  ### Previous Submissions
+  1. [Plant Health Analysis System, Arnav Gupta et al. Imperial College London](https://github.com/Arg2006/ARM_Presentation.git)
 ---
 ## Description
 
 **Why this is important?** 
 
-With higher-level managed languages such as Java and Python enabling developers to stand up complex applications quickly, this often comes at the expense of configurability and performance. At Arm, we have an established history of developing low-level software components, such as compilers, as well as contributing to software projects, such as the Linux Kernel. We have plenty of software roles that require these skills. Developing low-level skills are valuable to unlocking performance but also are crucial to understanding the principle mechanisms in computer architecture. 
+Modern, higher-level managed languages such as Java and Python enabling developers to stand up complex applications quickly. However, this often comes at the expense of configurability and performance. Developing low-level skills are valuable to unlocking performance but also are crucial to understanding the principle mechanisms in computer architecture and how to write programs that leverage available hardware features. At Arm, we have a history of developing low-level software components, such as compilers, as well as contributing to software projects, such as the Linux Kernel. The demand for developers with these skills is high. 
 
 **Project Summary**
 
-This project asks you to develop an application of your choice that runs on any Raspberry Pi–class device. All implementation code must be written in C (any ISO-standard version), and we will measure your submission by counting only the lines of C source files. Auxiliary files, such as Makefiles, JSON configuration files, etc., are excluded from this line count.
+This project asks you to develop an application of your choice that runs on any generation of Raspberry Pi device. The majority of implementation code must be written in C (any ISO-standard version), and we will measure your submission by counting only the lines of C source files. Auxiliary files, such as Makefiles, JSON configuration files, etc., are excluded from this line count.
 
-Further, we recommend that you have no, or very few, depencies. This is excluding those provided by the C standard library. You are also free to use any suitable compiler. If you have no other reasonable options but to use dependency that is written in another language, you are permitted to do so but it may negatively impact our assessment. If you use a difference language or a dependency written in another language, please include a short jusification in your submission. 
+Further, we recommend that you keep the number of external dependencies to a minimum, writing any libraries from scratch where suitable. This is excluding those provided by the C standard library. You are also free to use any suitable compiler. If you use a difference language or a dependency written in another language, please include a short jusification in your submission. 
 
 Be creative! This challenge is open ended and we are looking for submissions that show creativity and novel solutions. 
 
@@ -93,3 +96,6 @@ This project is designed to be self-serve but comes with opportunity of some com
 Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us.
 
 To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
+
+### Previous Submissions
+1. [Plant Health Analysis System, Arnav Gupta et al. Imperial College London](https://github.com/Arg2006/ARM_Presentation.git)
