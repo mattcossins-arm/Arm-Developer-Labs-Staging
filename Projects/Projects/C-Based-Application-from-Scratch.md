@@ -58,5 +58,4 @@ Standout project contributions will result in preferential internal referrals to
 To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
 
 ### Previous Submissions
-1. [Plant Health Analysis System, Arnav Gupta et al. Imperial College London](https://github.com/Arg2006/ARM_Presentation.git). Demonstration video [available here](https://drive.google.com/file/d/11skPrc50o0Voz7Ci7pQjMe87cRGkSpxy/view?usp=drive_link).
-
+1. [Plant Health Analysis System, Arnav Gupta et al. Imperial College London](https://github.com/Arg2006/ARM_Presentation.git).
