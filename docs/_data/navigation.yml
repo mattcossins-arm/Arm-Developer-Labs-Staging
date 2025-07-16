@@ -181,10 +181,8 @@ projects:
     status:
     - Published
   - title: Processor-in-the-Loop-Automotive
-    description: "This self-service project has students design, auto-generate, and\
-      \ processor-in-the-loop verify a safety-critical automotive control algorithm\
-      \ on an Arm Cortex-M7 Fast Model\u2014gaining hands-on mastery of Simulink,\
-      \ Embedded Coder, and rigorous V-Model validation."
+    description: Verify a Simulink automotive controller by running processor-in-the-loop
+      (PIL) tests on a virtual Arm Cortex M7 processor.
     url: /2025/05/30/Processor-in-the-Loop-Automotive.html
     subjects:
     - Embedded Linux
