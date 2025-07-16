@@ -24,7 +24,7 @@ status:
 donation: 
 ---
 
-![matlab](./images/processor-in-the-loop-automotive.png)
+![matlab](./images/mathworks2.png)
 
 
 ## Description
