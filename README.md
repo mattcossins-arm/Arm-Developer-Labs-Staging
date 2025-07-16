@@ -2,9 +2,9 @@
 
 ![banner](./images/DeveloperLabs_Header.png)
 
-The state of the art of in software development is changing more rapidly than ever before.  Especially in fields like AI/ML, what was cutting-edge last year may have already been overtaken.  Arm Developer Labs is a repository of software and hardware project suggestions sourced from internal Arm teams and our network of eco-system partners but framed in way to be immediately accessible and useful to both academics and professional engineers alike. 
+The state of the art of in software development is changing more rapidly than ever before. Especially in fields like AI/ML, what was cutting-edge last year may have already been overtaken. Arm Developer Labs is a Community of Practice (CoP) designed to empower both professional and academic developers to explore, prototype, and share software and hardware projects sourced from internal Arm teams, Arm eco-system partners and CoP members. The projects are framed in way to be immediately accessible and useful to both academics and professional engineers alike.
 
-You can take a project as is, adapt it to your circumstances or simply take inspiration from it eg. for selecting a student project or PhD research topic.  Arm helps by providing contextual collateral and resources (including, where relevant, letters of support) and projects include meta-data tags to help you search and find the right one for you. 
+You can take a project as is, adapt it to your circumstances or simply take inspiration from it eg. for selecting student projects, writing research proposals, or building idea demonstrators. Arm helps by providing contextual collateral and resources (including, where relevant, letters of support) and projects include meta-data tags to help you search and find the right one for you.
 
 ### [Show me the projects](https://arm-university.github.io/Arm-Developer-Labs/2025/05/30/projects.html)
 
