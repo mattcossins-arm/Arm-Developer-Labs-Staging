@@ -1,4 +1,5 @@
 /* start custom scss snippet */
+
 .brand_logo svg {
     display: block;
     height: auto;
@@ -8,10 +9,8 @@
 
 .crop_image--cover {
   width: 100%;
-  height: 72vh;
   object-fit: cover;
 }
-
 
 .scroll-container {
   position: relative;
@@ -31,7 +30,6 @@
   white-space: nowrap;
   animation: scroll-horizontal 40s linear infinite;
 }
-
 
 .carousel img {
   height: 9vh;
@@ -62,14 +60,28 @@
   border: 4px solid #7336f7;
   border-radius: 25px;
   background-color: #f9f9f9;
+  box-sizing: border-box;
+  clear: both;
 }
 
 .subjects .filter {
   width: 33.33%;
   float: left;
   box-sizing: border-box;
+  padding: 0.5rem;
 }
 
+@media (max-width: 991px) {
+  .subjects .filter {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .subjects .filter {
+    width: 100%;
+  }
+}
 
 .subjects .filter strong {
   display: block;
@@ -119,6 +131,7 @@ ul.project-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 
 /* Individual project entry */
@@ -153,13 +166,13 @@ li.project-item {
 }
 
 /* Responsive adjustments */
-@media (max-width: 800px) {
-  .project-item {
+@media (max-width: 991px) {
+  li.project-item {
     flex: 1 1 calc(50% - 1rem);
   }
 }
-@media (max-width: 500px) {
-  .project-item {
+@media (max-width: 600px) {
+  li.project-item {
     flex: 1 1 100%;
   }
 }
@@ -277,5 +290,16 @@ li.project-item {
 
 .footer__section {
   width: 50%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+  .footer{
+    flex-wrap: wrap;
+  }
+
+  .footer__section {
+    width: 100%;
+  }
 }
 /* end custom scss snippet */
