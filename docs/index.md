@@ -18,7 +18,7 @@ You can take a project as is, adapt it to your circumstances or simply take insp
 
 ## What are the benefits?
 
-You can be sure that any project you see here is valued by Arm or a named eco-system partner.  The scrolling list of logos shows which organizations have contributed suggestions.  Standout project contributions will result in preferential internal referrals to Arm Talent Acquisition (with digital badges for CV building).  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us. 
+You can be sure that any project you see here is valued by Arm or a named eco-system partner.  The scrolling list of logos shows which organizations have contributed suggestions.  Standout project contributions will result in digital badges for CV building.  And we are currently discussing with national agencies the potential for funding streams for Arm Developer Labs projects, which would flow to you, not us. 
 
 ## How does it work? 
 
