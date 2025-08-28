@@ -66,9 +66,9 @@ If using a public LLM ->
 
 ## Resources from Arm and our partners
 
-- External Course [Mitigating Harmful Consequences course module by the Center for Humane Technology](https://www.humanetech.com/course) 
-- Blog - [Build Responsible AI products with your own Yellow Teaming LLM](https://pytorch.org/blog/build-responsible-ai-products-with-your-own-yellow-teaming-llm/)
-- Learning Paths - [AI Learning Paths](https://learn.arm.com/tag/ml)
+- External Course: [Mitigating Harmful Consequences course module by the Center for Humane Technology](https://www.humanetech.com/course) 
+- Blog: [Build Responsible AI products with your own Yellow Teaming LLM](https://pytorch.org/blog/build-responsible-ai-products-with-your-own-yellow-teaming-llm/)
+- Learning Paths: [AI Learning Paths](https://learn.arm.com/tag/ml)
 
 ## Support Level
 

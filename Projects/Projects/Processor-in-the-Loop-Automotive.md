@@ -1,6 +1,6 @@
 ---
-title: "Processor-in-the-Loop for an Automotive Control System"
-description: "This self-service project has students design, auto-generate, and processor-in-the-loop verify a safety-critical automotive control algorithm on an Arm Cortex-M7 Fast Model—gaining hands-on mastery of Simulink, Embedded Coder, and rigorous V-Model validation."
+title: "Processor in the Loop Automotive Controller on an Arm Cortex M7 Fast Model"
+description: "Verify a Simulink automotive controller by running processor-in-the-loop (PIL) tests on a virtual Arm Cortex M7 processor."
 subjects:
     - "Embedded Linux"
     - "RTOS Fundamentals"
@@ -24,24 +24,20 @@ status:
 donation: 
 ---
 
-![matlab](./images/mathworks.png)
+![matlab](./images/mathworks2.png)
+
 
 ## Description
 
-This advanced project challenges students to design, implement, and verify a real-time automotive control application using MATLAB Simulink, Embedded Coder, and Arm Fast Models targeting the Cortex-M7 processor. Students will employ the V-Model software development lifecycle to enforce rigorous validation and verification at each stage, culminating in a Hardware-in-the-Loop (HIL) setup using Processor-in-the-Loop (PIL) simulation to measure code coverage and execution profiles. .
+**Why this is important**
 
-The focus is on the creation of a safety-critical control algorithm deployed to an Arm Cortex-M7 simulation environment, verified using processor-in-the-loop (PIL) with performance profiling. This project emulates an industrial-grade workflow and is ideal for students looking to venture into the automotive industry. 
+Modern automotive software development requires early verification of embedded software to meet performance and safety standards. Engineers must validate control algorithms long before physical ECUs are available. Processor in the Loop (PIL) verification bridges this gap by executing auto-generated embedded C code on a virtual processor while checking for functional equivalence and timing compliance. This challenge mirrors the real-world V-Model verification process used by OEMs and Tier 1 suppliers, offering hands-on experience in model-based design, embedded code generation, and in-the-loop testing on a virtual Arm Cortex M7 core.Modern vehicles demand rigorous, early-stage verification of embedded software to satisfy safety, performance and homologation requirements. Waiting for physical ECUs delays feedback and drives up cost; virtual processor testing closes this gap.
 
-Students can choose from of the following **automotive application topics**:
-1. **[Automatic, In-Car Climate Control](https://uk.mathworks.com/help/simulink/slref/simulating-automatic-climate-control-systems.html)**
-2. **[Tyre Pressure Monitoring](https://uk.mathworks.com/help/simulink/ug/wirelesss-tire-pressure-monitoring-system-with-fault-logging.html)**
-3. **[Modeling an Anti-Lock Braking System](https://uk.mathworks.com/help/simulink/slref/modeling-an-anti-lock-braking-system.html)**
+**Project summary**
 
-Each project will go through system design, simulation in Simulink, code generation via Embedded Coder, and real-time testing using Arm Fast Models and Code Profile Analyzer. Deliverables include models, auto-generated code, verification reports, and benchmarking results.
-
+Start with a prebuilt Simulink automotive control model and drive it through a complete model-based development and verification workflow. This includes defining detailed software requirements, designing test scenarios, generating C code from the controller subsystem, running processor-in-the-loop (PIL) tests on a virtual Arm Cortex M7 processor, analyzing execution time, and publishing a complete verification report.
 
 ## Prequisites
-
 
 - [MATLAB & Simulink License](https://uk.mathworks.com/pricing-licensing.html?prodcode=ML&intendeduse=edu)
 - Familiarity with C/C++, Simulink, Stateflow and Embedded Coder
@@ -51,11 +47,19 @@ Each project will go through system design, simulation in Simulink, code generat
 
 ## Resources from Arm and our partners
 
-- Documentation: [MathWorks Embedded Coder](https://uk.mathworks.com/products/embedded-coder.html)
-- Documentation: [Code Profile Analyzer](https://uk.mathworks.com/help/ecoder/ref/codeprofileanalyzer-app.html)
-- Documentation: [Arm Compiler Support Package](https://uk.mathworks.com/matlabcentral/fileexchange/68896-arm_compiler_support_package)
-- Documentation: [Simulink Getting Started Guide](https://uk.mathworks.com/help/simulink/getting-started-with-simulink.html)
-- Documentation: (https://uk.mathworks.com/products/connections/product_detail/arm-fast-models.html)
+- Built-in Simulink Automotive Example: [Automatic Climate Control](https://www.mathworks.com/help/simulink/slref/simulating-automatic-climate-control-systems.html)
+- Built-in Simulink Automotive Example: [Tire Pressure Monitoring System (TPMS)]( https://www.mathworks.com/help/simulink/ug/wirelesss-tire-pressure-monitoring-system-with-fault-logging.html)
+- Built-in Simulink Automotive Example: [Anti-Lock Braking System (ABS)]( https://www.mathworks.com/help/simulink/slref/modeling-an-anti-lock-braking-system.html)
+- Define Requirements: [Requirements Toolbox™](https://www.mathworks.com/products/requirements-toolbox.html)
+- Code Generation: [MathWorks Embedded Coder®](https://uk.mathworks.com/products/embedded-coder.html)
+- Model-in-the-Loop Test: [Simulink Test™](https://www.mathworks.com/help/sltest/index.html?s_tid=CRUX_lftnav)
+- Measure Code Coverage: [Simulink Coverage™](https://www.mathworks.com/help/slcoverage/index.html) 
+- Hardware Implementation: [Arm Cortex M7 (Fast Model)](https://developer.arm.com/Tools%20and%20Software/Fast%20Models), [Embedded Coder Support Package for Arm Cortex M Fast Models]( https://www.mathworks.com/hardware-support/arm-cortex-m.html)
+- Conduct Execution Profiling: [Code Profile Analyzer](https://www.mathworks.com/help/ecoder/ref/codeprofileanalyzer-app.html) 
+- Perform Static Code Analysis: [Polyspace®](https://www.mathworks.com/products/polyspace.html) 
+- Documentation: [MATLAB and Simulink for Verification and Validation](https://www.mathworks.com/solutions/verification-validation.html)
+- Documentation: [ARM Cortex-M Support from Embedded Coder]( https://www.mathworks.com/hardware-support/arm-cortex-m.html)
+- Documentation: [Arm Fast Models](https://uk.mathworks.com/products/connections/product_detail/arm-fast-models.html)
 
 ## Support Level
 
