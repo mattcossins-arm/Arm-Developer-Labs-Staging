@@ -146,6 +146,25 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
+  - title: NPC-LLM-Runtime
+    description: This self-service project explores novel ways of integrating Large
+      Language Models (LLMs) into real-time gameplay to drive dynamic Non-Playable
+      Character (NPC) interactions.
+    url: /2025/05/30/NPC-LLM-Runtime.html
+    subjects:
+    - ML
+    - Gaming
+    - Graphics
+    platform:
+    - AI
+    - Mobile, Graphics, and Gaming
+    sw-hw:
+    - Software
+    support-level:
+    - Self-Service
+    - Arm Ambassador Support
+    status:
+    - Published
   - title: Responsible-AI-and-Yellow-Teaming
     description: "This self-service project equips teams with a YellowTeamGPT workflow\
       \ that probes Arm-based AI products for unintended impacts\u2014turning responsible-AI\
