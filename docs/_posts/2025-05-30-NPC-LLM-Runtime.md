@@ -54,8 +54,8 @@ full_description: |-
 
   ## Resources from Arm and our partners
 
-  - Blog: [The Future of Interaction with Mobile Game Characters | ACM SIGGRAPH 2024 Posters](https://dl.acm.org/doi/10.1145/3641234.3671019)
-  - Blog: [The Future is Here: Verbal Interaction with NPCs on Mobile. | ACM SIGGRAPH 2024 Appy Hour](https://doi.org/10.1145/3664294.3664365)
+  - Blog: [The Future of Interaction with Mobile Game Characters](https://dl.acm.org/doi/10.1145/3641234.3671019)
+  - Blog: [The Future is Here: Verbal Interaction with NPCs on Mobile](https://doi.org/10.1145/3664294.3664365)
   - Blog: [Google AI for game developers- Google Developers Blog](https://developers.googleblog.com/en/google-ai-for-game-developers/)
   - Webinar: [Generative AI in Game Development](https://meet95924766.adobeconnect.com/pkevz158x6tp/)
   - Paper: [A Survey on Large Language Model-Based Game Agents ](https://arxiv.org/abs/2404.02039)
@@ -102,8 +102,8 @@ Please ensure your contribution contains no confidential material and that you h
 
 ## Resources from Arm and our partners
 
-- Blog: [The Future of Interaction with Mobile Game Characters | ACM SIGGRAPH 2024 Posters](https://dl.acm.org/doi/10.1145/3641234.3671019)
-- Blog: [The Future is Here: Verbal Interaction with NPCs on Mobile. | ACM SIGGRAPH 2024 Appy Hour](https://doi.org/10.1145/3664294.3664365)
+- Blog: [The Future of Interaction with Mobile Game Characters](https://dl.acm.org/doi/10.1145/3641234.3671019)
+- Blog: [The Future is Here: Verbal Interaction with NPCs on Mobile](https://doi.org/10.1145/3664294.3664365)
 - Blog: [Google AI for game developers- Google Developers Blog](https://developers.googleblog.com/en/google-ai-for-game-developers/)
 - Webinar: [Generative AI in Game Development](https://meet95924766.adobeconnect.com/pkevz158x6tp/)
 - Paper: [A Survey on Large Language Model-Based Game Agents ](https://arxiv.org/abs/2404.02039)
