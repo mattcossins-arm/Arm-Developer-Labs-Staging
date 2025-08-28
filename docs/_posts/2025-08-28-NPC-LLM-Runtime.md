@@ -15,7 +15,7 @@ sw-hw:
 support-level:
 - Self-Service
 - Arm Ambassador Support
-publication-date: 2025-05-30
+publication-date: 2025-08-28
 license:
 status:
 - Published
@@ -34,13 +34,12 @@ full_description: |-
 
   This project challenges you to propose and implement novel methods of using LLMs to control or interact with NPCs during runtime. Beyond dialogue systems, the focus is on new, creative mechanisms that showcase the potential of LLM-driven NPCs in real-time gameplay. Your implementation should demonstrate a working prototype running locally at a stable 30–60 FPS, ensuring both responsiveness and playability. While achieving mobile deployment is the ultimate goal, a PC/laptop demo will also be accepted as proof of concept. The final submission should include source code, reproducible build instructions, supporting documentation, and a short demo video.
 
-  To qualify, your submission should include:
+  To qualify, your submission should include, where possible:
 
   - Source code (with clear documentation and build instructions)
-  - A reproducible setup (scripts, datasets, dependencies)
+  - A reproducible setup (e.g. scripts, datasets, or dependencies)
   - A supporting document describing the project and design decisions
-  - Three high-quality images and a video (≤ 3 minutes) demonstrating the demo in action
-  - Licensing details for open evaluation and reproducibility
+  - High-quality images and a video (≤ 3 minutes) demonstrating the demo in action
 
   Please ensure your contribution contains no confidential material and that you have rights to share it, especially if affiliated with an academic or commercial institution.
 
@@ -82,13 +81,12 @@ Large Language Models (LLMs) are redefining the possibilities for interactive ga
 
 This project challenges you to propose and implement novel methods of using LLMs to control or interact with NPCs during runtime. Beyond dialogue systems, the focus is on new, creative mechanisms that showcase the potential of LLM-driven NPCs in real-time gameplay. Your implementation should demonstrate a working prototype running locally at a stable 30–60 FPS, ensuring both responsiveness and playability. While achieving mobile deployment is the ultimate goal, a PC/laptop demo will also be accepted as proof of concept. The final submission should include source code, reproducible build instructions, supporting documentation, and a short demo video.
 
-To qualify, your submission should include:
+To qualify, your submission should include, where possible:
 
 - Source code (with clear documentation and build instructions)
-- A reproducible setup (scripts, datasets, dependencies)
+- A reproducible setup (e.g. scripts, datasets, or dependencies)
 - A supporting document describing the project and design decisions
-- Three high-quality images and a video (≤ 3 minutes) demonstrating the demo in action
-- Licensing details for open evaluation and reproducibility
+- High-quality images and a video (≤ 3 minutes) demonstrating the demo in action
 
 Please ensure your contribution contains no confidential material and that you have rights to share it, especially if affiliated with an academic or commercial institution.
 
