@@ -9,6 +9,7 @@
 
 .crop_image--cover {
   width: 100%;
+  height: 72vh;
   object-fit: cover;
 }
 
@@ -303,4 +304,5 @@ li.project-item {
   }
 }
 /* end custom scss snippet */
+
 
