@@ -1,0 +1,8 @@
+name: Smoke Dispatch Test
+on:
+  workflow_dispatch:
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "It works: $GITHUB_WORKFLOW on $GITHUB_REF"
