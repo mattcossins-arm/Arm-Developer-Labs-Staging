@@ -263,7 +263,7 @@ projects:
     - Published
   - title: Ambient-Edge-AI-with-Ethos-U85
     description: This project trains and deploys an optimised and TOSA-compliant AI
-      model on an Arm Cortex-/M55/U85 combination to create a low-power ambient/always-on
+      model on an Arm Cortex-M55/U85 combination to create a low-power ambient/always-on
       AI platform capable of detecting environmental changes. This low-power system
       reacts to its environment and wakes a Arm Cortex-A device to perform high-performance
       processing, such as using a more substantial Edge AI LLM performing inference
