@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]       # rebuild when main is updated
   pull_request:            # rebuild for every PR targeting main
+  workflow_dispatch:        # <- adds the “Run workflow” button
 
 permissions:
   contents: write          # allow the job to push commits back
