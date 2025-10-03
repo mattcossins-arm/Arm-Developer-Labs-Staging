@@ -18,7 +18,7 @@ sw-hw:
 support-level: 
     - "Self-Service"
     - "Arm Ambassador Support"
-publication-date: 2025-10-03
+publication-date: 2025-10-03 
 license:
 status:
     - "Published" 
