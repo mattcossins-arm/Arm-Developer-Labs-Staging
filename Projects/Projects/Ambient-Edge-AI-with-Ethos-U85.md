@@ -31,7 +31,7 @@ donation:
 ## Description
 This project trains and deploys an optimised and TOSA-compliant AI model on an Arm Cortex-/M55/U85 combination to create a low-power ambient/always-on AI platform capable of detecting environmental changes. This low-power system reacts to its environment and "wakes" a Arm Cortex-A device to perform high-performance processing, such as using a more substantial Edge AI LLM performing inference leveraging NEON. The project should quantify accuracy, latency, and power consumption.
 
-You can choose an appropriate application - one example would be an ambient smart home assistant capable of recognizing a wake-word, e.g, "Hey Arm". After the wake-word is detected, it can utilise an LLM to understand and respond to questions - e.g, "Where is Arm's Global HQ?". The device will be able to control peripheral devices accordingly. Please feel free to explore different use-cases - perhaps a camera or temperature sensor or IMU is used for environmental sensing, what would the Cortex-A device do?
+You should choose an appropriate application - one example would be an ambient smart home assistant capable of recognizing a wake-word, e.g, "Hey Arm". After the wake-word is detected, it can utilise an LLM to understand and respond to questions - e.g, "Where is Arm's Global HQ?". The device will be able to control peripheral devices accordingly. Please feel free to explore different use-cases - perhaps a camera or temperature sensor or IMU is used for environmental sensing, what would the Cortex-A device do?
 
 The deliverables include a functional Edge AI prototype consisting of a CPU inference use-case triggered by an always-on low-power AI model accelerated on Arm NPU, along with documentation detailing the development process and the performance of the system.
 
@@ -60,3 +60,4 @@ Standout project contributions will result in digital badges for CV building, re
 
 
 To receive the benefits, you must show us your project through our [online form](https://forms.office.com/e/VZnJQLeRhD). Please do not include any confidential information in your contribution. Additionally if you are affiliated with an academic institution, please ensure you have the right to share your material.
+
