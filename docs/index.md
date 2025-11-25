@@ -6,7 +6,6 @@ article_header:
   image:
     src: ./images/DeveloperLabs_Header.png
 ---
-<div id="mission"></div>
 # Find Industry relevant challenges on Arm
 
 
