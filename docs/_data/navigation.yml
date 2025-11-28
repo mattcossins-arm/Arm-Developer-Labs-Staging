@@ -32,7 +32,7 @@ projects:
       \ laptops and desktops."
     url: /2025/05/30/R-Arm-Community-Support.html
     subjects:
-    - ML
+    - Performance and Architecture
     - Migration to Arm
     - Libraries
     platform:
@@ -54,6 +54,7 @@ projects:
     - ML
     platform:
     - Servers and Cloud Computing
+    - Laptops and Desktops
     - AI
     sw-hw:
     - Software
@@ -62,13 +63,14 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: R-Arm-Community-Support
-    description: "This self-service project boosts the R ecosystem on Windows on Arm\
-      \ by identifying unsupported packages, upstreaming fixes, and automating builds\u2014\
-      so data scientists can run their workflows natively on fast, efficient Arm64\
-      \ laptops and desktops."
-    url: /2025/05/30/R-Arm-Community-Support.html
+  - title: Haskell-Compiler-Windows-on-Arm
+    description: "This self-service project brings native Glasgow Haskell Compiler\
+      \ support to Windows on Arm\u2014unlocking efficient Arm-laptop builds, extending\
+      \ Haskell\u2019s reach, and giving contributors hands-on experience with Arm64\
+      \ code generation and runtime integration."
+    url: /2025/05/30/Haskell-Compiler-Windows-on-Arm.html
     subjects:
+    - Migration to Arm
     - Performance and Architecture
     platform:
     - Servers and Cloud Computing
@@ -112,26 +114,6 @@ projects:
     - Mobile, Graphics, and Gaming
     sw-hw:
     - Software
-    support-level:
-    - Self-Service
-    - Arm Ambassador Support
-    status:
-    - Published
-  - title: Python-Porting-Challenge
-    description: "This challenge focuses on enabling Python support for Windows on\
-      \ Arm (WoA) to improve developer experience. While Python is widely used in\
-      \ research and industry, many popular packages\u2014such as Pandas\u2014still\
-      \ lack pre-built WoA binaries (win_arm64 wheels). The goal is to validate and\
-      \ optimise third-party packages, fix compatibility issues, and collaborate with\
-      \ maintainers to upstream WoA support."
-    url: /2025/11/03/Python-Porting-Challenge.html
-    subjects:
-    - Libraries
-    platform:
-    - Laptops and Desktops
-    sw-hw:
-    - Software
-    - Hardware
     support-level:
     - Self-Service
     - Arm Ambassador Support
@@ -181,21 +163,16 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: AI-Powered-Porting-Tool
-    description: "This self-service project creates an AI-driven porting engine that\
-      \ analyzes package dependencies, auto-generates fixes, and submits pull requests\u2014\
-      accelerating native macOS and Windows-on-Arm support for bioinformatics and\
-      \ R software so researchers can run demanding workflows directly on modern Arm\
-      \ devices."
-    url: /2025/05/30/AI-Powered-Porting-Tool.html
+  - title: Responsible-AI-and-Yellow-Teaming
+    description: "This self-service project equips teams with a YellowTeamGPT workflow\
+      \ that probes Arm-based AI products for unintended impacts\u2014turning responsible-AI\
+      \ stress-testing into a core step of the development cycle."
+    url: /2025/05/30/Responsible-AI-and-Yellow-Teaming.html
     subjects:
-    - CI-CD
     - ML
-    - Migration to Arm
     platform:
     - Servers and Cloud Computing
     - Laptops and Desktops
-    - Mobile, Graphics, and Gaming
     - AI
     sw-hw:
     - Software
