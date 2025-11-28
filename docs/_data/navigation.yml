@@ -119,25 +119,6 @@ projects:
     - Arm Ambassador Support
     status:
     - Published
-  - title: Python-Porting-Challenge
-    description: "This challenge focuses on enabling Python support for Windows on\
-      \ Arm (WoA) to improve developer experience. While Python is widely used in\
-      \ research and industry, many popular packages\u2014such as Pandas\u2014still\
-      \ lack pre-built WoA binaries (win_arm64 wheels). The goal is to validate and\
-      \ optimise third-party packages, fix compatibility issues, and collaborate with\
-      \ maintainers to upstream WoA support."
-    url: /2025/11/03/Python-Porting-Challenge.html
-    subjects:
-    - Libraries
-    platform:
-    - Laptops and Desktops
-    sw-hw:
-    - Software
-    support-level:
-    - Self-Service
-    - Arm Ambassador Support
-    status:
-    - Published
   - title: AI-Powered-Porting-Tool
     description: "This self-service project creates an AI-driven porting engine that\
       \ analyzes package dependencies, auto-generates fixes, and submits pull requests\u2014\
